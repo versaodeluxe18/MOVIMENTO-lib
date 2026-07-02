@@ -1,0 +1,121 @@
+
+{
+  "id": "curso_html_css_2026",
+  "level": "Iniciante",
+  "duration": "10 horas",
+  "iconUrl": "https://sua-cdn-de-imagens.com/icons/html.png",
+  "supportedLanguages": ["pt", "en", "es"],
+  
+  "title": {
+    "pt": "Desenvolvimento Web com HTML5",
+    "en": "Web Development with HTML5",
+    "es": "Desarrollo Web con HTML5"
+  },
+  
+  "description": {
+    "pt": "Aprenda a estruturar páginas web semânticas, acessíveis e otimizadas para motores de busca.",
+    "en": "Learn how to structure semantic, accessible, and SEO-optimized web pages.",
+    "es": "Aprenda a estructurar páginas web semánticas, accesibles y optimizadas para motores de búsqueda."
+  },
+  
+  "lessons": [
+    {
+      "id": "html_lesson_1",
+      "order": 1,
+      "title": {
+        "pt": "Aula 1: Fundamentos da Web e Anatomia de uma Tag",
+        "en": "Lesson 1: Web Fundamentals and Tag Anatomy",
+        "es": "Lección 1: Fundamentos de la Web y Anatomía de una Etiqueta"
+      },
+      "summary": {
+        "pt": "Introdução ao protocolo HTTP, servidores web e a sintaxe básica de marcação.",
+        "en": "Introduction to the HTTP protocol, web servers, and basic markup syntax.",
+        "es": "Introducción al protocolo HTTP, servidores web y la sintaxis básica de marcado."
+      },
+      
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O HTML é uma **linguagem de marcação**. Isso significa que usamos tags para estruturar elementos na tela."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "code": "<!-- Este é um comentário em HTML -->\n<p class=\"destaque\">\n  Texto em <strong>negrito</strong> e formatado!\n</p>"
+          },
+          {
+            "type": "tip",
+            "text": "Sempre utilize tags semânticas para melhorar a acessibilidade e o SEO da sua página."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "HTML is a **markup language**. This means we use tags to structure elements on the screen."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "code": "<!-- This is an HTML comment -->\n<p class=\"highlight\">\n  Text in <strong>bold</strong> and formatted!\n</p>"
+          },
+          {
+            "type": "tip",
+            "text": "Always use semantic tags to improve the accessibility and SEO of your page."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "HTML es un **lenguaje de marcado**. Esto significa que usamos etiquetas para estructurar elementos en la pantalla."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "code": "<!-- Este es un comentario en HTML -->\n<p class=\"destaque\">\n  ¡Texto en <strong>negrita</strong> y formateado!\n</p>"
+          },
+          {
+            "type": "tip",
+            "text": "Utilice siempre etiquetas semánticas para mejorar la accesibilidad y el SEO de su página."
+          }
+        ]
+      },
+      
+      "quiz": {
+        "question": {
+          "pt": "Qual é a declaração obrigatória que define um documento como HTML5?",
+          "en": "Which mandatory declaration defines a document as HTML5?",
+          "es": "¿Qué declaración obligatoria define un documento como HTML5?"
+        },
+        "options": {
+          "pt": [
+            "<html>",
+            "<!DOCTYPE html>",
+            "<meta charset=\"utf-8\">",
+            "<head>"
+          ],
+          "en": [
+            "<html>",
+            "<!DOCTYPE html>",
+            "<meta charset=\"utf-8\">",
+            "<head>"
+          ],
+          "es": [
+            "<html>",
+            "<!DOCTYPE html>",
+            "<meta charset=\"utf-8\">",
+            "<head>"
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "A instrução <!DOCTYPE html> no topo informa ao navegador que a página utiliza a especificação moderna do HTML5.",
+          "en": "The <!DOCTYPE html> instruction at the top tells the browser that the page uses the modern HTML5 specification.",
+          "es": "La instrucción <!DOCTYPE html> en la parte superior le indica al navegador que la página utiliza la especificación moderna de HTML5."
+        }
+      }
+    }
+    
+    // Repita este bloco estruturado para a "html_lesson_2" até "html_lesson_10"
+  ]
+}
