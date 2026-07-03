@@ -1,0 +1,874 @@
+{
+  "id": "curso_python",
+  "level": "Iniciante",
+  "duration": "25 horas",
+  "iconUrl": "https://img.icons8.com/color/96/python--v1.png",
+  "supportedLanguages": [
+    "pt",
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "title": {
+    "pt": "Fundamentos do Python",
+    "en": "Python Fundamentals",
+    "es": "Fundamentos de Python",
+    "fr": "Fondamentaux de Python",
+    "it": "Fondamenti di Python"
+  },
+  "description": {
+    "pt": "Aprenda os fundamentos do Python do zero, explorando sua história, sintaxe básica, estruturas de controle, e descubra seu futuro e o panorama do JavaScript no mercado atual.",
+    "en": "Learn Python fundamentals from scratch, exploring its history, basic syntax, control structures, and discover its future along with the current JavaScript market overview.",
+    "es": "Aprenda los fundamentos de Python desde cero, explorando su historia, sintaxis básica, estructuras de control, y descubra su futuro junto con el panorama de JavaScript en el mercado actual.",
+    "fr": "Apprenez les fondamentaux de Python à partir de zéro, en explorant son histoire, sa syntaxe de base, ses structures de contrôle, et découvrez son avenir ainsi que le panorama de JavaScript sur le marché actuel.",
+    "it": "Impara i fondamenti di Python da zero, esplorando la sua storia, la sintassi di base, le strutture di controllo e scopri il suo futuro insieme alla panoramica del mercato JavaScript attuale."
+  },
+  "lessons": [
+    {
+      "id": "python_history_1",
+      "order": 1,
+      "title": {
+        "pt": "História e Introdução ao Python",
+        "en": "History and Introduction to Python",
+        "es": "Historia e Introducción a Python",
+        "fr": "Histoire et Introduction à Python",
+        "it": "Storia e Introduzione a Python"
+      },
+      "summary": {
+        "pt": "Descubra as origens do Python, criado por Guido van Rossum, sua filosofia de design (O Zen do Python) e por que ele se tornou uma das linguagens mais populares do mundo.",
+        "en": "Discover the origins of Python, created by Guido van Rossum, its design philosophy (The Zen of Python), and why it became one of the most popular languages in the world.",
+        "es": "Descubre los orígenes de Python, creado por Guido van Rossum, su filosofía de diseño (El Zen de Python) y por qué se convirtió en uno de los lenguajes más populares del mundo.",
+        "fr": "Découvrez les origines de Python, créé par Guido van Rossum, sa philosophie de conception (Le Zen de Python) et pourquoi il est devenu l'un des langages les plus populaires au monde.",
+        "it": "Scopri le origini di Python, creato da Guido van Rossum, la sua filosofia di design (Lo Zen di Python) e perché è diventato uno dei linguaggi più popolari al mondo."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O **Python** foi criado no final dos anos 1989 por **Guido van Rossum** no CWI (Centro de Matemática e Informática) na Holanda, e lançado oficialmente em 1991. O nome da linguagem foi inspirado no grupo de comédia britânico *Monty Python*, do qual Guido era um grande fã. O objetivo principal era criar uma linguagem de alta produtividade, legível e poderosa, servindo como sucessora da linguagem ABC."
+          },
+          {
+            "type": "paragraph",
+            "text": "A filosofia central do Python está reunida no documento conhecido como **O Zen do Python** (PEP 20), que enfatiza a clareza e a simplicidade. Princípios como \"Bonito é melhor que feio\" e \"Explícito é melhor que implícito\" moldam a forma como os desenvolvedores escrevem códigos elegantes e fáceis de manter até hoje."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# O seu primeiro programa em Python é simples e direto\nprint(\"Olá, Mundo!\")",
+            "text": "# O seu primeiro programa em Python é simples e direto\nprint(\"Olá, Mundo!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Python utiliza a indentação (espaços no início da linha) para delimitar blocos de código, ao contrário de outras linguagens que usam chaves `{}`. Isso força o programador a manter o código limpo e legível por padrão!"
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "**Python** was created in late 1989 by **Guido van Rossum** at CWI (Centrum Wiskunde & Informatica) in the Netherlands, and officially released in 1991. The language's name was inspired by the British comedy group *Monty Python*, of which Guido was a big fan. The primary goal was to create a high-productivity, highly readable, and powerful language, serving as a successor to the ABC language."
+          },
+          {
+            "type": "paragraph",
+            "text": "The core philosophy of Python is gathered in the document known as **The Zen of Python** (PEP 20), which emphasizes clarity and simplicity. Principles like 'Beautiful is better than ugly' and 'Explicit is better than implicit' shape how developers write elegant and maintainable code to this day."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Your first Python program is simple and direct\nprint(\"Hello, World!\")",
+            "text": "# Your first Python program is simple and direct\nprint(\"Hello, World!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Python uses indentation (spaces at the beginning of the line) to define code blocks, unlike other languages that use curly braces `{}`. This forces programmers to keep code clean and readable by default!"
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "**Python** fue creado a finales de 1989 por **Guido van Rossum** en el CWI (Centro de Matemáticas e Informática) en los Países Bajos, y lanzado oficialmente en 1991. El nombre del lenguaje se inspiró en el grupo de comedia británico *Monty Python*, del cual Guido era un gran admirador. El objetivo principal era crear un lenguaje de alta productividad, legible y potente, que sirviera como sucesor del lenguaje ABC."
+          },
+          {
+            "type": "paragraph",
+            "text": "La filosofía central de Python está reunida en el documento conocido como **El Zen de Python** (PEP 20), que enfatiza la claridad y la sencillez. Principios como 'Bello es mejor que feo' y 'Explícito es mejor que implícito' moldean la forma en que los desarrolladores escriben códigos elegantes y fáciles de mantener hasta hoy."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Tu primer programa en Python es simple y directo\nprint(\"¡Hola, Mundo!\")",
+            "text": "# Tu primer programa en Python es simple y directo\nprint(\"¡Hola, Mundo!\")"
+          },
+          {
+            "type": "tip",
+            "text": "¡Python utiliza la sangría (espacios al principio de la línea) para delimitar bloques de código, a diferencia de otros lenguajes que usan llaves `{}`. Esto obliga al programador a mantener el código limpio y legible por defecto!"
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "**Python** a été créé à la fin de l'année 1989 par **Guido van Rossum** au CWI (Centrum Wiskunde & Informatica) aux Pays-Bas, et publié officiellement en 1991. Le nom du langage a été inspiré par la troupe de comédie britannique *Monty Python*, dont Guido était un grand fan. L'objectif principal était de créer un langage à haute productivité, lisible et puissant, succédant au langage ABC."
+          },
+          {
+            "type": "paragraph",
+            "text": "La philosophie centrale de Python est rassemblée dans le document connu sous le nom de **Le Zen de Python** (PEP 20), qui met l'accent sur la clarté et la simplicité. Des principes tels que 'Beau est mieux que laid' et 'Explicite est mieux qu'implicite' façonnent la manière dont les développeurs écrivent un code élégant et facile à maintenir à ce jour."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Votre premier programme Python est simple et direct\nprint(\"Bonjour, le Monde!\")",
+            "text": "# Votre premier programme Python is simple and direct\nprint(\"Bonjour, le Monde!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Python utilise l'indentation (espaces en début de ligne) pour délimiter les blocs de code, contrairement à d'autres langages qui utilisent des accolades `{}`. Cela oblige le programmeur à garder un code propre et lisible par défaut !"
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "**Python** è stato creato alla fine del 1989 da **Guido van Rossum** presso il CWI (Centrum Wiskunde & Informatica) nei Paesi Bassi, ed è stato rilasciato ufficialmente nel 1991. Il nome del linguaggio è stato ispirato dal gruppo comico britannico *Monty Python*, di cui Guido era un grande fan. L'obiettivo principale era creare un linguaggio ad alta produttività, leggibile e potente, che fungesse da successore del linguaggio ABC."
+          },
+          {
+            "type": "paragraph",
+            "text": "La filosofia centrale di Python è raccolta nel documento noto come **Lo Zen di Python** (PEP 20), che enfatizza la chiarezza e la semplicità. Principi come 'Il bello è meglio del brutto' e 'L'esplicito è meglio dell'implicito' plasmano il modo in quegli sviluppatori scrivono codice elegante e facile da mantenere ancora oggi."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Il tuo primo programma in Python è semplice e diretto\nprint(\"Ciao, Mondo!\")",
+            "text": "# Il tuo primo programma in Python è semplice e diretto\nprint(\"Ciao, Mondo!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Python utilizza l'indentazione (spazi all'inizio della riga) para delimitare i blocchi di codice, a differenza di altri linguaggi che usano le parentesi graffe `{}`. Questo costringe il programmatore a mantenere il codice pulito e leggibile per impostazione predefinita!"
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Quem é o criador oficial da linguagem de programação Python?",
+          "en": "Who is the official creator of the Python programming language?",
+          "es": "¿Quién es el creador oficial del lenguaje de programación Python?",
+          "fr": "Qui est le créateur officiel du langage de programmation Python ?",
+          "it": "Chi è il creatore ufficiale del linguaggio di programmazione Python?"
+        },
+        "options": {
+          "pt": [
+            "Dennis Ritchie",
+            "Guido van Rossum",
+            "Linus Torvalds",
+            "James Gosling"
+          ],
+          "en": [
+            "Dennis Ritchie",
+            "Guido van Rossum",
+            "Linus Torvalds",
+            "James Gosling"
+          ],
+          "es": [
+            "Dennis Ritchie",
+            "Guido van Rossum",
+            "Linus Torvalds",
+            "James Gosling"
+          ],
+          "fr": [
+            "Dennis Ritchie",
+            "Guido van Rossum",
+            "Linus Torvalds",
+            "James Gosling"
+          ],
+          "it": [
+            "Dennis Ritchie",
+            "Guido van Rossum",
+            "Linus Torvalds",
+            "James Gosling"
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "Python foi concebido e implementado por Guido van Rossum no final de 1989 e lançado em 1991.",
+          "en": "Python was conceived and implemented by Guido van Rossum in late 1989 and released in 1991.",
+          "es": "Python fue concebido e implementado por Guido van Rossum a finales de 1989 y lanzado en 1991.",
+          "fr": "Python a été conçu et implémenté par Guido van Rossum fin 1989 et publié en 1991.",
+          "it": "Python è stato concepito e implementato da Guido van Rossum alla fine del 1989 e rilasciato nel 1991."
+        }
+      }
+    },
+    {
+      "id": "python_variables_2",
+      "order": 2,
+      "title": {
+        "pt": "Variáveis e Tipos de Dados Fundamentais",
+        "en": "Variables and Fundamental Data Types",
+        "es": "Variables y Tipos de Datos Fundamentales",
+        "fr": "Variables et Types de Données Fondamentaux",
+        "it": "Variabili e Tipi di Dati Fondamentali"
+      },
+      "summary": {
+        "pt": "Aprenda a armazenar informações usando variáveis e conheça os tipos de dados básicos do Python, como números, textos e booleanos.",
+        "en": "Learn to store information using variables and discover Python's basic data types, such as numbers, text, and booleans.",
+        "es": "Aprenda a almacenar información usando variables y conozca los tipos de datos básicos de Python, como números, textos y booleanos.",
+        "fr": "Apprenez à stocker des informations à l'aide de variables et découvrez les types de données de base de Python, tels que les nombres, le texte et les booléens.",
+        "it": "Impara a memorizzare informazioni utilizzando le variabili e scopri i tipi di dati di base di Python, come numeri, testo e booleani."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "No Python, uma **variável** é criada no momento em que você atribui um valor a ela usando o operador de igualdade `=`. Python é uma linguagem de **tipagem dinâmica**, o que significa que você não precisa declarar explicitamente o tipo da variável antes de usá-la; o interpretador infere o tipo automaticamente."
+          },
+          {
+            "type": "paragraph",
+            "text": "Os quatro tipos de dados primitivos mais importantes são:\n- `int`: Números inteiros (ex: `10`, `-3`)\n- `float`: Números decimais ou de ponto flutuante (ex: `25.5`)\n- `str`: Strings ou cadeias de caracteres, delimitadas por aspas (ex: `\"Python\"`)\n- `bool`: Valores booleanos que representam verdadeiro ou falso (`True` ou `False`)"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "nome = \"Carlos\"\nidade = 28\naltura = 1.75\neh_programador = True\n\nprint(type(nome)) # Exibe: <class 'str'>",
+            "text": "nome = \"Carlos\"\nidade = 28\naltura = 1.75\neh_programador = True\n\nprint(type(nome)) # Exibe: <class 'str'>"
+          },
+          {
+            "type": "tip",
+            "text": "Por convenção, nomes de variáveis em Python devem ser escritos em letras minúsculas separadas por sublinhado (padrão conhecido como `snake_case`), por exemplo: `meu_salario = 3500.00`."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "In Python, a **variable** is created the moment you assign a value to it using the `=` operator. Python is a **dynamically typed** language, meaning you don't need to explicitly declare the variable type before using it; the interpreter infers the type automatically."
+          },
+          {
+            "type": "paragraph",
+            "text": "The four most important primitive data types are:\n- `int`: Integers (e.g., `10`, `-3`)\n- `float`: Floating-point or decimal numbers (e.g., `25.5`)\n- `str`: Strings or text, enclosed in quotes (e.g., `\"Python\"`)\n- `bool`: Boolean values representing true or false (`True` or `False`)"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "name = \"Carlos\"\nage = 28\nheight = 1.75\nis_programmer = True\n\nprint(type(name)) # Outputs: <class 'str'>",
+            "text": "name = \"Carlos\"\nage = 28\nheight = 1.75\nis_programmer = True\n\nprint(type(name)) # Outputs: <class 'str'>"
+          },
+          {
+            "type": "tip",
+            "text": "By convention, variable names in Python should be written in lowercase letters separated by underscores (a pattern known as `snake_case`), for example: `my_salary = 3500.00`."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "In Python, una **variable** se crea en el momento en que le asignas un valor usando el operador `=`. Python es un lenguaje de **tipado dinámico**, lo que significa que no necesitas declarar explícitamente el tipo de variable antes de usarla; el intérprete infiere el tipo automáticamente."
+          },
+          {
+            "type": "paragraph",
+            "text": "Los cuatro tipos de datos primitivos más importantes son:\n- `int`: Números enteros (ej: `10`, `-3`)\n- `float`: Números decimales o de punto flotante (ej: `25.5`)\n- `str`: Cadenas de texto, delimitadas por comillas (ej: `\"Python\"`)\n- `bool`: Valores booleanos que representan verdadero o falso (`True` o `False`)"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "nombre = \"Carlos\"\nedad = 28\naltura = 1.75\nes_programador = True\n\nprint(type(nombre)) # Muestra: <class 'str'>",
+            "text": "nombre = \"Carlos\"\nedad = 28\naltura = 1.75\nes_programador = True\n\nprint(type(nombre)) # Muestra: <class 'str'>"
+          },
+          {
+            "type": "tip",
+            "text": "Por convención, los nombres de las variables en Python deben escribirse en letras minúsculas separadas por guiones bajos (patrón conocido como `snake_case`), por ejemplo: `mi_salario = 3500.00`."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "En Python, une **variable** est créée au moment où vous lui attribuez une valeur à l'aide de l'opérateur `=`. Python est un langage à **typage dynamique**, ce qui signifie que vous n'avez pas besoin de déclarer explicitement le type de variable avant de l'utiliser ; l'interpréteur déduit le type automatiquement."
+          },
+          {
+            "type": "paragraph",
+            "text": "Les quatre types de données primitifs les plus importants sont :\n- `int` : Nombres entiers (ex : `10`, `-3`)\n- `float` : Nombres décimaux ou à virgule flottante (ex : `25.5`)\n- `str` : Chaînes de caractères ou texte, délimitées par des guillemets (ex : `\"Python\"`)\n- `bool` : Valeurs booléennes représentant vrai ou faux (`True` ou `False`)"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "nom = \"Carlos\"\nage = 28\ntaille = 1.75\nest_programmeur = True\n\nprint(type(nom)) # Affiche : <class 'str'>",
+            "text": "nom = \"Carlos\"\nage = 28\ntaille = 1.75\nest_programmeur = True\n\nprint(type(nom)) # Affiche : <class 'str'>"
+          },
+          {
+            "type": "tip",
+            "text": "Par convention, les noms de variables en Python doivent être écrits en lettres minuscules séparées par des tirets bas (modèle connu sous le nom de `snake_case`), par exemple : `mon_salaire = 3500.00`."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "In Python, una **variabile** viene creata nel momento in cui le si assegna un valore utilizzando l'operatore `=`. Python è un linguaggio a **tipizzazione dinamica**, il que significa che non è necessario dichiarare esplicitamente il tipo di variabile prima di utilizzarla; l'interprete deduce il tipo automaticamente."
+          },
+          {
+            "type": "paragraph",
+            "text": "I quattro tipi di dati primitivi più importanti sono:\n- `int`: Numeri interi (es: `10`, `-3`)\n- `float`: Numeri decimali o a virgola mobile (es: `25.5`)\n- `str`: Stringhe o testo, racchiusi tra virgolette (es: `\"Python\"`)\n- `bool`: Valori booleani che rappresentano vero o falso (`True` o `False`)"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "nome = \"Carlos\"\neta = 28\naltezza = 1.75\ne_programmatore = True\n\nprint(type(nome)) # Mostra: <class 'str'>",
+            "text": "nome = \"Carlos\"\neta = 28\naltezza = 1.75\ne_programmatore = True\n\nprint(type(nome)) # Mostra: <class 'str'>"
+          },
+          {
+            "type": "tip",
+            "text": "Per convenzione, i nomi delle variabili in Python devono essere scritti in lettere minuscole separate da trattini bassi (uno schema noto come `snake_case`), ad esempio: `mio_salario = 3500.00`."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "O que significa dizer que Python possui tipagem dinâmica?",
+          "en": "What does it mean to say that Python has dynamic typing?",
+          "es": "¿Qué significa decir que Python tiene tipado dinámico?",
+          "fr": "Que signifie le fait que Python ait un typage dynamique ?",
+          "it": "Cosa significa dire che Python ha una tipizzazione dinamica?"
+        },
+        "options": {
+          "pt": [
+            "As variáveis podem mudar de nome durante a execução do programa.",
+            "Não é necessário declarar explicitamente o tipo da variável, pois ele é inferido em tempo de execução.",
+            "A linguagem só aceita números inteiros e decimais em suas variáveis.",
+            "Os tipos de variáveis mudam aleatoriamente a cada execução."
+          ],
+          "en": [
+            "Variables can change their names during program execution.",
+            "It is not necessary to explicitly declare the variable type, as it is inferred at runtime.",
+            "The language only accepts integers and decimals in its variables.",
+            "Variable types change randomly with each execution."
+          ],
+          "es": [
+            "Las variables pueden cambiar de nombre durante la ejecución del programa.",
+            "No es necesario declarar explícitamente el tipo de la variable, ya que se infiere en tiempo de ejecución.",
+            "El lenguaje solo acepta números enteros y decimales en sus variables.",
+            "Los tipos de variables cambian aleatoriamente en cada ejecución."
+          ],
+          "fr": [
+            "Les variables peuvent changer de nom pendant l'exécution du programme.",
+            "Il n'est pas nécessaire de déclarer explicitement le type de la variable, car il est déduit lors de l'exécution.",
+            "Le langage n'accepte que des nombres entiers et décimaux dans ses variables.",
+            "Les types de variables changent de manière aléatoire à chaque exécution."
+          ],
+          "it": [
+            "Le variabili possono cambiare nome durante l'esecuzione del programma.",
+            "Non è necessario dichiarare esplicitamente il tipo della variabile, poiché viene inferito in fase di esecuzione.",
+            "Il linguaggio accetta solo numeri interi e decimali nelle sue variabili.",
+            "I tipi di variabili cambiano casualmente a ogni esecuzione."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "Tipagem dinâmica permite que o interpretador identifique o tipo de dado automaticamente baseado no valor atribuído à variável, sem necessidade de declaração prévia de tipo como int ou float.",
+          "en": "Dynamic typing allows the interpreter to automatically identify the data type based on the value assigned to the variable, without requiring a prior type declaration like int or float.",
+          "es": "El tipado dinámico permite al intérprete identificar automáticamente el tipo de datos basándose en el valor asignado a la variable, sin requerir una declaración de tipo previa como int o float.",
+          "fr": "Le typage dynamique permet à l'interréteur d'identifier automatiquement le type de données en fonction de la valeur attribuée à la variable, sans nécessiter de déclaration de type préalable comme int ou float.",
+          "it": "La tipizzazione dinamica consente all'interprete di identificare automaticamente il tipo di dato in base al valore assegnato alla variabile, senza richiedere una dichiarazione di tipo preventiva come int o float."
+        }
+      }
+    },
+    {
+      "id": "python_control_structures_3",
+      "order": 3,
+      "title": {
+        "pt": "Estruturas de Controle: Condicionais e Repetição",
+        "en": "Control Structures: Conditionals and Loops",
+        "es": "Estructuras de Control: Condicionales y Bucles",
+        "fr": "Structures de Contrôle : Conditionnels et Boucles",
+        "it": "Strutture di Controllo: Condizionali e Cicli"
+      },
+      "summary": {
+        "pt": "Domine o fluxo do seu programa usando decisões lógicas com if/elif/else e automatize tarefas repetitivas usando os laços for e while.",
+        "en": "Master your program's flow using logical decisions with if/elif/else and automate repetitive tasks using for and while loops.",
+        "es": "Domine el flujo de su programa usando decisiones lógicas con if/elif/else y automatice tareas repetitivas usando los bucles for y while.",
+        "fr": "Maîtrisez le flux de votre programme en utilisant des décisions logiques avec if/elif/else et automatisez les tâches répétitives à l'aide des boucles for et while.",
+        "it": "Domina il flusso del tuo programma effettuando decisioni logiche con if/elif/else e automatizza attività ripetitive utilizzando i cicli for e while."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Para fazer o programa tomar caminhos diferentes baseados em condições, usamos as palavras-chave `if` (se), `elif` (senão se) e `else` (senão). As condições utilizam operadores de comparação como `==` (igual), `>` (maior) e `!=` (diferente)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Quando precisamos repetir um bloco de código, recorremos aos laços de repetição:\n- `for`: Ideal para iterar sobre uma sequência conhecida (como uma lista ou um intervalo numérico gerado pelo `range()`).\n- `while`: Executa um bloco de código repetidamente enquanto uma condição lógica for verdadeira."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Exemplo prático de Condicional e Loop For\nnota = 85\nif nota >= 70:\n    print(\"Aprovado!\")\n\nprint(\"Contagem regressiva:\")\nfor i in range(3, 0, -1):\n    print(i)",
+            "text": "# Exemplo prático de Condicional e Loop For\nnota = 85\nif nota >= 70:\n    print(\"Aprovado!\")\n\nprint(\"Contagem regressiva:\")\nfor i in range(3, 0, -1):\n    print(i)"
+          },
+          {
+            "type": "tip",
+            "text": "Cuidado com loops infinitos ao usar o laço `while`. Certifique-se sempre de que a condição de parada será atingida modificando uma variável de controle dentro do bloco de código!"
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "To make a program take different paths based on conditions, we use the keywords `if`, `elif`, and `else`. Conditions utilize comparison operators such as `==` (equal), `>` (greater than), and `!=` (not equal)."
+          },
+          {
+            "type": "paragraph",
+            "text": "When we need to repeat a block of code, we use loops:\n- `for`: Ideal for iterating over a known sequence (like a list or a numeric range generated by `range()`).\n- `while`: Executes a block of code repeatedly as long as a logical condition is true."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Practical example of Conditionals and For Loop\nscore = 85\nif score >= 70:\n    print(\"Passed!\")\n\nprint(\"Countdown:\")\nfor i in range(3, 0, -1):\n    print(i)",
+            "text": "# Practical example of Conditionals and For Loop\nscore = 85\nif score >= 70:\n    print(\"Passed!\")\n\nprint(\"Countdown:\")\nfor i in range(3, 0, -1):\n    print(i)"
+          },
+          {
+            "type": "tip",
+            "text": "Watch out for infinite loops when using a `while` loop. Always make sure the stopping condition will be met by modifying a control variable inside the code block!"
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Para hacer que un programa tome diferentes caminos según las condiciones, utilizamos las palabras clave `if`, `elif` y `else`. Las condiciones utilizan operadores de comparación como `==` (igual), `>` (mayor que) y `!=` (diferente)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cuando necesitamos repetir un bloque de código, recurrimos a los bucles:\n- `for`: Ideal para iterar sobre una secuencia conocida (como una lista o un rango numérico generado por `range()`).\n- `while`: Ejecuta un bloque de código repetidamente mientras una condición lógica sea verdadera."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Ejemplo práctico de Condicional y Bucle For\nnota = 85\nif nota >= 70:\n    print(\"¡Aprobado!\")\n\nprint(\"Cuenta regresiva:\")\nfor i in range(3, 0, -1):\n    print(i)",
+            "text": "# Ejemplo práctico de Condicional y Bucle For\nnota = 85\nif nota >= 70:\n    print(\"¡Aprobado!\")\n\nprint(\"Cuenta regresiva:\")\nfor i in range(3, 0, -1):\n    print(i)"
+          },
+          {
+            "type": "tip",
+            "text": "Tenga cuidado con los bucles infinitos al usar un bucle `while`. ¡Asegúrese siempre de que se cumpla la condición de parada modificando una variable de control dentro del bloque de código!"
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Pour faire prendre au programme des chemins différents selon des conditions, on utilise les mots-clés `if`, `elif` et `else`. Les conditions utilisent des opérateurs de comparaison tels que `==` (égal), `>` (supérieur à) et `!=` (différent de)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Lorsque nous devons répéter un bloc de code, nous utilisons des boucles :\n- `for` : Idéal pour itérer sur une séquence connue (comme une liste ou un intervalle numérique généré par `range()`).\n- `while` : Exécute un bloc de code de manière répétée tant qu'une condition logique est vraie."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Exemple pratique de Conditionnels et Boucle For\nnote = 85\nif note >= 70:\n    print(\"Approuvé!\")\n\nprint(\"Compte à rebours :\")\nfor i in range(3, 0, -1):\n    print(i)",
+            "text": "# Exemple pratique de Conditionnels et Boucle For\nnote = 85\nif note >= 70:\n    print(\"Approuvé!\")\n\nprint(\"Compte à rebours :\")\nfor i in range(3, 0, -1):\n    print(i)"
+          },
+          {
+            "type": "tip",
+            "text": "Faites attention aux boucles infinies lorsque vous utilisez une boucle `while`. Assurez-vous toujours que la condition d'arrêt sera atteinte en modifiant une variable de contrôle à l'intérieur du bloc !"
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Per fare in modo che il programma prenda percorsi diversi in base alle condizioni, utilizziamo le parole chiave `if`, `elif` e `else`. Le condizioni utilizzano operatori di confronto come `==` (uguale), `>` (maggiore di) e `!=` (diverso da)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Quando dobbiamo ripetere un blocco di codice, ricorriamo ai cicli:\n- `for`: Ideale per iterare su una sequenza nota (come una lista o un intervallo numerico generato da `range()`).\n- `while`: Esegue un blocco di codice ripetutamente finché una condizione logica è vera."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Esempio pratico di Condizionale e Ciclo For\nvoto = 85\nif voto >= 70:\n    print(\"Approvato!\")\n\nprint(\"Conto alla rovescia:\")\nfor i in range(3, 0, -1):\n    print(i)",
+            "text": "# Esempio pratico di Condizionale e Ciclo For\nvoto = 85\nif voto >= 70:\n    print(\"Approvato!\")\n\nprint(\"Conto alla rovescia:\")\nfor i in range(3, 0, -1):\n    print(i)"
+          },
+          {
+            "type": "tip",
+            "text": "Fai attenzione ai cicli infiniti quando usi un ciclo `while`. Assicurati sempre che la condizione di arresto venga raggiunta modificando una variabile di controllo all'interno del blocco di codice!"
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual estrutura de repetição é a mais adequada quando sabemos previamente a quantidade exata de iterações?",
+          "en": "Which loop structure is best suited when we previously know the exact number of iterations?",
+          "es": "¿Qué estructura de repetición es la más adecuada cuando conocemos previamente la cantidad exacta de iteraciones?",
+          "fr": "Quelle structure de boucle est la mieux adaptée lorsque l'on connaît à l'avance le nombre exact d'itérations ?",
+          "it": "Quale struttura di ripetizione è la più adatta quando conosciamo in anticipo la quantità esatta di iterazioni?"
+        },
+        "options": {
+          "pt": [
+            "while",
+            "if-else",
+            "for",
+            "switch"
+          ],
+          "en": [
+            "while",
+            "if-else",
+            "for",
+            "switch"
+          ],
+          "es": [
+            "while",
+            "if-else",
+            "for",
+            "switch"
+          ],
+          "fr": [
+            "while",
+            "if-else",
+            "for",
+            "switch"
+          ],
+          "it": [
+            "while",
+            "if-else",
+            "for",
+            "switch"
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "O laço `for` é perfeito para iterar sobre coleções ou sequências definidas (como intervalos gerados por range), onde o número de repetições é previsível.",
+          "en": "The `for` loop is perfect for iterating over defined collections or sequences (such as ranges generated by range), where the number of repetitions is predictable.",
+          "es": "El bucle `for` es perfecto para iterar sobre colecciones o secuencias definidas (como rangos generados por range), donde el número de repeticiones es predecible.",
+          "fr": "La boucle `for` est parfaite pour itérer sur des collections ou des séquences définies (comme des intervalles générés par range), où le nombre de répétitions est prévisible.",
+          "it": "Il ciclo `for` è perfetto per iterare su collezioni o sequenze definite (come intervalli generati da range), dove il numero di ripetizioni è prevedibile."
+        }
+      }
+    },
+    {
+      "id": "python_future_4",
+      "order": 4,
+      "title": {
+        "pt": "O Futuro do Python: O que Esperar?",
+        "en": "The Future of Python: What to Expect?",
+        "es": "El Futuro de Python: ¿Qué Esperar?",
+        "fr": "L'Avenir de Python : À quoi s'attendre ?",
+        "it": "Il Futuro di Python: Cosa Aspettarsi?"
+      },
+      "summary": {
+        "pt": "Explore as tendências futuras do Python, incluindo melhorias massivas de performance, sua dominância em Inteligência Artificial e a expansão para o desenvolvimento web no navegador.",
+        "en": "Explore the future trends of Python, including massive performance improvements, its dominance in Artificial Intelligence, and expansion into browser-based web development.",
+        "es": "Explore las tendencias futuras de Python, incluidas mejoras masivas de rendimiento, su dominio en Inteligencia Artificial y la expansión hacia el desarrollo web en el navegador.",
+        "fr": "Explorez les tendances futures de Python, notamment les améliorations massives de performances, sa dominance dans l'intelligence artificielle et l'expansion vers le développement web dans le navigateur.",
+        "it": "Esplora le tendenze future di Python, inclusi enormi miglioramenti delle prestazioni, il suo dominio nell'Intelligenza Artificiale e l'espansione nello sviluppo web all'interno del browser."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Python continua evoluindo rapidamente. Um dos maiores focos atuais e futuros da comunidade é o projeto **Faster CPython**, liderado por grandes empresas e pelo próprio comitê core da linguagem. Versões recentes (como Python 3.11 e posteriores) trouxeram melhorias substanciais de velocidade (de 10% a 60% mais rápido), quebrando o antigo mito de que Python é sempre uma linguagem lenta."
+          },
+          {
+            "type": "paragraph",
+            "text": "Além disso, o ecossistema é o líder indiscutível em **Inteligência Artificial (IA), Aprendizado de Máquina (Machine Learning) e Ciência de Dados**. Com o surgimento do **PyScript** e a compilação via WebAssembly (WASM), o Python também está entrando diretamente nos navegadores, abrindo caminhos para rodar scripts Python direto no front-end web sem precisar de servidores!"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# O futuro também envolve Type Hinting nativo para sistemas robustos\ndef saudar_usuario(nome: str) -> str:\n    return f\"Olá, {nome}! Bem-vindo ao futuro do Python.\"",
+            "text": "# O futuro também envolve Type Hinting nativo para sistemas robustos\ndef saudar_usuario(nome: str) -> str:\n    return f\"Olá, {nome}! Bem-vindo ao futuro do Python.\""
+          },
+          {
+            "type": "tip",
+            "text": "Fique de olho nas novas atualizações anuais do Python! O foco em performance e concorrência (como melhorias na remoção ou otimização do GIL) tornará a linguagem ainda mais poderosa para servidores corporativos e aplicações de grande escala."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Python continues to evolve rapidly. One of the biggest current and future focuses of the community is the **Faster CPython** project, led by major companies and the core language committee itself. Recent versions (such as Python 3.11 and later) have brought substantial speed improvements (from 10% to 60% faster), breaking the old myth that Python is always a slow language."
+          },
+          {
+            "type": "paragraph",
+            "text": "Furthermore, the ecosystem is the undisputed leader in **Artificial Intelligence (AI), Machine Learning, and Data Science**. With the rise of **PyScript** and WebAssembly (WASM) compilation, Python is also moving directly into browsers, opening up pathways to run Python scripts right in the web front-end without needing a server!"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# The future also involves native Type Hinting for robust systems\ndef greet_user(name: str) -> str:\n    return f\"Hello, {name}! Welcome to the future of Python.\"",
+            "text": "# The future also involves native Type Hinting for robust systems\ndef greet_user(name: str) -> str:\n    return f\"Hello, {name}! Welcome to the future of Python.\""
+          },
+          {
+            "type": "tip",
+            "text": "Keep an eye on Python's annual updates! The focus on performance and concurrency (such as enhancements around removing or optimizing the GIL) will make the language even more powerful for enterprise servers and large-scale applications."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Python continúa evolucionando rápidamente. Uno de los mayores enfoques actuales y futuros de la comunidad es el proyecto **Faster CPython**, liderado por grandes empresas y el propio comité central del lenguaje. Las versiones recientes (como Python 3.11 y posteriores) han traído mejoras sustanciales de velocidad (del 10% al 60% más rápido), rompiendo el viejo mito de que Python es siempre un lenguaje lento."
+          },
+          {
+            "type": "paragraph",
+            "text": "Además, el ecosistema es el líder indiscutible en **Inteligencia Artificial (IA), Aprendizaje Automático (Machine Learning) y Ciencia de Datos**. Con el auge de **PyScript** y la compilación a través de WebAssembly (WASM), Python también está ingresando directamente a los navegadores, ¡abriendo caminos para ejecutar scripts de Python directamente en el front-end web sin necesidad de servidores!"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# El futuro también implica Type Hinting nativo para sistemas robustos\ndef saludar_usuario(nombre: str) -> str:\n    return f\"¡Hola, {nombre}! Bienvenido al futuro de Python.\"",
+            "text": "# El futuro también implica Type Hinting nativo para sistemas robustos\ndef saludar_usuario(nombre: str) -> str:\n    return f\"¡Hola, {nombre}! Bienvenido al futuro de Python.\""
+          },
+          {
+            "type": "tip",
+            "text": "¡Esté atento a las nuevas actualizaciones anuales de Python! El enfoque en el rendimiento y la concurrencia (como las mejoras en la eliminación u optimización del GIL) hará que el lenguaje sea aún más potente para servidores corporativos y aplicaciones a gran escala."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Python continue d'évoluer rapidement. L'un des plus grands objectifs actuels et futurs de la communauté est le projet **Faster CPython**, dirigé par de grandes entreprises et par le comité central du langage lui-même. Les versions récentes (comme Python 3.11 et supérieures) ont apporté des améliorations substantielles de vitesse (de 10% à 60% plus rapide), brisant le vieux mythe selon lequel Python est toujours un langage lent."
+          },
+          {
+            "type": "paragraph",
+            "text": "De plus, l'écosystème est le leader incontesté de l'**Intelligence Artificielle (IA), du Machine Learning et de la Data Science**. Avec l'émergence de **PyScript** et de la compilation via WebAssembly (WASM), Python fait également son entrée directe dans les navigateurs, ouvrant la voie à l'exécution de scripts Python directement dans le front-end web sans avoir besoin de serveurs !"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# L'avenir implique également le Type Hinting natif pour des systèmes robustes\ndef saluer_utilisateur(nom: str) -> str:\n    return f\"Bonjour, {nom}! Bienvenue dans l'avenir de Python.\"",
+            "text": "# L'avenir implique également le Type Hinting natif pour des systèmes robustes\ndef saluer_utilisateur(nom: str) -> str:\n    return f\"Bonjour, {nom}! Bienvenue dans l'avenir de Python.\""
+          },
+          {
+            "type": "tip",
+            "text": "Gardez un œil sur les nouvelles mises à jour annuelles de Python ! L'accent mis sur les performances et la concurrence (comme les améliorations apportées à la suppression ou à l'optimisation du GIL) rendra le langage encore plus puissant pour les serveurs d'entreprise et les applications à grande échelle."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Python continua a evolversi rapidamente. Uno dei maggiori obiettivi attuali e futuri della comunità è il progetto **Faster CPython**, guidato da grandi aziende e dal comitato centrale del linguaggio stesso. Le versioni recenti (come Python 3.11 e successive) hanno portato sostanziali miglioramenti di velocità (dal 10% al 60% più veloci), rompendo il vecchio mito secondo cui Python è sempre un linguaggio lento."
+          },
+          {
+            "type": "paragraph",
+            "text": "Inoltre, l'ecosistema è il leader indiscusso nell'**Intelligenza Artificiale (IA), nel Machine Learning e nella Data Science**. Con l'avvento di **PyScript** e della compilazione tramite WebAssembly (WASM), Python sta entrando direttamente anche nei browser, aprendo la strada all'esecuzione di script Python direttamente nel front-end web senza bisogno di server!"
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "# Il futuro prevede anche il Type Hinting nativo per sistemi robusti\ndef saluta_utente(nome: str) -> str:\n    return f\"Ciao, {nome}! Benvenuto nel futuro di Python.\"",
+            "text": "# Il futuro prevede anche il Type Hinting nativo per sistemi robusti\ndef saluta_utente(nome: str) -> str:\n    return f\"Ciao, {nome}! Benvenuto nel futuro di Python.\""
+          },
+          {
+            "type": "tip",
+            "text": "Tieni d'occhio i nuovi aggiornamenti annuali di Python! L'attenzione alle prestazioni e alla concorrenza (come i miglioramenti nella rimozione o ottimizzazione del GIL) renderà il linguaggio ancora più potente per i server aziendali e le applicazioni su larga scala."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual iniciativa recente da comunidade Python foca em aumentar expressivamente a velocidade de execução do código?",
+          "en": "Which recent Python community initiative focuses on significantly increasing code execution speed?",
+          "es": "¿Qué iniciativa reciente de la comunidad Python se centra en aumentar significativamente la velocidad de ejecución del código?",
+          "fr": "Quelle initiative récente de la communauté Python se concentre sur l'augmentation significative de la vitesse d'exécution du code ?",
+          "it": "Quale recente iniziativa della comunità Python si concentra sull'aumento significativo della velocità di esecuzione del codice?"
+        },
+        "options": {
+          "pt": [
+            "PyWebFront",
+            "Faster CPython",
+            "Legacy Python SDK",
+            "Django Web Engine"
+          ],
+          "en": [
+            "PyWebFront",
+            "Faster CPython",
+            "Legacy Python SDK",
+            "Django Web Engine"
+          ],
+          "es": [
+            "PyWebFront",
+            "Faster CPython",
+            "Legacy Python SDK",
+            "Django Web Engine"
+          ],
+          "fr": [
+            "PyWebFront",
+            "Faster CPython",
+            "Legacy Python SDK",
+            "Django Web Engine"
+          ],
+          "it": [
+            "PyWebFront",
+            "Faster CPython",
+            "Legacy Python SDK",
+            "Django Web Engine"
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O projeto 'Faster CPython' é uma iniciativa apoiada pela PSF e grandes corporações para acelerar o interpretador oficial em várias ordens de magnitude a cada versão.",
+          "en": "The 'Faster CPython' project is an initiative backed by the PSF and major corporations to accelerate the official interpreter by several orders of magnitude with each release.",
+          "es": "El proyecto 'Faster CPython' es una iniciativa respaldada por la PSF y grandes corporaciones para acelerar el intérprete oficial en varios órdenes de magnitud con cada versión.",
+          "fr": "Le projet 'Faster CPython' est une initiative soutenue par la PSF et de grandes entreprises pour accélérer l'interpréteur officiel de plusieurs ordres de grandeur à chaque version.",
+          "it": "Il progetto 'Faster CPython' è un'iniziativa sostenuta dalla PSF e da grandi aziende per accelerare l'interprete ufficiale di diversi ordini di grandezza a ogni versione."
+        }
+      }
+    },
+    {
+      "id": "javascript_market_5",
+      "order": 5,
+      "title": {
+        "pt": "JavaScript Atualmente no Mercado de Trabalho",
+        "en": "JavaScript in the Current Job Market",
+        "es": "JavaScript Actualmente en el Mercado de Trabajo",
+        "fr": "JavaScript Actuellement sur le Marché du Travail",
+        "it": "JavaScript Attualmente nel Mercato del Lavoro"
+      },
+      "summary": {
+        "pt": "Compreenda o papel vital do JavaScript na internet, sua altíssima demanda profissional em desenvolvimento front-end/back-end e como ele complementa o seu perfil como programador Python.",
+        "en": "Understand JavaScript's vital role on the internet, its extremely high professional demand in front-end/back-end development, and how it complements your profile as a Python programmer.",
+        "es": "Comprenda el papel vital de JavaScript en Internet, su altísima demanda profesional en el desarrollo front-end/back-end y cómo complementa su perfil como programador de Python.",
+        "fr": "Comprenez le rôle vital de JavaScript sur Internet, sa très forte demande professionnelle dans le développement front-end/back-end et comment il complète votre profil de développeur Python.",
+        "it": "Comprendi il ruolo vitale di JavaScript su Internet, la sua altissima richiesta professionale nello sviluppo front-end/back-end e come completa il tuo profilo di programmatore Python."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Embora o Python domine o backend corporativo e a IA, o **JavaScript (JS)** continua sendo o soberano absoluto da web front-end. Praticamente 98% de todos os sites visíveis usam JS para fornecer interatividade. Com o surgimento de bibliotecas e frameworks consolidados como **React, Vue e Angular**, dominar JavaScript tornou-se um requisito mandatório para desenvolvedores front-end."
+          },
+          {
+            "type": "paragraph",
+            "text": "No mercado de trabalho atual, o JavaScript oferece altíssima empregabilidade porque ultrapassou as barreiras do navegador. Através do **Node.js**, ele roda também no lado do servidor (back-end) e no desenvolvimento móvel (com React Native). Profissionais capazes de conectar o ecossistema robusto de IA do Python com interfaces interativas em JavaScript estão entre os mais bem remunerados do setor tecnológico."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// JavaScript é orientado a eventos e move o front-end moderno\nconsole.log(\"Olá do JavaScript! O mercado de trabalho está aquecido.\");",
+            "text": "// JavaScript é orientado a eventos e move o front-end moderno\nconsole.log(\"Olá do JavaScript! O mercado de trabalho está aquecido.\");"
+          },
+          {
+            "type": "tip",
+            "text": "Não encare Python e JavaScript como rivais, mas sim como grandes aliados! Juntos, eles formam a combinação ideal para um desenvolvedor **Full-Stack** completo, pronto para criar desde modelos inteligentes até páginas web completas."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "While Python dominates enterprise backends and AI, **JavaScript (JS)** remains the absolute sovereign of the web front-end. Virtually 98% of all visible websites use JS to provide interactivity. With the rise of consolidated libraries and frameworks like **React, Vue, and Angular**, mastering JavaScript has become a mandatory requirement for front-end developers."
+          },
+          {
+            "type": "paragraph",
+            "text": "In today's job market, JavaScript offers extremely high employability because it has crossed the boundaries of the browser. Through **Node.js**, it also runs on the server side (backend) and in mobile development (with React Native). Professionals capable of connecting Python's robust AI ecosystem with interactive JavaScript interfaces are among the highest paid in the tech sector."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// JavaScript is event-driven and powers the modern front-end\nconsole.log(\"Hello from JavaScript! The job market is booming.\");",
+            "text": "// JavaScript is event-driven and powers the modern front-end\nconsole.log(\"Hello from JavaScript! The job market is booming.\");"
+          },
+          {
+            "type": "tip",
+            "text": "Don't view Python and JavaScript as rivals, but rather as powerful allies! Together, they form the ideal stack for a complete **Full-Stack** developer, ready to build everything from intelligent models to comprehensive web applications."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Aunque Python domina el backend corporativo y la IA, **JavaScript (JS)** sigue siendo el soberano absoluto del front-end web. Prácticamente el 98% de todos los sitios web visibles utilizan JS para proporcionar interactividad. Con el auge de bibliotecas y frameworks consolidados como **React, Vue y Angular**, dominar JavaScript se ha convertido en un requisito obligatorio para los desarrolladores front-end."
+          },
+          {
+            "type": "paragraph",
+            "text": "En el mercado laboral actual, JavaScript ofrece una empleabilidad muy alta porque ha traspasado las barreras del navegador. A través de **Node.js**, también se ejecuta en el lado del servidor (back-end) y en el desarrollo móvil (con React Native). Los profesionales capaces de conectar el robusto ecosistema de IA de Python con interfaces interactivas de JavaScript se encuentran entre los mejor pagados del sector tecnológico."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// JavaScript está orientado a eventos y mueve el front-end moderno\nconsole.log(\"¡Hola desde JavaScript! El mercado laboral está activo.\");",
+            "text": "// JavaScript está orientado a eventos y mueve el front-end moderno\nconsole.log(\"¡Hola desde JavaScript! El mercado laboral está activo.\");"
+          },
+          {
+            "type": "tip",
+            "text": "¡No veas a Python y JavaScript como rivales, sino como grandes aliados! Juntos forman la combinación ideal para un desarrollador **Full-Stack** completo, listo para crear desde modelos inteligentes hasta páginas web completas."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Bien que Python domine le backend d'entreprise et l'IA, **JavaScript (JS)** reste le souverain absolu du front-end web. Près de 98% de tous les sites web visibles utilisent JS pour fournir de l'interactivité. Avec l'essor de bibliothèques et de frameworks consolidés comme **React, Vue et Angular**, la maîtrise de JavaScript est devenue une exigence obligatoire pour les développeurs front-end."
+          },
+          {
+            "type": "paragraph",
+            "text": "Sur le marché du travail actuel, JavaScript offre une très forte employabilité car il a franchi les frontières du navigateur. Grâce à **Node.js**, il fonctionne également du côté serveur (back-end) et dans le développement mobile (avec React Native). Les professionnels capables de connecter le robuste écosystème d'IA de Python avec des interfaces JavaScript interactives sont parmi les mieux payés du secteur technologique."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// JavaScript est orienté événements et propulse le front-end moderne\nconsole.log(\"Bonjour de JavaScript ! Le marché du travail est en pleine expansion.\");",
+            "text": "// JavaScript est orienté événements et propulse le front-end moderne\nconsole.log(\"Bonjour de JavaScript ! Le marché du travail est en pleine expansion.\");"
+          },
+          {
+            "type": "tip",
+            "text": "Ne considérez pas Python et JavaScript comme des rivaux, mais plutôt comme de grands alliés ! Ensemble, ils forment la combinaison idéale pour un développeur **Full-Stack** complet, prêt à créer tout, des modèles intelligents aux applications web complètes."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Sebbene Python domini il backend aziendale e l'IA, **JavaScript (JS)** rimane il sovrano assoluto del front-end web. Praticamente il 98% di tutti i siti web visibili utilizza JS per fornire interattività. Con la nascita di librerie e framework consolidati come **React, Vue e Angular**, padroneggiare JavaScript è diventato un requisito obbligatorio per gli sviluppatori front-end."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nel mercato del lavoro odierno, JavaScript offre un'altissima occupabilità perché ha superato i confini del browser. Tramite **Node.js**, viene eseguito anche sul lato server (back-end) e nello sviluppo mobile (con React Native). I professionisti in grado di connettere il robusto ecosistema di intelligenza artificiale di Python con interfacce JavaScript interattive sono tra i più pagati nel settore tecnologico."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// JavaScript è orientato agli eventi e muove il front-end moderno\nconsole.log(\"Ciao da JavaScript! Il mercato del lavoro è molto attivo.\");",
+            "text": "// JavaScript è orientato agli eventi e muove il front-end moderno\nconsole.log(\"Ciao da JavaScript! Il mercato del lavoro è molto attivo.\");"
+          },
+          {
+            "type": "tip",
+            "text": "Non considerare Python e JavaScript come rivali, ma piuttosto come grandi alleati! Insieme formano la combinazione ideale per uno sviluppatore **Full-Stack** completo, pronto a creare da modelli intelligenti a pagine web complete."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual tecnologia permite que a linguagem JavaScript seja executada do lado do servidor (back-end)?",
+          "en": "Which technology allows JavaScript to be executed on the server-side (back-end)?",
+          "es": "¿Qué tecnología permite que el lenguaje JavaScript se ejecute en el lado del servidor (back-end)?",
+          "fr": "Quelle technologie permet au langage JavaScript d'être exécuté du côté serveur (back-end) ?",
+          "it": "Quale tecnologia consente di eseguire il linguaggio JavaScript sul lato server (back-end)?"
+        },
+        "options": {
+          "pt": [
+            "React Native",
+            "Node.js",
+            "TypeScript",
+            "Vue.js"
+          ],
+          "en": [
+            "React Native",
+            "Node.js",
+            "TypeScript",
+            "Vue.js"
+          ],
+          "es": [
+            "React Native",
+            "Node.js",
+            "TypeScript",
+            "Vue.js"
+          ],
+          "fr": [
+            "React Native",
+            "Node.js",
+            "TypeScript",
+            "Vue.js"
+          ],
+          "it": [
+            "React Native",
+            "Node.js",
+            "TypeScript",
+            "Vue.js"
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O Node.js é um ambiente de execução que permite rodar código JavaScript fora do navegador, permitindo a criação de servidores robustos com JS.",
+          "en": "Node.js is a runtime environment that allows JavaScript code to run outside the browser, enabling the creation of robust server-side applications with JS.",
+          "es": "Node.js es un entorno de ejecución que permite ejecutar código JavaScript fuera del navegador, permitiendo la creación de servidores robustos con JS.",
+          "fr": "Node.js est un environnement d'exécution qui permet d'exécuter du code JavaScript en dehors du navigateur, permettant la création de serveurs robustes avec JS.",
+          "it": "Node.js è un ambiente di runtime che consente di eseguire codice JavaScript al di fuori del browser, permettendo la creazione di robusti server con JS."
+        }
+      }
+    }
+  ]
+}
