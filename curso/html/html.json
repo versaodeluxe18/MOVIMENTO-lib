@@ -1,0 +1,1088 @@
+{
+  "id": "curso_html",
+  "level": "Iniciante",
+  "duration": "20 horas",
+  "iconUrl": "https://img.icons8.com/color/96/html-5--v1.png",
+  "supportedLanguages": [
+    "pt",
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "title": {
+    "pt": "HTML",
+    "en": "HTML",
+    "es": "HTML",
+    "fr": "HTML",
+    "it": "HTML"
+  },
+  "description": {
+    "pt": "Aprenda HTML do básico ao avançado, cobrindo todos os fundamentos para criar páginas web estruturadas e semânticas.",
+    "en": "Learn HTML from basic to advanced, covering all the fundamentals to create structured and semantic web pages.",
+    "es": "Aprende HTML desde lo básico hasta lo avanzado, cubriendo todos los fundamentos para crear páginas web estructuradas y semánticas.",
+    "fr": "Apprenez le HTML du niveau débutant à avancé, couvrant tous les fondamentaux pour créer des pages web structurées et sémantiques.",
+    "it": "Impara l'HTML dal livello base all'avanzato, coprendo tutte le nozioni fondamentali per creare pagine web strutturate e semânticas."
+  },
+  "lessons": [
+    {
+      "id": "html_fundamentals_1",
+      "order": 1,
+      "title": {
+        "pt": "Introdução ao HTML e Estrutura Básica de um Documento Web",
+        "en": "Introduction to HTML and Basic Web Document Structure",
+        "es": "Introducción a HTML y Estructura Básica de un Documento Web",
+        "fr": "Introduction au HTML et Structure de Base d'un Document Web",
+        "it": "Introduzione all'HTML e Struttura Base di un Documento Web"
+      },
+      "summary": {
+        "pt": "Esta aula cobre os fundamentos do HTML, incluindo sua história, propósito e a estrutura básica de um documento web com elementos essenciais como <html>, <head> e <body>.",
+        "en": "This lesson covers the fundamentals of HTML, including its history, purpose, and the basic structure of a web document with essential elements like <html>, <head>, and <body>.",
+        "es": "Esta lección cubre los fundamentos de HTML, incluyendo su historia, propósito y la estructura básica de un documento web con elementos esenciales como <html>, <head> y <body>.",
+        "fr": "Cette leçon aborde les fondamentaux du HTML, incluant son histoire, son objectif et la structure de base d'un document web avec des éléments essentiels comme <html>, <head> et <body>.",
+        "it": "Questa lezione copre i fondamenti dell'HTML, inclusa la sua storia, lo scopo e la struttura di base di un documento web con elementi essenziali come <html>, <head> e <body>."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O **HTML (HyperText Markup Language)** é a linguagem padrão para criar páginas web. Desde sua concepção por Tim Berners-Lee no CERN, ele evoluiu para se tornar a espinha dorsal de toda a internet, permitindo que navegadores interpretem e exibam conteúdo estruturado. O HTML não é uma linguagem de programação, mas uma linguagem de marcação que usa \"tags\" para definir a estrutura e o significado do conteúdo."
+          },
+          {
+            "type": "paragraph",
+            "text": "Todo documento HTML começa com uma declaração de tipo de documento (`<!DOCTYPE html>`), que informa ao navegador qual versão do HTML está sendo usada. Em seguida, o elemento raiz `<html>` engloba todo o conteúdo da página. Dentro dele, encontramos dois elementos principais: o **`<head>`** e o **`<body>`**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Minha Primeira Página HTML</title>\n</head>\n<body>\n    <h1>Olá, Mundo!</h1>\n    <p>Este é um parágrafo de exemplo em meu documento web.</p>\n</body>\n</html>"
+          },
+          {
+            "type": "tip",
+            "text": "Lembre-se sempre de aninhar suas tags corretamente! Uma estrutura bem organizada não só facilita a leitura do código, mas também é crucial para a acessibilidade e o SEO da sua página. Use indentação para clareza."
+          },
+          {
+            "type": "paragraph",
+            "text": "O elemento **`<head>`** contém metadados sobre o documento, como o título da página (exibido na aba do navegador), links para folhas de estilo CSS, scripts JavaScript e outras informações que não são exibidas diretamente no corpo da página. Já o elemento **`<body>`** é onde todo o conteúdo visível da sua página web reside, incluindo textos, imagens, vídeos, links e qualquer outro elemento que o usuário irá interagir ou visualizar."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "**HTML (HyperText Markup Language)** is the standard language for creating web pages. Since its conception by Tim Berners-Lee at CERN, it has evolved to become the backbone of the entire internet, allowing browsers to interpret and display structured content. HTML is not a programming language, but a markup language that uses \"tags\" to define the structure and meaning of content."
+          },
+          {
+            "type": "paragraph",
+            "text": "Every HTML document begins with a document type declaration (`<!DOCTYPE html>`), which tells the browser which version of HTML is being used. Then, the root `<html>` element encloses all page content. Inside it, we find two main elements: the **`<head>`** and the **`<body>`**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>My First HTML Page</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>This is an example paragraph in my web document.</p>\n</body>\n</html>"
+          },
+          {
+            "type": "tip",
+            "text": "Always remember to nest your tags correctly! A well-organized structure not only makes code easier to read but is also crucial for your page's accessibility and SEO. Use indentation for clarity."
+          },
+          {
+            "type": "paragraph",
+            "text": "The **`<head>`** element contains metadata about the document, such as the page title (displayed in the browser tab), links to CSS stylesheets, JavaScript scripts, and other information that is not directly displayed in the page's body. The **`<body>`** element is where all the visible content of your web page resides, including text, images, videos, links, and any other element that the user will interact with or view."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "El **HTML (HyperText Markup Language)** es el lenguaje estándar para crear páginas web. Desde su concepción por Tim Berners-Lee en el CERN, ha evolucionado para convertirse en la columna vertebral de todo internet, permitiendo que los navegadores interpreten y muestren contenido estructurado. HTML no es un lenguaje de programación, sino un lenguaje de marcado que utiliza \"etiquetas\" para definir la estructura y el significado del contenido."
+          },
+          {
+            "type": "paragraph",
+            "text": "Todo documento HTML comienza con una declaración de tipo de documento (`<!DOCTYPE html>`), que informa al navegador qué versión de HTML se está utilizando. Luego, el elemento raíz `<html>` encierra todo el contenido de la página. Dentro de él, encontramos dos elementos principales: **`<head>`** y **`<body>`**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Mi Primera Página HTML</title>\n</head>\n<body>\n    <h1>¡Hola, Mundo!</h1>\n    <p>Este es un párrafo de ejemplo en mi documento web.</p>\n</body>\n</html>"
+          },
+          {
+            "type": "tip",
+            "text": "¡Recuerda siempre anidar tus etiquetas correctamente! Una estructura bien organizada no solo facilita la lectura del código, sino que también es crucial para la accesibilidad y el SEO de tu página. Usa sangría para mayor claridad."
+          },
+          {
+            "type": "paragraph",
+            "text": "El elemento **`<head>`** contiene metadatos sobre el documento, como el título de la página (mostrado en la pestaña del navegador), enlaces a hojas de estilo CSS, scripts JavaScript y otra información que no se muestra directamente en el cuerpo de la página. El elemento **`<body>`** es donde reside todo el contenido visible de tu página web, incluyendo textos, imágenes, videos, enlaces y cualquier otro elemento con el que el usuario interactuará o visualizará."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Le **HTML (HyperText Markup Language)** est le langage standard pour créer des pages web. Depuis sa conception par Tim Berners-Lee au CERN, il a évolué pour devenir l'épine dorsale de tout internet, permettant aux navigateurs d'interpréter et d'afficher du contenu structuré. Le HTML n'est pas un langage de programmation, mais un langage de balisage qui utilise des \"balises\" pour définir la structure et la signification du contenu."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tout document HTML commence par une déclaration de type de document (`<!DOCTYPE html>`), qui indique au navigateur quelle version de HTML est utilisée. Ensuite, l'élément racine `<html>` englobe tout le contenu de la page. À l'intérieur, nous trouvons deux éléments principaux : **`<head>`** et **`<body>`**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Ma Première Page HTML</title>\n</head>\n<body>\n    <h1>Bonjour, Monde!</h1>\n    <p>Ceci est un paragraphe d'exemple dans mon document web.</p>\n</body>\n</html>"
+          },
+          {
+            "type": "tip",
+            "text": "N'oubliez jamais d'imbriquer correctement vos balises ! Une structure bien organisée non seulement facilite la lecture du code, mais est également cruciale pour l'accessibilité et le référencement (SEO) de votre page. Utilisez l'indentation pour plus de clarté."
+          },
+          {
+            "type": "paragraph",
+            "text": "L'élément **`<head>`** contient les métadonnées du document, telles que le titre de la page (affiché dans l'onglet du navigateur), les liens vers les feuilles de style CSS, les scripts JavaScript et d'autres informations qui ne sont pas directement affichées dans le corps de la page. L'élément **`<body>`** est l'endroit où réside tout le contenu visible de votre page web, y compris les textes, images, vidéos, liens et tout autre élément avec lequel l'utilisateur interagira ou visualisera."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "L'**HTML (HyperText Markup Language)** è il linguaggio standard per la creazione di pagine web. Dalla sua concezione da parte di Tim Berners-Lee al CERN, si è evoluto per diventare la spina dorsale di tutta Internet, consentendo ai browser di interpretare e visualizzare contenuti strutturati. L'HTML non è un linguaggio di programmazione, ma un linguaggio di markup che utilizza \"tag\" per definire la struttura e il significato del contenuto."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ogni documento HTML inizia con una dichiarazione del tipo di documento (`<!DOCTYPE html>`), che informa il browser quale versione di HTML viene utilizzata. Successivamente, l'elemento radice `<html>` racchiude tutto il contenuto della pagina. Al suo interno, troviamo due elementi principali: **`<head>`** e **`<body>`**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html>\n<html lang=\"it\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>La Mia Prima Pagina HTML</title>\n</head>\n<body>\n    <h1>Ciao, Mondo!</h1>\n    <p>Questo è un paragrafo di esempio nel mio documento web.</p>\n</body>\n</html>"
+          },
+          {
+            "type": "tip",
+            "text": "Ricorda sempre di annidare correttamente i tuoi tag! Una struttura ben organizzata non solo facilita la lettura del codice, ma è anche cruciale per l'accessibilità e il SEO della tua pagina. Usa l'indentazione per chiarezza."
+          },
+          {
+            "type": "paragraph",
+            "text": "L'elemento **`<head>`** contiene i metadati del documento, come il titolo della pagina (visualizzato nella scheda del browser), collegamenti a fogli di stile CSS, script JavaScript e altre informazioni che non vengono visualizzate direttamente nel corpo della pagina. L'elemento **`<body>`** è dove risiede tutto il contenuto visibile della tua pagina web, inclusi testi, immagini, video, collegamenti e qualsiasi altro elemento con cui l'utente interagirà o visualizzerà."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é a função principal do elemento `<head>` em um documento HTML?",
+          "en": "What is the primary function of the `<head>` element in an HTML document?",
+          "es": "¿Cuál es la función principal del elemento `<head>` en un documento HTML?",
+          "fr": "Quelle est la fonction principale de l'élément `<head>` dans un document HTML ?",
+          "it": "Qual è la funzione principale dell'elemento `<head>` in un documento HTML?"
+        },
+        "options": {
+          "pt": [
+            "Armazenar o conteúdo principal e visível da página.",
+            "Definir o tipo de documento e a versão do HTML utilizada.",
+            "Conter metadados sobre a página, como título e links para recursos externos.",
+            "Incluir apenas scripts JavaScript para interatividade."
+          ],
+          "en": [
+            "To store the main and visible content of the page.",
+            "To define the document type and the HTML version used.",
+            "To contain metadata about the page, such as its title and links to external resources.",
+            "To only include JavaScript scripts for interactivity."
+          ],
+          "es": [
+            "Almacenar el contenido principal y visible de la página.",
+            "Definir el tipo de documento y la versión de HTML utilizada.",
+            "Contener metadatos sobre la página, como su título y enlaces a recursos externos.",
+            "Incluir solo scripts JavaScript para interactividad."
+          ],
+          "fr": [
+            "Stocker le contenu principal et visible de la page.",
+            "Définir le type de document et la version HTML utilisée.",
+            "Contenir les métadonnées de la page, telles que son titre et les liens vers des ressources externes.",
+            "Inclure uniquement des scripts JavaScript pour l'interactivité."
+          ],
+          "it": [
+            "Memorizzare il contenuto principale e visibile della pagina.",
+            "Definire il tipo di documento e la versione HTML utilizzata.",
+            "Contenere metadati sulla pagina, come il suo titolo e collegamenti a risorse esterne.",
+            "Includere solo script JavaScript per l'interattività."
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "O elemento `<head>` é projetado para metadados, ou seja, informações sobre o documento HTML. Isso inclui o título da página, links para arquivos CSS ou JS externos e configurações de codificação de caracteres, mas não o conteúdo que o usuário vê.",
+          "en": "The `<head>` element is designed for metadata, meaning information about the HTML document. This includes the page's title, links to external CSS or JS files, and character encoding settings, but not the content that the user sees.",
+          "es": "El elemento `<head>` está diseñado para metadatos, es decir, información sobre el documento HTML. Esto incluye el título de la página, enlaces a archivos CSS o JS externos y configuraciones de codificación de caracteres, pero no el contenido que ve el usuario.",
+          "fr": "L'élément `<head>` est conçu pour les métadonnées, c'est-à-dire des informations sur le document HTML. Cela inclut le titre de la page, les liens vers des fichiers CSS ou JS externes et les paramètres d'encodage des caractères, mais pas le contenu que l'utilisateur voit.",
+          "it": "L'elemento `<head>` è progettato per i metadati, ovvero informazioni sul documento HTML. Questo include il titolo della pagina, i collegamenti a file CSS o JS esterni e le impostazioni di codifica dei caratteri, ma non il contenuto che l'utente vede."
+        }
+      }
+    },
+    {
+      "id": "html_text_links_2",
+      "order": 2,
+      "title": {
+        "pt": "Elementos de Texto, Links e Listas",
+        "en": "Text Elements, Links, and Lists",
+        "es": "Elementos de Texto, Enlaces y Listas",
+        "fr": "Éléments de Texte, Liens et Listes",
+        "it": "Elementi di Testo, Link e Liste"
+      },
+      "summary": {
+        "pt": "Explore como formatar texto usando cabeçalhos, parágrafos e elementos semânticos. Aprenda a criar links internos e externos, e a organizar conteúdo com listas ordenadas e não ordenadas.",
+        "en": "Explore how to format text using headings, paragraphs, and semantic elements. Learn to create internal and external links, and organize content with ordered and unordered lists.",
+        "es": "Explore cómo formatear texto usando encabezados, párrafos y elementos semánticos. Aprenda a crear enlaces internos y externos, y a organizar contenido con listas ordenadas y no ordenadas.",
+        "fr": "Explorez comment formater du texte à l'aide de titres, paragraphes et éléments sémantiques. Apprenez à créer des liens internes et externes, et à organiser le contenu avec des listes ordonnées et non ordonnées.",
+        "it": "Esplora come formattare il testo usando intestazioni, paragrafi ed elementi semantici. Impara a creare link esterni ed esterni e a organizzare i contenuti con liste ordinate e non ordinate."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "A estrutura de qualquer página web começa com a formatação correta de textos, a criação de caminhos de navegação por meio de links e a organização de informações em listas. Os cabeçalhos (do **&lt;h1&gt;** ao **&lt;h6&gt;**) definem a hierarquia visual e semântica do seu conteúdo, enquanto a tag **&lt;p&gt;** delimita os parágrafos. Para dar ênfase visual e semântica a palavras importantes, usamos **&lt;strong&gt;** para relevância forte e **&lt;em&gt;** para ênfase estilizada."
+          },
+          {
+            "type": "paragraph",
+            "text": "Para conectar páginas e recursos, utilizamos a tag de âncora **&lt;a&gt;** com o atributo essencial **href**, que indica o destino do link. Já as listas nos ajudam a organizar itens de forma agrupada: use **&lt;ul&gt;** para listas não ordenadas (com marcadores) e **&lt;ol&gt;** para listas ordenadas (numeradas), ambas contendo elementos internos envoltos na tag **&lt;li&gt;**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Exemplo prático de estrutura de texto, link e listas em HTML5 de forma semântica e limpa.\n\n<h1>Aprenda HTML Grátis</h1>\n<p>O HTML é a linguagem de marcação <strong>essencial</strong> para a web.</p>\n\n<h2>Nossos Recursos Favoritos</h2>\n<ul>\n  <li><a href=\"https://developer.mozilla.org\" target=\"_blank\">MDN Web Docs</a></li>\n  <li>W3Schools</li>\n</ul>\n\n<h2>Passos para Estudar</h2>\n<ol>\n  <li>Entender a estrutura básica</li>\n  <li>Praticar tags de texto e listas</li>\n</ol>"
+          },
+          {
+            "type": "tip",
+            "text": "Sempre dê nomes descritivos para o texto dos seus links em vez de usar termos genéricos como \"clique aqui\". Isso melhora drasticamente a acessibilidade para leitores de tela e otimiza o SEO do seu site nos motores de busca."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "The structure of any web page begins with the correct formatting of text, the creation of navigation paths through links, and the organization of information in lists. Headings (from **&lt;h1&gt;** to **&lt;h6&gt;**) define the visual and semantic hierarchy of your content, while the **&lt;p&gt;** tag delimits paragraphs. To give visual and semantic emphasis to important words, we use **&lt;strong&gt;** for strong importance and **&lt;em&gt;** for stylized emphasis."
+          },
+          {
+            "type": "paragraph",
+            "text": "To connect pages and resources, we use the anchor tag **&lt;a&gt;** with the essential **href** attribute, which indicates the link's destination. Lists help us organize grouped items: use **&lt;ul&gt;** for unordered lists (with bullets) and **&lt;ol&gt;** for ordered lists (numbered), both containing internal elements wrapped in the **&lt;li&gt;** tag."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Practical example of text structure, link, and lists in HTML5 in a semantic and clean way.\n\n<h1>Learn HTML Free</h1>\n<p>HTML is the <strong>essential</strong> markup language for the web.</p>\n\n<h2>Our Favorite Resources</h2>\n<ul>\n  <li><a href=\"https://developer.mozilla.org\" target=\"_blank\">MDN Web Docs</a></li>\n  <li>W3Schools</li>\n</ul>\n\n<h2>Steps to Study</h2>\n<ol>\n  <li>Understand the basic structure</li>\n  <li>Practice text tags and lists</li>\n</ol>"
+          },
+          {
+            "type": "tip",
+            "text": "Always give descriptive names to your link texts instead of using generic terms like \"click here\". This drastically improves accessibility for screen readers and optimizes your site's SEO in search engines."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "La estructura de cualquier página web comienza con el formato correcto de los textos, la creación de rutas de navegación mediante enlaces y la organización de la información en listas. Los encabezados (del **&lt;h1&gt;** al **&lt;h6&gt;**) definen la jerarquía visual y semántica de su contenido, mientras que la etiqueta **&lt;p&gt;** delimita los párrafos. Para dar énfasis visual y semántico a palabras importantes, usamos **&lt;strong&gt;** para una importancia fuerte y **&lt;em&gt;** para un énfasis estilizado."
+          },
+          {
+            "type": "paragraph",
+            "text": "Para conectar páginas y recursos, utilizamos la etiqueta de anclaje **&lt;a&gt;** con el atributo esencial **href**, que indica el destino del enlace. Las listas nos ayudan a organizar elementos agrupados: use **&lt;ul&gt;** para listas no ordenadas (con viñetas) y **&lt;ol&gt;** para listas ordenadas (numeradas), ambas con elementos internos envueltos en la etiqueta **&lt;li&gt;**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Ejemplo práctico de estructura de texto, enlaces y listas en HTML5 de forma semántica y limpia.\n\n<h1>Aprende HTML Gratis</h1>\n<p>HTML es el lenguaje de marcado <strong>esencial</strong> para la web.</p>\n\n<h2>Nuestros Recursos Favoritos</h2>\n<ul>\n  <li><a href=\"https://developer.mozilla.org\" target=\"_blank\">MDN Web Docs</a></li>\n  <li>W3Schools</li>\n</ul>\n\n<h2>Pasos para Estudiar</h2>\n<ol>\n  <li>Entender la estructura básica</li>\n  <li>Practicar etiquetas de texto y listas</li>\n</ol>"
+          },
+          {
+            "type": "tip",
+            "text": "Siempre asigne nombres descriptivos al texto de sus enlaces en lugar de usar términos genéricos como \"haga clic aquí\". Esto mejora drásticamente la accesibilidad para los lectores de pantalla y optimiza el SEO de su sitio en los motores de búsqueda."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "La structure de n'importe quelle page web commence par le formatage correct des textes, la création de chemins de navigation via des liens et l'organisation des informations sous forme de listes. Les titres (du **&lt;h1&gt;** au **&lt;h6&gt;**) définissent la hiérarchie visuelle et sémantique de votre contenu, tandis que la balise **&lt;p&gt;** délimite les paragraphes. Pour donner un accent visuel et sémantique aux mots importants, nous utilisons **&lt;strong&gt;** pour une importance forte et **&lt;em&gt;** pour une emphase stylisée."
+          },
+          {
+            "type": "paragraph",
+            "text": "Pour connecter des pages et des ressources, nous utilisons la balise d'ancrage **&lt;a&gt;** avec l'attribut essentiel **href**, qui indique la destination du lien. Les listes nous aident à organiser les éléments groupés : utilisez **&lt;ul&gt;** pour les listes non ordonnées (avec puces) et **&lt;ol&gt;** pour les listes ordonnées (numérotées), toutes deux contenant des éléments internes enveloppés dans la balise **&lt;li&gt;**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Exemple pratique de structure de texte, de liens et de listes en HTML5 de manière sémantique et propre.\n\n<h1>Apprendre le HTML Gratuitement</h1>\n<p>Le HTML est le langage de balisage <strong>essentiel</strong> pour le web.</p>\n\n<h2>Nos Ressources Préférées</h2>\n<ul>\n  <li><a href=\"https://developer.mozilla.org\" target=\"_blank\">MDN Web Docs</a></li>\n  <li>W3Schools</li>\n</ul>\n\n<h2>Étapes pour Étudier</h2>\n<ol>\n  <li>Comprendre la structure de base</li>\n  <li>Pratiquer les balises de texte et de liste</li>\n</ol>"
+          },
+          {
+            "type": "tip",
+            "text": "Donnez toujours des noms descriptifs au texte de vos liens au lieu d'utiliser des termes génériques comme \"cliquez ici\". Cela améliore considérablement l'accessibilité pour les lecteurs d'écran et optimise le référencement (SEO) de votre site dans les moteurs de recherche."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "La struttura di qualsiasi pagina web inizia con la corretta formattazione dei testi, la creazione di percorsi di navigazione tramite link e l'organizzazione delle informazioni in elenchi. Le intestazioni (da **&lt;h1&gt;** a **&lt;h6&gt;**) definiscono la gerarchia visiva e semantica del contenuto, mentre il tag **&lt;p&gt;** delimita i paragrafi. Per dare enfasi visiva e semantica alle parole importanti, usiamo **&lt;strong&gt;** per una forte importanza e **&lt;em&gt;** per un'enfasi stilizzata."
+          },
+          {
+            "type": "paragraph",
+            "text": "Per collegare pagine e risorse, utilizziamo il tag di ancoraggio **&lt;a&gt;** con l'attributo essenziale **href**, che indica la destinazione del collegamento. Le liste ci aiutano a organizzare elementi raggruppati: usa **&lt;ul&gt;** per liste non ordinate (con punti elenco) e **&lt;ol&gt;** per liste ordinate (numerate), entrambe contenenti elementi interni racchiusi nel tag **&lt;li&gt;**."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Esempio pratico di struttura di testo, link e liste in HTML5 in modo semantico e pulito.\n\n<h1>Impara l'HTML Gratis</h1>\n<p>L'HTML è il linguaggio di markup <strong>essenziale</strong> per il web.</p>\n\n<h2>Le Nostre Risorse Preferite</h2>\n<ul>\n  <li><a href=\"https://developer.mozilla.org\" target=\"_blank\">MDN Web Docs</a></li>\n  <li>W3Schools</li>\n</ul>\n\n<h2>Passi per Studiare</h2>\n<ol>\n  <li>Capire la struttura di base</li>\n  <li>Praticare tag di testo e liste</li>\n</ol>"
+          },
+          {
+            "type": "tip",
+            "text": "Assegna sempre nomi descrittivi al testo dei tuoi link invece di utilizzare termini generici come \"clicca qui\". Questo migliora drasticamente l'accessibilità per i lettori di schermo e ottimizza la SEO del tuo sito nei motori di ricerca."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual combinação de tags e atributos é usada corretamente para criar um link e definir um item de lista, respectivamente?",
+          "en": "Which combination of tags and attributes is correctly used to create a link and define a list item, respectively?",
+          "es": "¿Qué combinación de etiquetas y atributos se usa correctamente para crear un enlace y definir un elemento de lista, respectivamente?",
+          "fr": "Quelle combinaison de balises et d'attributs est correctement utilisée pour créer un lien et définir un élément de liste, respectivement ?",
+          "it": "Quale combinazione di tag e attributi viene utilizzata correttamente per creare un link e definire un elemento di lista, rispettivamente?"
+        },
+        "options": {
+          "pt": [
+            "<link href=\"...\"> e <list>",
+            "<a href=\"...\"> e <li>",
+            "<a src=\"...\"> e <ul>",
+            "<anchor url=\"...\"> e <li>"
+          ],
+          "en": [
+            "<link href=\"...\"> and <list>",
+            "<a href=\"...\"> and <li>",
+            "<a src=\"...\"> and <ul>",
+            "<anchor url=\"...\"> and <li>"
+          ],
+          "es": [
+            "<link href=\"...\"> y <list>",
+            "<a href=\"...\"> y <li>",
+            "<a src=\"...\"> y <ul>",
+            "<anchor url=\"...\"> y <li>"
+          ],
+          "fr": [
+            "<link href=\"...\"> et <list>",
+            "<a href=\"...\"> et <li>",
+            "<a src=\"...\"> et <ul>",
+            "<anchor url=\"...\"> et <li>"
+          ],
+          "it": [
+            "<link href=\"...\"> e <list>",
+            "<a href=\"...\"> e <li>",
+            "<a src=\"...\"> e <ul>",
+            "<anchor url=\"...\"> e <li>"
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "A tag <a> utiliza o atributo 'href' para direcionar o link, enquanto a tag <li> define itens que pertencem a listas ordenadas ou não ordenadas.",
+          "en": "The <a> tag uses the 'href' attribute to direct the link, while the <li> tag defines items belonging to ordered or unordered lists.",
+          "es": "La etiqueta <a> utiliza el atributo 'href' para dirigir el enlace, mientras que la etiqueta <li> define elementos que pertenecen a listas ordenadas o no ordenadas.",
+          "fr": "La balise <a> utilise l'attribut 'href' pour diriger le lien, tandis que la balise <li> définit les éléments appartenant à des listes ordonnées ou non ordonnées.",
+          "it": "Il tag <a> utilizza l'attributo 'href' per indirizzare il collegamento, mentre il tag <li> definisce gli elementi appartenenti a liste ordinate o non ordinate."
+        }
+      }
+    },
+    {
+      "id": "html_media_tables_3",
+      "order": 3,
+      "title": {
+        "pt": "Incorporando Imagens, Áudio, Vídeo e Tabelas de Dados",
+        "en": "Embedding Images, Audio, Video, and Data Tables",
+        "es": "Incorporando Imágenes, Audio, Video y Tablas de Datos",
+        "fr": "Intégration d'Images, Audio, Vidéo et Tableaux de Données",
+        "it": "Incorporare Immagini, Audio, Video e Tabelle di Dati"
+      },
+      "summary": {
+        "pt": "Esta aula foca na inserção de elementos multimídia como imagens, áudio e vídeo em suas páginas web. Você também aprenderá a estruturar e apresentar dados tabulares de forma eficaz.",
+        "en": "This lesson focuses on embedding multimedia elements like images, audio, and video into your web pages. You will also learn to structure and present tabular data effectively.",
+        "es": "Esta lección se centra en la incrustación de elementos multimedia como imágenes, audio y video en sus páginas web. También aprenderá a estructurar y presentar datos tabulares de forma eficaz.",
+        "fr": "Cette leçon se concentre sur l'intégration d'éléments multimédias tels que des images, de l'audio et de la vidéo dans vos pages web. Vous apprendrez également à structurer et présenter efficacement les données tabulaires.",
+        "it": "Questa lezione si concentra sull'incorporamento di elementi multimediali come immagini, audio e video nelle tue pagine web. Imparerai anche a strutturare e presentare i dati tabulari in modo efficace."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O HTML moderno permite enriquecer páginas web usando elementos multimídia e tabelas de dados estruturados. Para imagens, usamos a tag autossuficiente `<img>`. Para áudios e vídeos, as tags `<audio>` e `<video>` trazem suporte nativo de reprodução nos navegadores sem necessidade de plugins externos. Já as tabelas ajudam a organizar informações complexas correlacionando dados em linhas e colunas."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Exemplo de código HTML contendo imagem, vídeo e uma tabela estruturada de dados de forma simples e acessível usando tags semânticas básicas do HTML5 por padrão de projeto de código limpo e moderno de alto nível de legibilidade para o programador iniciante aprender rápido e fácil de forma didática com boas práticas de desenvolvimento web moderno com acessibilidade e semântica corretas de acordo com as especificações oficiais recomendadas da W3C hoje em dia com boas técnicas de SEO e responsividade técnica profissional corporativa de alto impacto real e eficiente nas ferramentas de buscas globais atuais mais populares do mercado corporativo mundial atual de tecnologia avançada de ponta a ponta na web hoje em dia na atualidade sempre atualizado e moderno para todos os navegadores modernos e antigos suportados de forma elegante e segura para o usuário final finalizando com sucesso de alta performance geral garantida sempre."
+          },
+          {
+            "type": "tip",
+            "text": "Sempre adicione o atributo **alt** em suas tags de imagem. Ele melhora drasticamente a acessibilidade para leitores de tela e serve como texto alternativo se a imagem não carregar."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Modern HTML allows you to enrich web pages using multimedia elements and structured data tables. For images, we use the self-closing `<img>` tag. For audio and video, the `<audio>` and `<video>` tags provide native playback support in browsers without external plugins. Tables, on the other hand, help organize complex information by correlating data into rows and columns."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "HTML source sample explaining images, videos and tables structure elegantly."
+          },
+          {
+            "type": "tip",
+            "text": "Always add the **alt** attribute to your image tags. It drastically improves accessibility for screen readers and serves as placeholder text if the image fails to load."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "El HTML moderno le permite enriquecer las páginas web utilizando elementos multimedia y tablas de datos estructurados. Para las imágenes, utilizamos la etiqueta autocierre `<img>`. Para audios y videos, las etiquetas `<audio>` y `<video>` proporcionan soporte de reproducción nativo en los navegadores sin complementos externos. Las tablas ayudan a organizar información compleja correlacionando datos en filas y columnas."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Código HTML que muestra cómo estructurar imágenes, videos y tablas de datos de manera correcta y fácil."
+          },
+          {
+            "type": "tip",
+            "text": "Añada siempre el atributo **alt** a sus etiquetas de imagen. Mejora drásticamente la accesibilidad para los lectores de pantalla y sirve como texto alternativo si la imagen no se carga."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "L'HTML moderne vous permet d'enrichir les pages web à l'aide d'éléments multimédias et de tableaux de données structurées. Pour les images, nous utilisons la balise auto-fermante `<img>`. Pour l'audio et la vidéo, les balises `<audio>` et `<video>` offrent un support de lecture natif dans les navigateurs sans plugins externes. Les tableaux aident à organiser les informations complexes en corrélant les données en lignes et colonnes."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Code HTML d'exemple montrant des images, de la vidéo et un tableau pour vos besoins de formation."
+          },
+          {
+            "type": "tip",
+            "text": "Ajoutez toujours l'attribut **alt** à vos balises d'image. Il améliore considérablement l'accessibilité pour les lecteurs d'écran et sert de texte alternatif si l'image ne se charge pas."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "L'HTML moderno consente di arricchire le pagine web utilizzando elementi multimediali e tabelle di dati strutturati. Per le immagini, utilizziamo il tag autochiudente `<img>`. Per audio e video, i tag `<audio>` e `<video>` forniscono supporto nativo per la riproduzione nei browser senza plug-in esterni. Le tabelle aiutano a organizzare informazioni complesse correlando i dati in righe e colonne."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Esempio di codice HTML con immagini, video e tabelle di dati ben strutturate per l'apprendimento."
+          },
+          {
+            "type": "tip",
+            "text": "Aggiungi sempre l'attributo **alt** ai tuoi tag immagine. Migliora drasticamente l'accessibilità per i lettori di schermo e funge da testo alternativo se l'immagine non si carica."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual das seguintes alternativas descreve corretamente a prática recomendada para inserir uma imagem acessível e exibir controles em um elemento de vídeo no HTML?",
+          "en": "Which of the following alternatives correctly describes the recommended practice for inserting an accessible image and displaying controls on a video element in HTML?",
+          "es": "¿Cuál de las siguientes alternativas describe correctamente la práctica recomendada para insertar una imagen accesible y mostrar controles en un elemento de video en HTML?",
+          "fr": "Laquelle des alternatives suivantes décrit correctement la pratique recommandée pour insérer une image accessible et afficher des contrôles sur un élément vidéo en HTML ?",
+          "it": "Quale delle seguenti alternative descrive correttamente la pratica raccomandata per inserire un'immagine accessibile e mostrare i controlli in un elemento video in HTML?"
+        },
+        "options": {
+          "pt": [
+            "Usar a tag <picture> sem atributos e a tag <video> com autoplay desativado.",
+            "Usar a tag <img> com o atributo 'alt' preenchido, e a tag <video> com o atributo booleano 'controls'.",
+            "Usar a tag <img> sem 'alt' e a tag <video> dentro de uma tag <audio>.",
+            "Definir todas as imagens como tabelas de dados usando <th> para obter acessibilidade automática."
+          ],
+          "en": [
+            "Use the <picture> tag without attributes and the <video> tag with autoplay disabled.",
+            "Use the <img> tag with a filled 'alt' attribute, and the <video> tag with the 'controls' boolean attribute.",
+            "Use the <img> tag without 'alt' and the <video> tag inside an <audio> tag.",
+            "Define all images as data tables using <th> to get automatic accessibility."
+          ],
+          "es": [
+            "Usar la etiqueta <picture> sin atributos y la etiqueta <video> con la reproducción automática desactivada.",
+            "Usar la etiqueta <img> con el atributo 'alt' completo, y la etiqueta <video> con el atributo booleano 'controls'.",
+            "Usar la etiqueta <img> sin 'alt' y la etiqueta <video> dentro de una etiqueta <audio>.",
+            "Definir todas las imágenes como tablas de datos usando <th> para obtener accesibilidad automática."
+          ],
+          "fr": [
+            "Utiliser la balise <picture> sans attributs et la balise <video> avec la lecture automatique désactivée.",
+            "Utiliser la balise <img> avec l'attribut 'alt' renseigné, et la balise <video> avec l'attribut booléen 'controls'.",
+            "Utiliser la balise <img> sans 'alt' et la balise <video> à l'intérieur d'une balise <audio>.",
+            "Définir toutes les images comme des tableaux de données en utilisant <th> pour obtenir une accessibilité automatique."
+          ],
+          "it": [
+            "Usare il tag <picture> senza attributi e il tag <video> con la riproduzione automatica disabilitata.",
+            "Usare il tag <img> con l'attributo 'alt' compilato, e il tag <video> con l'attributo booleano 'controls'.",
+            "Usare il tag <img> senza 'alt' e il tag <video> all'interno di un tag <audio>.",
+            "Definire tutte le immagini come tabelle di dati usando <th> per ottenere l'accessibilità automatica."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O atributo 'alt' fornece uma descrição textual essencial para leitores de tela em imagens. Já o atributo 'controls' em áudios e vídeos ativa os botões nativos do navegador de play, pause e volume, garantindo o controle do usuário.",
+          "en": "The 'alt' attribute provides an essential textual description for screen readers on images. Meanwhile, the 'controls' attribute in audio and video activates native play, pause, and volume browser buttons, ensuring user control.",
+          "es": "El atributo 'alt' proporciona una descripción textual esencial para los lectores de pantalla en las imágenes. El atributo 'controls' en audios y videos activa los botones nativos del navegador de reproducción, pausa y volumen, garantizando el control del usuario.",
+          "fr": "L'attribut 'alt' fournit une description textuelle essentielle pour les lecteurs d'écran sur les images. De même, l'attribut 'controls' dans l'audio et la vidéo active les boutons de lecture, pause et volume natifs du navigateur, garantissant le contrôle de l'utilisateur.",
+          "it": "L'attributo 'alt' fornisce una descrizione testuale essenziale per i lettori di schermo sulle immagini. L'attributo 'controls' in audio e video attiva i pulsanti di riproduzione nativi del browser (play, pausa, volume), garantendo il controllo da parte dell'utente."
+        }
+      }
+    },
+    {
+      "id": "html_forms_4",
+      "order": 4,
+      "title": {
+        "pt": "Construindo Formulários Web Interativos",
+        "en": "Building Interactive Web Forms",
+        "es": "Creando Formularios Web Interactivos",
+        "fr": "Construction de Formulaires Web Interactifs",
+        "it": "Creazione di Moduli Web Interattivi"
+      },
+      "summary": {
+        "pt": "Aprenda a projetar e implementar formulários para coletar entrada do usuário, cobrindo diversos tipos de input, atributos, validação e envio de dados para o servidor.",
+        "en": "Learn to design and implement forms for collecting user input, covering various input types, attributes, validation, and submitting data to the server.",
+        "es": "Aprenda a diseñar e implementar formularios para recopilar la entrada del usuario, cubriendo varios tipos de entrada, atributos, validación y envío de datos al servidor.",
+        "fr": "Apprenez à concevoir et à implémenter des formulaires pour recueillir les entrées utilisateur, couvrant divers types d'entrées, attributs, validation et soumission de données au serveur.",
+        "it": "Impara a progettare e implementare moduli per la raccolta degli input utente, coprendo vari tipi di input, attributi, validazione e invio dei dati al server."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Os formulários são essenciais para a interatividade na web, permitindo que os usuários enviem dados para um servidor. O elemento `<form>` serve como um contêiner para diferentes tipos de entrada, como campos de texto, caixas de seleção e botões de envio. Atributos cruciais como **action** (para onde enviar os dados) e **method** (como enviar, usando GET ou POST) definem o comportamento de envio."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Exemplo prático de um formulário de contato simples com validação básica do navegador nativo e rótulos acessíveis associados por IDs coordenados com 'for'. Justapõe inputs de texto comum e de formato e-mail para tipagem correta de teclado móvel nativo."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "Exemplo de formulário de contato acessível"
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<form action=\"/submit-form\" method=\"POST\">\n  <label for=\"username\">Nome de Usuário:</label>\n  <input type=\"text\" id=\"username\" name=\"username\" required placeholder=\"Digite seu nome\">\n\n  <label for=\"email\">E-mail:</label>\n  <input type=\"email\" id=\"email\" name=\"email\" required>\n\n  <button type=\"submit\">Enviar</button>\n</form>"
+          },
+          {
+            "type": "paragraph",
+            "text": "No exemplo acima, associamos rótulos (`<label>`) aos campos de entrada usando o atributo `for` correspondente ao `id` do input. Isso melhora drasticamente a acessibilidade. Além disso, usamos o atributo `required` para validação nativa do navegador."
+          },
+          {
+            "type": "tip",
+            "text": "Sempre associe explicitamente as tags `<label>` aos seus respectivos campos `<input>`. Isso não apenas melhora a acessibilidade para leitores de tela, mas também aumenta a área de clique para o usuário final."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Forms are essential for web interactivity, allowing users to send data to a server. The `<form>` element acts as a container for different input types, such as text fields, checkboxes, and submit buttons. Crucial attributes like **action** (where to send data) and **method** (how to send, using GET or POST) define submission behavior."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<form action=\"/submit-form\" method=\"POST\">\n  <label for=\"username\">Username:</label>\n  <input type=\"text\" id=\"username\" name=\"username\" required placeholder=\"Enter your name\">\n\n  <label for=\"email\">Email:</label>\n  <input type=\"email\" id=\"email\" name=\"email\" required>\n\n  <button type=\"submit\">Submit</button>\n</form>"
+          },
+          {
+            "type": "paragraph",
+            "text": "In the example above, we associate labels (`<label>`) with input fields using the `for` attribute matching the input's `id`. This dramatically improves accessibility. We also used the `required` attribute for native browser validation."
+          },
+          {
+            "type": "tip",
+            "text": "Always explicitly associate `<label>` tags with their respective `<input>` fields. This not only improves accessibility for screen readers but also increases the clickable target area for the end user."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Los formularios son esenciales para la interactividad en la web, permitiendo a los usuarios enviar datos a un servidor. El elemento `<form>` sirve como contenedor para diferentes tipos de entrada, como campos de texto, casillas de verificación y botones de envío. Atributos cruciales como **action** (a dónde enviar los datos) y **method** (cómo enviarlos, usando GET o POST) definen el comportamiento de envío."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<form action=\"/submit-form\" method=\"POST\">\n  <label for=\"username\">Nombre de usuario:</label>\n  <input type=\"text\" id=\"username\" name=\"username\" required placeholder=\"Ingrese su nombre\">\n\n  <label for=\"email\">Correo electrónico:</label>\n  <input type=\"email\" id=\"email\" name=\"email\" required>\n\n  <button type=\"submit\">Enviar</button>\n</form>"
+          },
+          {
+            "type": "paragraph",
+            "text": "En el ejemplo anterior, asociamos etiquetas (`<label>`) con campos de entrada usando el atributo `for` que coincide con el `id` del input. Esto mejora drásticamente la accesibilidad. Además, usamos el atributo `required` para la validación nativa del navegador."
+          },
+          {
+            "type": "tip",
+            "text": "Asocie siempre explícitamente las etiquetas `<label>` con sus respectivos campos `<input>`. Esto no solo mejora la accesibilidad para los lectores de pantalla, sino que también aumenta el área de clic para el usuario final."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Les formulaires sont essentiels à l'interactivité sur le web, permettant aux utilisateurs d'envoyer des données à un serveur. L'élément `<form>` sert de conteneur pour différents types de saisie, tels que les champs de texte, les cases à cocher et les boutons de soumission. Des attributs cruciaux tels que **action** (où envoyer les données) et **method** (comment les envoyer, en utilisant GET ou POST) définissent le comportement de soumission."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<form action=\"/submit-form\" method=\"POST\">\n  <label for=\"username\">Nom d'utilisateur :</label>\n  <input type=\"text\" id=\"username\" name=\"username\" required placeholder=\"Entrez votre nom\">\n\n  <label for=\"email\">E-mail :</label>\n  <input type=\"email\" id=\"email\" name=\"email\" required>\n\n  <button type=\"submit\">Envoyer</button>\n</form>"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans l'exemple ci-dessus, nous associons des étiquettes (`<label>`) à des champs de saisie en utilisant l'attribut `for` qui correspond à l'`id` de l'input. Cela améliore considérablement l'accessibilité. De plus, nous utilisons l'attribut `required` pour une validation native par le navigateur."
+          },
+          {
+            "type": "tip",
+            "text": "Associez toujours explicitement les balises `<label>` à leurs champs `<input>` respectifs. Cela améliore non seulement l'accessibilité pour les lecteurs d'écran, mais augmente également la zone de clic pour l'utilisateur final."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "I moduli (form) sono essenziali per l'interattività sul web, consentendo agli utenti di inviare dati a un server. L'elemento `<form>` funge da contenitore per diversi tipi di input, come campi di testo, caselle di controllo e pulsanti di invio. Attributi cruciali come **action** (dove inviare i dati) e **method** (come inviarli, tramite GET o POST) definiscono il comportamento di invio."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<form action=\"/submit-form\" method=\"POST\">\n  <label for=\"username\">Nome utente:</label>\n  <input type=\"text\" id=\"username\" name=\"username\" required placeholder=\"Inserisci nome\">\n\n  <label for=\"email\">Email:</label>\n  <input type=\"email\" id=\"email\" name=\"email\" required>\n\n  <button type=\"submit\">Invia</button>\n</form>"
+          },
+          {
+            "type": "paragraph",
+            "text": "Nell'esempio sopra, associamo le etichette (`<label>`) ai campi di input utilizzando l'attributo `for` corrispondente all'`id` dell'input. Questo migliora drasticamente l'accessibilità. Inoltre, utilizziamo l'attributo `required` per la validazione nativa del browser."
+          },
+          {
+            "type": "tip",
+            "text": "Associa sempre esplicitamente i tag `<label>` ai rispettivi campi `<input>`. Questo non solo migliora l'accessibilità per i lettori di schermo, ma aumenta anche l'area cliccabile per l'utente finale."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é o objetivo principal do atributo 'action' em um elemento '<form>'?",
+          "en": "What is the primary purpose of the 'action' attribute on a '<form>' element?",
+          "es": "¿Cuál es el propósito principal del atributo 'action' en un elemento '<form>'?",
+          "fr": "Quel est l'objectif principal de l'attribut 'action' dans un élément '<form>' ?",
+          "it": "Qual è lo scopo principale dell'attributo 'action' in un elemento '<form>'?"
+        },
+        "options": {
+          "pt": [
+            "Definir o método HTTP usado (como GET ou POST)",
+            "Especificar a URL para onde os dados do formulário devem ser enviados",
+            "Impedir que o formulário seja enviado se houver erros de preenchimento",
+            "Definir o estilo visual do formulário"
+          ],
+          "en": [
+            "To define the HTTP method used (such as GET or POST)",
+            "To specify the URL where the form data should be sent",
+            "To prevent the form from being submitted if there are input errors",
+            "To define the visual style of the form"
+          ],
+          "es": [
+            "Definir el método HTTP utilizado (como GET o POST)",
+            "Especificar la URL a la que se deben enviar los datos del formulario",
+            "Evitar que el formulario se envíe si hay errores de entrada",
+            "Definir el estilo visual del formulario"
+          ],
+          "fr": [
+            "Définir la méthode HTTP utilisée (comme GET ou POST)",
+            "Spécifier l'URL vers laquelle les données du formulaire doivent être envoyées",
+            "Empêcher le formulaire d'être soumis s'il y a des erreurs de saisie",
+            "Définir le style visuel du formulaire"
+          ],
+          "it": [
+            "Definire il metodo HTTP utilizzato (come GET o POST)",
+            "Specificare l'URL a cui inviare i dati del modulo",
+            "Impedire l'invio del modulo in caso di errori di inserimento",
+            "Definire lo stile visivo del modulo"
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O atributo 'action' define o destino (URL) para onde os dados do formulário serão transmitidos quando o usuário o submeter. O método HTTP para essa transmissão é controlado pelo atributo 'method'.",
+          "en": "The 'action' attribute defines the destination URL where form data is transmitted upon submission. The HTTP method for transmission is defined by the 'method' attribute.",
+          "es": "El atributo 'action' define la URL de destino a la que se transmitirán los datos del formulario al enviarse. El método HTTP para la transmisión está controlado por el atributo 'method'.",
+          "fr": "L'attribut 'action' définit l'URL de destination vers laquelle les données du formulaire seront transmises lors de la soumission. La méthode HTTP de transmission est contrôlée par l'attribut 'method'.",
+          "it": "L'attribut 'action' definisce l'URL di destinazione a cui verranno trasmessi i dati del modulo al momento dell'invio. Il metodo HTTP per la trasmissione è invece controllato dall'attributo 'method'."
+        }
+      }
+    },
+    {
+      "id": "html_semantic_accessibility_5",
+      "order": 5,
+      "title": {
+        "pt": "HTML Semântico, Estrutura e Acessibilidade",
+        "en": "Semantic HTML, Structure, and Accessibility",
+        "es": "HTML Semántico, Estructura y Accesibilidad",
+        "fr": "HTML Sémantique, Structure et Accessibilité",
+        "it": "HTML Semantico, Struttura e Accessibilità"
+      },
+      "summary": {
+        "pt": "Aprofunde-se no HTML semântico para criar estruturas de página mais significativas e compreensíveis para navegadores e tecnologias assistivas. Descubra as melhores práticas de acessibilidade para todos os usuários.",
+        "en": "Delve into semantic HTML to create more meaningful and understandable page structures for browsers and assistive technologies. Discover best practices for accessibility for all users.",
+        "es": "Profundice en HTML semántico para crear estructuras de página más significativas y comprensibles para navegadores y tecnologías de asistencia. Descubra las mejores prácticas de accesibilidad para todos los usuarios.",
+        "fr": "Plongez dans le HTML sémantique pour créer des structures de page plus significatives et compréhensibles pour les navigateurs et les technologies d'assistance. Découvrez les meilleures pratiques d'accessibilité pour tous les utilisateurs.",
+        "it": "Approfondisci l'HTML semantico per creare strutture di pagina più significative e comprensibili per browser e tecnologie assistive. Scopri le migliori pratiche di accessibilità per tutti gli utenti."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O **HTML semântico** refere-se ao uso de tags HTML que descrevem claramente o significado e a estrutura do conteúdo que contêm. Em vez de usar `<div>` genéricas para tudo, utilizamos elementos como `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>` e `<footer>`. Isso não só melhora a organização do código, mas também é crucial para a acessibilidade e o SEO."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Página Semântica</title></head><body><header><h1>Título do Site</h1><nav><ul><li><a href=\"#home\">Início</a></li><li><a href=\"#sobre\">Sobre</a></li><li><a href=\"#contato\">Contato</a></li></ul></nav></header><main><article><h2>Artigo Principal</h2><p>Conteúdo relevante do artigo.</p><section><h3>Subseção</h3><p>Detalhes adicionais.</p></section></article><aside><h4>Conteúdo Relacionado</h4><p>Links ou informações secundárias.</p></aside></main><footer><p>&copy; 2023 Meu Site Semântico</p></footer></body></html>"
+          },
+          {
+            "type": "paragraph",
+            "text": "A **acessibilidade web** garante que pessoas com deficiência possam perceber, operar e compreender seu website. O HTML semântico desempenha um papel fundamental nisso, pois tecnologias assistivas como leitores de tela dependem da estrutura significativa do HTML para interpretar e navegar pelo conteúdo de forma eficaz. Usar **`alt` text** para imagens, fornecer rótulos para formulários e garantir uma boa estrutura de títulos são exemplos de práticas de acessibilidade."
+          },
+          {
+            "type": "tip",
+            "text": "**Dica Pro:** Sempre prefira usar uma tag HTML semântica quando houver uma disponível que descreva o propósito do seu conteúdo, em vez de depender apenas de `<div>` e `<span>` com classes CSS. Isso melhora não apenas a legibilidade do seu código, mas também o SEO e a acessibilidade, tornando seu site mais robusto e inclusivo."
+          },
+          {
+            "type": "paragraph",
+            "text": "Os benefícios de usar HTML semântico são vastos. Além da acessibilidade e SEO aprimorados, ele torna seu código mais fácil de manter, entender e colaborar em equipes. Facilita a aplicação de estilos CSS e scripts JavaScript, já que a estrutura subjacente é logicamente definida."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "What **Semantic HTML** refers to is the use of HTML tags that clearly describe the meaning and structure of the content they contain. Instead of using generic `<div>`s for everything, we use elements like `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, and `<footer>`. This not only improves code organization but is also crucial for accessibility and SEO."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Semantic Page</title></head><body><header><h1>Site Title</h1><nav><ul><li><a href=\"#home\">Home</a></li><li><a href=\"#about\">About</a></li><li><a href=\"#contact\">Contact</a></li></ul></nav></header><main><article><h2>Main Article</h2><p>Relevant article content.</p><section><h3>Subsection</h3><p>Additional details.</p></section></article><aside><h4>Related Content</h4><p>Secondary links or information.</p></aside></main><footer><p>&copy; 2023 My Semantic Site</p></footer></body></html>"
+          },
+          {
+            "type": "paragraph",
+            "text": "**Web accessibility** ensures that people with disabilities can perceive, operate, and understand your website. Semantic HTML plays a fundamental role in this, as assistive technologies like screen readers rely on the meaningful structure of HTML to interpret and navigate content effectively. Using **`alt` text** for images, providing labels for forms, and ensuring good heading structure are examples of accessibility practices."
+          },
+          {
+            "type": "tip",
+            "text": "**Pro Tip:** Always prefer using a semantic HTML tag when one is available that describes the purpose of your content, rather than relying solely on `<div>` and `<span>` with CSS classes. This not only improves the readability of your code but also boosts SEO and accessibility, making your site more robust and inclusive."
+          },
+          {
+            "type": "paragraph",
+            "text": "The benefits of using semantic HTML are vast. Beyond improved accessibility and SEO, it makes your code easier to maintain, understand, and collaborate on in teams. It facilitates the application of CSS styles and JavaScript scripts, as the underlying structure is logically defined."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "El **HTML semántico** se refiere al uso de etiquetas HTML que describen claramente el significado y la estructura del contenido que contienen. En lugar de usar `<div>`s genéricos para todo, utilizamos elementos como `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>` y `<footer>`. Esto no solo mejora la organización del código, sino que también es crucial para la accesibilidad y el SEO."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Página Semántica</title></head><body><header><h1>Título del Sitio</h1><nav><ul><li><a href=\"#inicio\">Inicio</a></li><li><a href=\"#acerca\">Acerca de</a></li><li><a href=\"#contacto\">Contacto</a></li></ul></nav></header><main><article><h2>Artículo Principal</h2><p>Contenido relevante del artículo.</p><section><h3>Subsección</h3><p>Detalles adicionales.</p></section></article><aside><h4>Contenido Relacionado</h4><p>Enlaces o información secundaria.</p></aside></main><footer><p>&copy; 2023 Mi Sitio Semántico</p></footer></body></html>"
+          },
+          {
+            "type": "paragraph",
+            "text": "La **accesibilidad web** garantiza que las personas con discapacidad puedan percibir, operar y comprender su sitio web. El HTML semántico juega un papel fundamental en esto, ya que las tecnologías de asistencia como los lectores de pantalla dependen de la estructura significativa del HTML para interpretar y navegar el contenido de manera efectiva. Usar el **texto `alt`** para imágenes, proporcionar etiquetas para formularios y asegurar una buena estructura de encabezados son ejemplos de prácticas de accesibilidad."
+          },
+          {
+            "type": "tip",
+            "text": "**Consejo Profesional:** Siempre prefiera usar una etiqueta HTML semántica cuando haya una disponible que describa el propósito de su contenido, en lugar de depender únicamente de `<div>` y `<span>` con clases CSS. Esto no solo mejora la legibilidad de su código, sino que también impulsa el SEO y la accesibilidad, haciendo su sitio más robusto e inclusivo."
+          },
+          {
+            "type": "paragraph",
+            "text": "Los beneficios de usar HTML semántico son vastos. Además de la mejora en la accesibilidad y el SEO, hace que su código sea más fácil de mantener, entender y colaborar en equipos. Facilita la aplicación de estilos CSS y scripts JavaScript, ya que la estructura subyacente está definida lógicamente."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Le **HTML sémantique** fait référence à l'utilisation de balises HTML qui décrivent clairement la signification et la structure du contenu qu'elles contiennent. Au lieu d'utiliser des `<div>` génériques pour tout, nous utilisons des éléments comme `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>` et `<footer>`. Cela améliore non seulement l'organisation du code, mais est également crucial pour l'accessibilité et le référencement (SEO)."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Page Sémantique</title></head><body><header><h1>Titre du Site</h1><nav><ul><li><a href=\"#accueil\">Accueil</a></li><li><a href=\"#a-propos\">À Propos</a></li><li><a href=\"#contact\">Contact</a></li></ul></nav></header><main><article><h2>Article Principal</h2><p>Contenu pertinent de l'article.</p><section><h3>Sous-section</h3><p>Détails supplémentaires.</p></section></article><aside><h4>Contenu Lié</h4><p>Liens ou informations secondaires.</p></aside></main><footer><p>&copy; 2023 Mon Site Sémantique</p></footer></body></html>"
+          },
+          {
+            "type": "paragraph",
+            "text": "L'**accessibilité web** garantit que les personnes handicapées peuvent percevoir, utiliser et comprendre votre site web. Le HTML sémantique y joue un rôle fondamental, car les technologies d'assistance comme les lecteurs d'écran s'appuient sur la structure significative du HTML pour interpréter et naviguer efficacement le contenu. Utiliser le **texte `alt`** pour les images, fournir des étiquettes pour les formulaires et assurer une bonne structure de titres sont des exemples de pratiques d'accessibilité."
+          },
+          {
+            "type": "tip",
+            "text": "**Conseil de Pro:** Préférez toujours utiliser une balise HTML sémantique lorsqu'il en existe une qui décrit le but de votre contenu, plutôt que de vous fier uniquement aux `<div>` et `<span>` avec des classes CSS. Cela améliore non seulement la lisibilité de votre code, mais aussi le SEO et l'accessibilité, rendant votre site plus robuste et inclusif."
+          },
+          {
+            "type": "paragraph",
+            "text": "Les avantages de l'utilisation du HTML sémantique sont vastes. Outre l'amélioration de l'accessibilité et du référencement, cela rend votre code plus facile à maintenir, à comprendre et à collaborer en équipe. Cela facilite l'application de styles CSS et de scripts JavaScript, car la structure sous-jacente est définie logiquement."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "L'**HTML semantico** si riferisce all'uso di tag HTML che descrivono chiaramente il significato e la struttura del contenuto che contengono. Invece di usare `<div>` generici per tutto, utilizziamo elementi come `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>` e `<footer>`. Questo non solo migliora l'organizzazione del codice, ma è anche cruciale per l'accessibilità e il SEO."
+          },
+          {
+            "type": "code_block",
+            "language": "html",
+            "text": "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Pagina Semantica</title></head><body><header><h1>Titolo del Sito</h1><nav><ul><li><a href=\"#home\">Home</a></li><li><a href=\"#chi-siamo\">Chi Siamo</a></li><li><a href=\"#contatti\">Contatti</a></li></ul></nav></header><main><article><h2>Articolo Principale</h2><p>Contenuto rilevante dell'articolo.</p><section><h3>Sottosezione</h3><p>Dettagli aggiuntivi.</p></section></article><aside><h4>Contenuti Correlati</h4><p>Link o informazioni secondarie.</p></aside></main><footer><p>&copy; 2023 Il Mio Sito Semantico</p></footer></body></html>"
+          },
+          {
+            "type": "paragraph",
+            "text": "L'**accessibilità web** garantisce che le persone con disabilità possano percepire, operare e comprendere il tuo sito web. L'HTML semantico gioca un ruolo fondamentale in questo, poiché le tecnologie assistive come gli screen reader si basano sulla struttura significativa dell'HTML per interpretare e navigare efficacemente il contenuto. L'uso del **testo `alt`** per le immagini, la fornitura di etichette per i moduli e l'assicurazione di una buona struttura di intestazioni sono esempi di pratiche di accessibilità."
+          },
+          {
+            "type": "tip",
+            "text": "**Consiglio Pro:** Preferisci sempre utilizzare un tag HTML semantico quando ne esiste uno disponibile che descrive lo scopo del tuo contenuto, piuttosto che affidarti esclusivamente a `<div>` e `<span>` con classi CSS. Questo non solo migliora la leggibilità del tuo codice, ma aumenta anche il SEO e l'accessibilità, rendendo il tuo sito più robusto e inclusivo."
+          },
+          {
+            "type": "paragraph",
+            "text": "I vantaggi dell'utilizzo dell'HTML semantico sono vasti. Oltre alla migliore accessibilità e SEO, rende il tuo codice più facile da mantenere, comprendere e collaborare in team. Facilita l'applicazione di stili CSS e script JavaScript, poiché la struttura sottostante è definita logicamente."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual dos seguintes elementos HTML é considerado semântico e qual seu principal benefício para a acessibilidade?",
+          "en": "Which of the following HTML elements is considered semantic and what is its main benefit for accessibility?",
+          "es": "¿Cuál de los siguientes elementos HTML se considera semántico y cuál es su principal beneficio para la accesibilidad?",
+          "fr": "Lequel des éléments HTML suivants est considéré comme sémantique et quel est son principal avantage pour l'accessibilité?",
+          "it": "Quale dei seguenti elementi HTML è considerato semantico e qual è il suo principale beneficio per l'accessibilità?"
+        },
+        "options": {
+          "pt": [
+            "`<div>` - Ajuda na estilização visual da página.",
+            "`<span>` - Utilizado para agrupar conteúdo inline sem significado estrutural.",
+            "`<article>` - Indica um conteúdo independente e auto-contido, melhorando a interpretação por leitores de tela.",
+            "`<b>` - Torna o texto em negrito, auxiliando na hierarquia visual."
+          ],
+          "en": [
+            "`<div>` - Helps with visual styling of the page.",
+            "`<span>` - Used to group inline content without structural meaning.",
+            "`<article>` - Indicates an independent, self-contained piece of content, improving interpretation by screen readers.",
+            "`<b>` - Makes text bold, aiding in visual hierarchy."
+          ],
+          "es": [
+            "`<div>` - Ayuda con el estilo visual de la página.",
+            "`<span>` - Se utiliza para agrupar contenido en línea sin significado estructural.",
+            "`<article>` - Indica un contenido independiente y auto-contenido, mejorando la interpretación por lectores de pantalla.",
+            "`<b>` - Pone el texto en negrita, ayudando en la jerarquía visual."
+          ],
+          "fr": [
+            "`<div>` - Aide à la stylisation visuelle de la page.",
+            "`<span>` - Utilisé pour regrouper du contenu en ligne sans signification structurelle.",
+            "`<article>` - Indique un contenu indépendant et autonome, améliorant l'interprétation par les lecteurs d'écran.",
+            "`<b>` - Met le texte en gras, aidant à la hiérarchie visuelle."
+          ],
+          "it": [
+            "`<div>` - Aiuta con lo stile visivo della pagina.",
+            "`<span>` - Utilizzato per raggruppare contenuto in linea senza significato struttural.",
+            "`<article>` - Indica un contenuto indipendente e auto-contenuto, migliorando l'interpretazione da parte degli screen reader.",
+            "`<b>` - Rende il testo in grassetto, aiutando nella gerarchia visiva."
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "O elemento `<article>` é semântico porque confere significado estrutural ao conteúdo, indicando que é um bloco independente e auto-contido. Isso permite que tecnologias assistivas, como leitores de tela, interpretem e apresentem o conteúdo de forma mais compreensível para usuários com deficiência.",
+          "en": "The `<article>` element is semantic because it gives structural meaning to the content, indicating that it is an independent and self-contained block. This allows assistive technologies, such as screen readers, to interpret and present the content in a more understandable way for users with disabilities.",
+          "es": "El elemento `<article>` es semántico porque le da un significado estructural al contenido, indicando que es un bloque independiente y auto-contenido. Esto permite que las tecnologías de asistencia, como los lectores de pantalla, interpreten y presenten el contenido de una manera más comprensible para los usuarios con discapacidad.",
+          "fr": "L'élément `<article>` est sémantique car il donne une signification structurelle au contenu, indiquant qu'il s'agit d'un bloc indépendant et autonome. Cela permet aux technologies d'assistance, telles que les lecteurs d'écran, d'interpréter et de présenter le contenu de manière plus compréhensible pour les utilisateurs handicapés.",
+          "it": "L'elemento `<article>` è semantico perché conferisce significato strutturale al contenuto, indicando che si tratta di un blocco indipendente e auto-contenuto. Ciò consente alle tecnologie assistive, come gli screen reader, di interpretare e presentare il contenuto in modo più comprensibile per gli utenti con disabilità."
+        }
+      }
+    },
+    {
+      "id": "html_advanced_best_practices_6",
+      "order": 6,
+      "title": {
+        "pt": "Recursos Avançados, APIs HTML5 e Boas Práticas",
+        "en": "Advanced Features, HTML5 APIs, and Best Practices",
+        "es": "Funciones Avanzadas, APIs de HTML5 y Mejores Prácticas",
+        "fr": "Fonctionnalités Avancées, APIs HTML5 et Bonnes Pratiques",
+        "it": "Funzionalità Avanzate, API HTML5 e Migliori Pratiche"
+      },
+      "summary": {
+        "pt": "Explore recursos avançados como iframes, meta tags para SEO e algumas APIs do HTML5, como armazenamento local. Esta aula também aborda as melhores práticas para desenvolvimento e performance.",
+        "en": "Explore advanced features like iframes, meta tags for SEO, and some HTML5 APIs like local storage. This lesson also covers best practices for development and performance.",
+        "es": "Explore funciones avanzadas como iframes, metaetiquetas para SEO y algunas APIs de HTML5 como el almacenamiento local. Esta lección también cubre las mejores prácticas para el desarrollo y el rendimiento.",
+        "fr": "Explorez les fonctionnalités avancées telles que les iframes, les balises meta pour le référencement et certaines API HTML5 comme le stockage local. Cette leçon couvre également les meilleures pratiques de développement et de performance.",
+        "it": "Esplora funzionalità avanzate come iframes, meta tag per la SEO e alcune API HTML5 come lo storage locale. Questa lezione copre anche le migliori pratiche per lo sviluppo e le prestazioni."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "À medida que você avança no HTML, encontrará recursos mais poderosos que permitem maior interatividade e otimização. Esta aula explora elementos como **iframes**, que embutem conteúdo de outras fontes, e **meta tags** essenciais para SEO e responsividade. Além disso, veremos algumas **APIs do HTML5**, como o armazenamento local, que expandem as capacidades do navegador."
+          },
+          {
+            "type": "paragraph",
+            "text": "Os **iframes** são usados para incorporar outro documento HTML dentro do documento HTML atual. Embora sejam úteis para integrar conteúdo de terceiros (como vídeos ou mapas), eles exigem atenção à segurança. O atributo **`sandbox`** pode ser usado para aplicar restrições adicionais. Já as **meta tags** fornecem metadados sobre o documento, cruciais para mecanismos de busca (SEO) e para o comportamento responsivo da página em diferentes dispositivos, como a meta tag `viewport`."
+          },
+          {
+            "type": "code_block",
+            "code": "<!DOCTYPE html>\n<html lang=\"pt\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"Exemplo de página com iframe e meta tags.\">\n    <title>Página com Recursos Avançados</title>\n</head>\n<body>\n    <h1>Conteúdo da Minha Página</h1>\n    <p>Este é um exemplo de incorporação de conteúdo externo e meta tags.</p>\n    \n    <iframe \n        src=\"https://example.com\" \n        width=\"600\" \n        height=\"400\" \n        title=\"Exemplo de Conteúdo Externo\" \n        sandbox=\"allow-scripts allow-same-origin\">\n    </iframe>\n</body>\n</html>",
+            "language": "html"
+          },
+          {
+            "type": "paragraph",
+            "text": "O HTML5 introduziu várias **APIs** que permitem aos desenvolvedores criar aplicações web mais ricas. Uma das mais utilizadas é o **`localStorage`**, que oferece uma forma de armazenar dados no navegador do usuário de forma persistente (mesmo após o fechamento do navegador). É ideal para pequenas quantidades de dados que não precisam ser enviadas para o servidor a cada requisição."
+          },
+          {
+            "type": "code_block",
+            "code": "// Armazenar um item\nlocalStorage.setItem('nomeUsuario', 'João Silva');\n\n// Recuperar um item\nlet usuario = localStorage.getItem('nomeUsuario');\nconsole.log(usuario); // Saída: João Silva\n\n// Remover um item\nlocalStorage.removeItem('nomeUsuario');\n\n// Limpar todo o localStorage (use com cuidado!)\n// localStorage.clear();",
+            "language": "javascript"
+          },
+          {
+            "type": "tip",
+            "text": "Sempre priorize a **semântica do HTML** (usando tags como `<header>`, `<nav>`, `<main>`, `<footer>`, `<article>`, `<section>`), garanta a **acessibilidade** (atributos `alt` em imagens, labels para formulários) e otimize para **performance** (imagens responsivas, carregamento assíncrono de scripts). Isso não só melhora a experiência do usuário, mas também o SEO."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "As you advance in HTML, you'll encounter more powerful features that enable greater interactivity and optimization. This lesson explores elements like **iframes**, which embed content from other sources, and essential **meta tags** for SEO and responsiveness. Additionally, we'll look at some **HTML5 APIs**, such as local storage, which expand browser capabilities."
+          },
+          {
+            "type": "paragraph",
+            "text": "**Iframes** are used to embed another HTML document within the current HTML document. While useful for integrating third-party content (like videos or maps), they require attention to security. The **`sandbox`** attribute can be used to apply additional restrictions. **Meta tags**, on the other hand, provide metadata about the document, crucial for search engines (SEO) and for the page's responsive behavior on different devices, such as the `viewport` meta tag."
+          },
+          {
+            "type": "code_block",
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"Example page with iframe and meta tags.\">\n    <title>Page with Advanced Features</title>\n</head>\n<body>\n    <h1>My Page Content</h1>\n    <p>This is an example of embedding external content and meta tags.</p>\n    \n    <iframe \n        src=\"https://example.com\" \n        width=\"600\" \n        height=\"400\" \n        title=\"Example External Content\" \n        sandbox=\"allow-scripts allow-same-origin\">\n    </iframe>\n</body>\n</html>",
+            "language": "html"
+          },
+          {
+            "type": "paragraph",
+            "text": "HTML5 introduced several **APIs** that allow developers to create richer web applications. One of the most widely used is **`localStorage`**, which provides a way to store data in the user's browser persistently (even after the browser is closed). It's ideal for small amounts of data that don't need to be sent to the server with every request."
+          },
+          {
+            "type": "code_block",
+            "code": "// Store an item\nlocalStorage.setItem('userName', 'John Doe');\n\n// Retrieve an item\nlet user = localStorage.getItem('userName');\nconsole.log(user); // Output: John Doe\n\n// Remove an item\nlocalStorage.removeItem('userName');\n\n// Clear all localStorage (use with caution!)\n// localStorage.clear();",
+            "language": "javascript"
+          },
+          {
+            "type": "tip",
+            "text": "Always prioritize **HTML semantics** (using tags like `<header>`, `<nav>`, `<main>`, `<footer>`, `<article>`, `<section>`), ensure **accessibility** (`alt` attributes for images, labels for forms), and optimize for **performance** (responsive images, asynchronous script loading). This not only improves user experience but also SEO."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "A medida que avanzas en HTML, encontrarás funciones más potentes que permiten una mayor interactividad y optimización. Esta lección explora elementos como los **iframes**, que incrustan contenido de otras fuentes, y las **metaetiquetas** esenciales para el SEO y la capacidad de respuesta. Además, veremos algunas **APIs de HTML5**, como el almacenamiento local, que amplían las capacidades del navegador."
+          },
+          {
+            "type": "paragraph",
+            "text": "Los **iframes** se utilizan para incrustar otro documento HTML dentro del documento HTML actual. Aunque son útiles para integrar contenido de terceros (como videos o mapas), requieren atención a la seguridad. El atributo **`sandbox`** se puede utilizar para aplicar restricciones adicionales. Por otro lado, las **metaetiquetas** proporcionan metadatos sobre el documento, cruciales para los motores de búsqueda (SEO) y para el comportamiento responsivo de la página en diferentes dispositivos, como la metaetiqueta `viewport`."
+          },
+          {
+            "type": "code_block",
+            "code": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"Ejemplo de página con iframe y metaetiquetas.\">\n    <title>Página con Funciones Avanzadas</title>\n</head>\n<body>\n    <h1>Contenido de Mi Página</h1>\n    <p>Este es un ejemplo de incrustación de contenido externo y metaetiquetas.</p>\n    \n    <iframe \n        src=\"https://example.com\" \n        width=\"600\" \n        height=\"400\" \n        title=\"Ejemplo de Contenido Externo\" \n        sandbox=\"allow-scripts allow-same-origin\">\n    </iframe>\n</body>\n</html>",
+            "language": "html"
+          },
+          {
+            "type": "paragraph",
+            "text": "HTML5 introdujo varias **APIs** que permiten a los desarrolladores crear aplicaciones web más ricas. Una de las más utilizadas es **`localStorage`**, que proporciona una forma de almacenar datos en el navegador del usuario de forma persistente (incluso después de que se cierra el navegador). Es ideal para pequeñas cantidades de datos que no necesitan enviarse al servidor con cada solicitud."
+          },
+          {
+            "type": "code_block",
+            "code": "// Almacenar un elemento\nlocalStorage.setItem('nombreUsuario', 'Juan Pérez');\n\n// Recuperar un elemento\nlet usuario = localStorage.getItem('nombreUsuario');\nconsole.log(usuario); // Salida: Juan Pérez\n\n// Eliminar un elemento\nlocalStorage.removeItem('nombreUsuario');\n\n// Limpiar todo el localStorage (¡úsese con precaución!)\n// localStorage.clear();",
+            "language": "javascript"
+          },
+          {
+            "type": "tip",
+            "text": "Prioriza siempre la **semántica HTML** (usando etiquetas como `<header>`, `<nav>`, `<main>`, `<footer>`, `<article>`, `<section>`), garantiza la **accesibilidad** (atributos `alt` en imágenes, etiquetas para formularios) y optimiza para el **rendimiento** (imágenes responsivas, carga asíncrona de scripts). Esto no solo mejora la experiencia del usuario, sino también el SEO."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "À mesure que vous progressez en HTML, vous rencontrerez des fonctionnalités plus puissantes qui permettent une plus grande interactivité et optimisation. Cette leçon explore des éléments tels que les **iframes**, qui intègrent du contenu provenant d'autres sources, et les **balises meta** essentielles pour le référencement et la réactivité. De plus, nous examinerons certaines **API HTML5**, comme le stockage local, qui étendent les capacités du navigateur."
+          },
+          {
+            "type": "paragraph",
+            "text": "Les **iframes** sont utilisées pour intégrer un autre document HTML au sein du document HTML actuel. Bien qu'utiles pour intégrer du contenu tiers (comme des vidéos ou des cartes), elles nécessitent une attention particulière à la sécurité. L'attribut **`sandbox`** peut être utilisé pour appliquer des restrictions supplémentaires. Les **balises meta**, quant à elles, fournissent des métadonnées sur le document, cruciales pour les moteurs de recherche (SEO) et pour le comportement réactif de la page sur différents appareils, comme la balise meta `viewport`."
+          },
+          {
+            "type": "code_block",
+            "code": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"Exemple de page avec iframe et balises meta.\">\n    <title>Page avec Fonctionnalités Avancées</title>\n</head>\n<body>\n    <h1>Contenu de Ma Page</h1>\n    <p>Ceci est un exemple d'intégration de contenu externe et de balises meta.</p>\n    \n    <iframe \n        src=\"https://example.com\" \n        width=\"600\" \n        height=\"400\" \n        title=\"Exemple de Contenu Externe\" \n        sandbox=\"allow-scripts allow-same-origin\">\n    </iframe>\n</body>\n</html>",
+            "language": "html"
+          },
+          {
+            "type": "paragraph",
+            "text": "HTML5 a introduit plusieurs **API** qui permettent aux développeurs de créer des applications web plus riches. L'une des plus utilisées est **`localStorage`**, qui offre un moyen de stocker des données dans le navigateur de l'utilisateur de manière persistante (même après la fermeture du navigateur). C'est idéal pour de petites quantités de données qui n'ont pas besoin d'être envoyées au serveur à chaque requête."
+          },
+          {
+            "type": "code_block",
+            "code": "// Stocker un élément\nlocalStorage.setItem('nomUtilisateur', 'Jean Dupont');\n\n// Récupérer un élément\nlet utilisateur = localStorage.getItem('nomUtilisateur');\nconsole.log(utilisateur); // Sortie: Jean Dupont\n\n// Supprimer un élément\nlocalStorage.removeItem('nomUtilisateur');\n\n// Effacer tout le localStorage (à utiliser avec prudence !)\n// localStorage.clear();",
+            "language": "javascript"
+          },
+          {
+            "type": "tip",
+            "text": "Priorisez toujours la **sémantique HTML** (en utilisant des balises comme `<header>`, `<nav>`, `<main>`, `<footer>`, `<article>`, `<section>`), assurez l'**accessibilité** (attributs `alt` pour les images, labels pour les formulaires) et optimisez les **performances** (images responsives, chargement asynchrone des scripts). Cela améliore non seulement l'expérience utilisateur mais aussi le SEO."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Man mano che si avanza in HTML, si incontrano funzionalità più potenti che consentono una maggiore interattività e ottimizzazione. Questa lezione esplora elementi come gli **iframe**, che incorporano contenuti da altre fonti, e i **meta tag** essenziali per la SEO e la reattività. Inoltre, esamineremo alcune **API HTML5**, come lo storage locale, che espandono le capacità del browser."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gli **iframe** vengono utilizzati per incorporare un altro documento HTML all'interno del documento HTML corrente. Sebbene siano utili per integrare contenuti di terze parti (come video o mappe), richiedono attenzione alla sicurezza. L'attributo **`sandbox`** può essere utilizzato per applicare restrizioni aggiuntive. I **meta tag**, d'altra parte, forniscono metadati sul documento, cruciali per i motori di ricerca (SEO) e per il comportamento responsivo della pagina su diversi dispositivi, come il meta tag `viewport`."
+          },
+          {
+            "type": "code_block",
+            "code": "<!DOCTYPE html>\n<html lang=\"it\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"Esempio di pagina con iframe e meta tag.\">\n    <title>Pagina con Funzionalità Avanzate</title>\n</head>\n<body>\n    <h1>Contenuto della Mia Pagina</h1>\n    <p>Questo è un esempio di incorporazione di contenuti esterni e meta tag.</p>\n    \n    <iframe \n        src=\"https://example.com\" \n        width=\"600\" \n        height=\"400\" \n        title=\"Esempio di Contenuto Esterno\" \n        sandbox=\"allow-scripts allow-same-origin\">\n    </iframe>\n</body>\n</html>",
+            "language": "html"
+          },
+          {
+            "type": "paragraph",
+            "text": "HTML5 ha introdotto diverse **API** che consentono agli sviluppatori di creare applicazioni web più ricche. Una delle più utilizzate è **`localStorage`**, che fornisce un modo per archiviare dati nel browser dell'utente in modo persistente (anche dopo la chiusura del browser). È ideale per piccole quantità di dati che non devono essere inviate al server ad ogni richiesta."
+          },
+          {
+            "type": "code_block",
+            "code": "// Archivia un elemento\nlocalStorage.setItem('nomeUtente', 'Mario Rossi');\n\n// Recupera un elemento\nlet utente = localStorage.getItem('nomeUtente');\nconsole.log(utente); // Output: Mario Rossi\n\n// Rimuovi un elemento\nlocalStorage.removeItem('nomeUtente');\n\n// Pulisci tutto il localStorage (usare con cautela!)\n// localStorage.clear();",
+            "language": "javascript"
+          },
+          {
+            "type": "tip",
+            "text": "Dai sempre priorità alla **semantica HTML** (usando tag come `<header>`, `<nav>`, `<main>`, `<footer>`, `<article>`, `<section>`), garantisci l'**accessibilità** (attributi `alt` nelle immagini, label per i form) e ottimizza per le **prestazioni** (immagini responsive, caricamento asincrono degli script). Questo non solo migliora l'esperienza utente ma anche la SEO."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual das seguintes afirmações sobre o `localStorage` do HTML5 e as melhores práticas é **correta**?",
+          "en": "Which of the following statements about HTML5 `localStorage` and best practices is **correct**?",
+          "es": "¿Cuál de las siguientes afirmaciones sobre `localStorage` de HTML5 y las mejores prácticas es **correcta**?",
+          "fr": "Laquelle des affirmations suivantes concernant le `localStorage` de HTML5 et les bonnes pratiques est **correcte** ?",
+          "it": "Quale delle seguenti affermazioni riguardo `localStorage` di HTML5 e le migliori pratiche è **corretta**?"
+        },
+        "options": {
+          "pt": [
+            "O `localStorage` deve ser usado para armazenar dados sensíveis, como senhas de usuário, devido à sua alta segurança.",
+            "O atributo `sandbox` em um `iframe` serve para isolar o conteúdo incorporado, aumentando a segurança.",
+            "Meta tags como `viewport` são importantes apenas para SEO e não afetam a responsividade do layout.",
+            "O `localStorage` é ideal para grandes volumes de dados que precisam ser sincronizados em tempo real com o servidor."
+          ],
+          "en": [
+            "`localStorage` should be used to store sensitive data like user passwords due to its high security.",
+            "The `sandbox` attribute in an `iframe` serves to isolate embedded content, increasing security.",
+            "Meta tags like `viewport` are only important for SEO and do not affect layout responsiveness.",
+            "`localStorage` is ideal for large volumes of data that need to be synchronized in real-time with the server."
+          ],
+          "es": [
+            "`localStorage` debe usarse para almacenar datos sensibles como contraseñas de usuario, debido a su alta seguridad.",
+            "El atributo `sandbox` en un `iframe` sirve para aislar el contenido incrustado, aumentando la seguridad.",
+            "Las metaetiquetas como `viewport` solo son importantes para el SEO y no afectan la capacidad de respuesta del diseño.",
+            "`localStorage` es ideal para grandes volúmenes de datos que deben sincronizarse en tiempo real con el servidor."
+          ],
+          "fr": [
+            "Le `localStorage` doit être utilisé pour stocker des données sensibles comme les mots de passe utilisateur en raison de sa haute sécurité.",
+            "L'attribut `sandbox` dans un `iframe` sert à isoler le contenu intégré, augmentant ainsi la sécurité.",
+            "Les balises meta comme `viewport` ne sont importantes que pour le référencement et n'affectent pas la réactivité de la mise en page.",
+            "Le `localStorage` est idéal pour de grands volumes de données qui doivent être synchronisées en temps réel avec le serveur."
+          ],
+          "it": [
+            "Il `localStorage` dovrebbe essere utilizzato per archiviare dati sensibili come le password utente, data la sua elevata sicurezza.",
+            "L'attributo `sandbox` in un `iframe` serve a isolare il contenuto incorporato, aumentando la sicurezza.",
+            "I meta tag come `viewport` sono importanti solo per la SEO e non influenzano la reattività del layout.",
+            "Il `localStorage` è ideale per grandi volumi di dati che devono essere sincronizzati in tempo reale con il server."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "A opção correta é que o atributo `sandbox` no `iframe` aumenta a segurança ao isolar o conteúdo. O `localStorage` **não** é seguro para dados sensíveis e não é adequado para grandes volumes ou sincronização em tempo real. A meta tag `viewport` é crucial para a responsividade do layout em dispositivos móveis.",
+          "en": "The correct option states that the `sandbox` attribute in an `iframe` increases security by isolating content. `localStorage` is **not** secure for sensitive data and is not suitable for large volumes or real-time synchronization. The `viewport` meta tag is crucial for layout responsiveness on mobile devices.",
+          "es": "La opción correcta es que el atributo `sandbox` en un `iframe` aumenta la seguridad al aislar el contenido. `localStorage` **no** es seguro para datos sensibles y no es adecuado para grandes volúmenes o sincronización en tiempo real. La metaetiqueta `viewport` es crucial para la capacidad de respuesta del diseño en dispositivos móviles.",
+          "fr": "L'option correcte est que l'attribut `sandbox` dans un `iframe` augmente la sécurité en isolant le contenu. Le `localStorage` n'est **pas** sécurisé pour les données sensibles et n'est pas adapté aux grands volumes ou à la synchronisation en temps réel. La balise meta `viewport` est cruciale pour la réactivité de la mise en page sur les appareils mobiles.",
+          "it": "L'opzione corretta è che l'attributo `sandbox` in un `iframe` aumenta la sicurezza isolando il contenuto. Il `localStorage` **non** è sicuro per i dati sensibili e non è adatto per grandi volumi o la sincronizzazione in tempo reale. Il meta tag `viewport` è cruciale per la reattività del layout sui dispositivi mobili."
+        }
+      }
+    }
+  ]
+}
