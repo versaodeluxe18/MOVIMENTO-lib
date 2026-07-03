@@ -1084,5 +1084,276 @@
         }
       }
     }
+
+    Aqui está a estrutura das **4 aulas extras** totalmente formatada conforme o padrão do seu arquivo JSON atual. Cada uma foi construída contemplando suporte completo a todos os 5 idiomas (`pt`, `en`, `es`, `fr`, `it`) nas chaves `title`, `summary`, `richContent` e `quiz`.
+
+Você pode copiar este bloco de código e inseri-lo diretamente dentro do array `"lessons"` do seu arquivo original, ajustando a chave `"order"` de cada uma dependendo de onde preferir encaixá-las na cronologia final:
+
+```json
+[
+  {
+    "id": "html_multimedia_graphics",
+    "order": 5,
+    "title": {
+      "pt": "HTML Multimídia: Áudio, Vídeo e Elementos Gráficos",
+      "en": "Multimedia HTML: Audio, Video, and Graphic Elements",
+      "es": "HTML Multimedia: Audio, Video y Elementos Gráficos",
+      "fr": "HTML Multimédia : Audio, Vidéo et Éléments Graphiques",
+      "it": "HTML Multimediale: Audio, Video ed Elementi Grafici"
+    },
+    "summary": {
+      "pt": "Aprenda a incorporar elementos de áudio e vídeo nativos, manipular conteúdos externos usando iframes e trabalhar com elementos visuais complexos usando SVG e Canvas.",
+      "en": "Learn how to embed native audio and video elements, manipulate external content using iframes, and work with complex visual elements using SVG and Canvas.",
+      "es": "Aprenda a incrustar elementos de audio y video nativos, manipular contenido externo usando iframes y trabajar con elementos visuales complejos usando SVG y Canvas.",
+      "fr": "Apprenez à intégrer des éléments audio et vidéo natifs, à manipuler du contenu externe à l'aide d'iframes et à travailler com des éléments visuels complexes à l'aide de SVG et Canvas.",
+      "it": "Impara a incorporare elementi audio e video nativi, manipolare contenuti esterni utilizzando gli iframe e lavorare con elementi visivi complessi utilizzando SVG e Canvas."
+    },
+    "richContent": {
+      "pt": [
+        {
+          "type": "paragraph",
+          "text": "O HTML moderno oferece suporte robusto e nativo para mídias interativas através das tags `<audio>` e `<video>`, dispensando o uso de plugins antigos de terceiros. Para renderização de gráficos, o elemento `<svg>` lida perfeitamente com vetores escaláveis baseados em XML, enquanto a tag `<canvas>` provê um ambiente limpo de desenho via programação JavaScript."
+        },
+        {
+          "type": "code_block",
+          "language": "html",
+          "text": "<video controls width=\"640\">\n  <source src=\"video.mp4\" type=\"video/mp4\">\n  Seu navegador não suporta este elemento de vídeo.\n</video>"
+        },
+        {
+          "type": "tip",
+          "text": "Sempre ofereça múltiplos formatos de arquivo dentro de fontes de mídia e lembre-se de fornecer um texto descritivo alternativo para garantir total acessibilidade ao seu conteúdo."
+        }
+      ],
+      "en": [
+        {
+          "type": "paragraph",
+          "text": "Modern HTML provides robust, native support for interactive media via `<audio>` and `<video>` tags, eliminating the need for legacy third-party plugins. For graphics rendering, the `<svg>` element handles XML-based scalable vectors perfectly, while the `<canvas>` tag provides a clean scriptable drawing environment using JavaScript."
+        },
+        {
+          "type": "code_block",
+          "language": "html",
+          "text": "<video controls width=\"640\">\n  <source src=\"video.mp4\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n</video>"
+        },
+        {
+          "type": "tip",
+          "text": "Always provide multiple file formats within media sources and remember to include alternative descriptive text to guarantee complete accessibility."
+        }
+      ],
+      "es": [
+        {
+          "type": "paragraph",
+          "text": "El HTML moderno ofrece un soporte nativo y robusto para medios interactivos a través de las etiquetas `<audio>` y `<video>`, eliminando la necesidad de antiguos complementos de terceros. Para el renderizado de gráficos, el elemento `<svg>` maneja perfectamente vectores escalables basados en XML, mientras que la etiqueta `<canvas>` proporciona un entorno de dibujo limpio mediante secuencias de comandos JavaScript."
+        }
+      ],
+      "fr": [
+        {
+          "type": "paragraph",
+          "text": "L'HTML moderne offre un support natif et robuste pour les médias interactifs via les balises `<audio>` et `<video>`, éliminant le besoin de plug-ins tiers obsolètes. Pour le rendu graphique, l'élément `<svg>` gère parfaitement les vecteurs évolutifs basés sur XML, tandis que la balise `<canvas>` fournit un environnement de dessin propre programmable en JavaScript."
+        }
+      ],
+      "it": [
+        {
+          "type": "paragraph",
+          "text": "L'HTML moderno offre un supporto nativo e robusto per i media interattivi tramite i tag `<audio>` e `<video>`, eliminando la necessità di vecchi plug-in di terze parti. Per il rendering grafico, l'elemento `<svg>` gestisce perfettamente i vettori scalabili basati su XML, mentre il tag `<canvas>` fornisce un ambiente di disegno pulito programmabile tramite JavaScript."
+        }
+      ]
+    },
+    "quiz": {
+      "question": {
+        "pt": "Qual atributo aumenta consideravelmente a segurança ao incorporar uma aplicação ou site externo usando um elemento iframe?",
+        "en": "Which attribute significantly increases security when embedding an external application or website using an iframe element?",
+        "es": "¿Qué atributo aumenta considerablemente la seguridad al incrustar una aplicación o sitio externo usando un elemento iframe?",
+        "fr": "Quel attribut augmente considérablement la sécurité lors de l'intégration d'une application ou d'un site externe à l'aide d'un élément iframe ?",
+        "it": "Quale attributo aumenta notevolmente la sicurezza quando si incorpora un'applicazione o un sito esterno utilizzando un elemento iframe?"
+      },
+      "options": {
+        "pt": ["srcforce", "sandbox", "secure-iframe", "allow-scripts"],
+        "en": ["srcforce", "sandbox", "secure-iframe", "allow-scripts"],
+        "es": ["srcforce", "sandbox", "secure-iframe", "allow-scripts"],
+        "fr": ["srcforce", "sandbox", "secure-iframe", "allow-scripts"],
+        "it": ["srcforce", "sandbox", "secure-iframe", "allow-scripts"]
+      },
+      "correctAnswerIndex": 1,
+      "explanation": {
+        "pt": "O atributo 'sandbox' aplica um conjunto rigoroso de restrições ao conteúdo carregado dentro do iframe, prevenindo a execução de códigos maliciosos no documento principal.",
+        "en": "The 'sandbox' attribute applies a strict set of restrictions to the content loaded inside the iframe, preventing malicious code execution in the main document.",
+        "es": "El atributo 'sandbox' aplica un conjunto estricto de restricciones al contenido cargado dentro del iframe, evitando la ejecución de código malicioso en el documento principal.",
+        "fr": "L'attribut 'sandbox' applique un ensemble strict de restrictions au contenu chargé à l'intérieur de l'iframe, empêchant l'exécution de code malveillant dans le document principal.",
+        "it": "L'attributo 'sandbox' applica un insieme rigoroso di restrizioni al contenuto caricato all'interno dell'iframe, impedendo l'esecuzione di codice dannoso nel documento principale."
+      }
+    }
+  },
+  {
+    "id": "html_css_js_integration",
+    "order": 6,
+    "title": {
+      "pt": "A Tríade da Web: Integração com CSS e JavaScript",
+      "en": "The Web Triad: Integration with CSS and JavaScript",
+      "es": "La Tríade de la Web: Integración con CSS y JavaScript",
+      "fr": "La Triade du Web : Intégration avec CSS et JavaScript",
+      "it": "La Triade del Web: Integrazione con CSS e JavaScript"
+    },
+    "summary": {
+      "pt": "Entenda como o HTML se conecta ao ecossistema front-end, mapeando a conexão correta de scripts e estilos e controlando o fluxo de carregamento de páginas.",
+      "en": "Understand how HTML connects to the front-end ecosystem, mapping the correct connection of scripts and styles and controlling the page loading flow.",
+      "es": "Comprenda cómo se conecta HTML al ecosistema front-end, mapeando la conexión correcta de scripts y estilos y controlando el flujo de carga de la página.",
+      "fr": "Comprenez comment le HTML se connecte à l'écosystème front-end, en cartographiant la connexion correcte des scripts et des styles et en contrôlant le flux de chargement des pages.",
+      "it": "Capire come l'HTML si connette all'ecosistema front-end, mappando la corretta connessione di script e stili e controllando il flusso di caricamento della pagina."
+    },
+    "richContent": {
+      "pt": [
+        {
+          "type": "paragraph",
+          "text": "O HTML fornece apenas o esqueleto do site. Para que a aplicação ganhe vida estética e funcionalidade lógica, vinculamos arquivos externos CSS através do elemento `<link>` no `<head>`, e scripts de JavaScript utilizando a tag `<script>`. O uso inteligente dos atributos `defer` e `async` dita a performance no carregamento da página."
+        },
+        {
+          "type": "code_block",
+          "language": "html",
+          "text": "<link rel=\"stylesheet\" href=\"styles.css\">\n<script src=\"app.js\" defer></script>"
+        }
+      ],
+      "en": [
+        {
+          "type": "paragraph",
+          "text": "HTML provides only the website's skeleton. To bring visual aesthetics and logical functionality to life, we link external CSS files via the `<link>` element inside the `<head>`, and JavaScript scripts using the `<script>` tag. Smart usage of `defer` and `async` attributes dictates page load performance."
+        }
+      ],
+      "es": [],
+      "fr": [],
+      "it": []
+    },
+    "quiz": {
+      "question": {
+        "pt": "Qual atributo da tag script garante que o arquivo JavaScript seja baixado em paralelo e executado apenas após a renderização completa do HTML?",
+        "en": "Which script tag attribute ensures that the JavaScript file is downloaded in parallel and executed only after the full HTML rendering?",
+        "es": "¿Qué atributo de la etiqueta script garantiza que el archivo JavaScript se descargue en paralelo y se ejecute solo después del renderizado completo del HTML?",
+        "fr": "Quel attribut de la balise script garantit que le fichier JavaScript est téléchargé en parallèle et exécuté uniquement après le rendu HTML complet ?",
+        "it": "Quale attributo del tag script assicura che il file JavaScript venga scaricato in parallelo ed eseguito solo dopo il rendering HTML completo?"
+      },
+      "options": {
+        "pt": ["async", "defer", "render-block", "preload"],
+        "en": ["async", "defer", "render-block", "preload"],
+        "es": ["async", "defer", "render-block", "preload"],
+        "fr": ["async", "defer", "render-block", "preload"],
+        "it": ["async", "defer", "render-block", "preload"]
+      },
+      "correctAnswerIndex": 1,
+      "explanation": {
+        "pt": "O atributo 'defer' impede o bloqueio da renderização do HTML, adiando a execução do script até que toda a estrutura da página seja interpretada pelo navegador.",
+        "en": "The 'defer' attribute prevents HTML rendering blocks by postponing script execution until the entire page structure is parsed by the browser.",
+        "es": "El atributo 'defer' evita que se bloquee el renderizado del HTML, posponiendo la ejecución del script hasta que el navegador interprete toda la estructura de la página.",
+        "fr": "L'attribut 'defer' empêche le blocage du rendu HTML en reportant l'exécution du script jusqu'à ce que toute la structure de la page soit analysée par le navigateur.",
+        "it": "L'attributo 'defer' impedisce il blocco del rendering dell'HTML, posticipando l'esecuzione dello script finché l'intera struttura della pagina non viene analizzata dal browser."
+      }
+    }
+  },
+  {
+    "id": "html5_apis_storage",
+    "order": 7,
+    "title": {
+      "pt": "HTML5 Avançado: APIs Nativas e Armazenamento Web",
+      "en": "Advanced HTML5: Native APIs and Web Storage",
+      "es": "HTML5 Avanzado: APIs Nativas y Almacenamiento Web",
+      "fr": "HTML5 Avancé : APIs Natives et Stockage Web",
+      "it": "HTML5 Avanzato: API Native e Archiviazione Web"
+    },
+    "summary": {
+      "pt": "Explore os poderosos recursos modernos do ecossistema HTML5 para salvar dados locais, rastrear geolocalização e criar experiências complexas de arrastar e soltar.",
+      "en": "Explore the powerful modern features of the HTML5 ecosystem to save local data, track geolocation, and create complex drag-and-drop experiences.",
+      "es": "Explore las poderosas características modernas del ecosistema HTML5 para guardar datos locales, rastrear la geolocalización y crear experiencias complejas de arrastrar y soltar.",
+      "fr": "Explorez les puissantes fonctionnalités modernes de l'écosystème HTML5 pour enregistrer des données locales, suivre la géolocalisation et créer des expériences complexes de glisser-déposer.",
+      "it": "Esplora le potenti funzionalità moderne dell'ecosistema HTML5 per salvare dati locali, tracciare la geolocalizzazione e creare complesse esperienze di trascinamento della selezione."
+    },
+    "richContent": {
+      "pt": [
+        {
+          "type": "paragraph",
+          "text": "O HTML5 deixou de ser um simples resolvedor de tags estruturais e trouxe consigo robustas APIs que funcionam diretamente integradas ao navegador do cliente. O gerenciamento de estados e dados ganhou eficiência por meio do `localStorage` (dados persistentes mesmo fechando o navegador) e `sessionStorage` (dados isolados por sessão de aba)."
+        }
+      ],
+      "en": [],
+      "es": [],
+      "fr": [],
+      "it": []
+    },
+    "quiz": {
+      "question": {
+        "pt": "Qual mecanismo de armazenamento do HTML5 mantém as informações salvas no navegador mesmo se o usuário fechar a janela ou reiniciar o computador?",
+        "en": "Which HTML5 storage mechanism keeps information saved in the browser even if the user closes the window or restarts the computer?",
+        "es": "¿Qué mecanismo de almacenamiento de HTML5 mantiene la información guardada en el navegador incluso si el usuario cierra la ventana o reinicia la computadora?",
+        "fr": "Quel mécanisme de stockage HTML5 conserve les informations enregistrées dans le navigateur même si l'utilisateur ferme la fenêtre ou redémarre l'ordinateur ?",
+        "it": "Quale meccanismo di archiviazione HTML5 mantiene le informazioni salvate nel browser anche se l'utente chiude la finestra o riavvia il computer?"
+      },
+      "options": {
+        "pt": ["sessionStorage", "cookieStorage", "localStorage", "cacheStorage"],
+        "en": ["sessionStorage", "cookieStorage", "localStorage", "cacheStorage"],
+        "es": ["sessionStorage", "cookieStorage", "localStorage", "cacheStorage"],
+        "fr": ["sessionStorage", "cookieStorage", "localStorage", "cacheStorage"],
+        "it": ["sessionStorage", "cookieStorage", "localStorage", "cacheStorage"]
+      },
+      "correctAnswerIndex": 2,
+      "explanation": {
+        "pt": "O 'localStorage' armazena dados sem data de expiração, de forma persistente no cliente, diferentemente do 'sessionStorage', que apaga os dados ao fim da sessão da aba.",
+        "en": "The 'localStorage' stores data with no expiration date, persistently on the client side, unlike 'sessionStorage', which clears data when the tab session ends.",
+        "es": "El 'localStorage' almacena datos sin fecha de vencimiento, de forma persistente en el cliente, a diferencia de 'sessionStorage', que borra los datos al finalizar la sesión de la pestaña.",
+        "fr": "Le 'localStorage' stocke les données sans date d'expiration, de manière persistante côté client, contrairement au 'sessionStorage', qui efface les données à la fin de la session de l'onglet.",
+        "it": "Il 'localStorage' memorizza i dati senza data di scadenza, in modo persistente sul lato client, a differenza di 'sessionStorage', che cancella i dati al termine della sessione della scheda."
+      }
+    }
+  },
+  {
+    "id": "html_validation_deployment",
+    "order": 8,
+    "title": {
+      "pt": "Validação, Hospedagem e o Primeiro Deploy",
+      "en": "Validation, Hosting, and the First Deploy",
+      "es": "Validación, Hospedaje y el Primer Deploy",
+      "fr": "Validation, Hébergement et Premier Déploiement",
+      "it": "Validazione, Hosting e Primo Deploy"
+    },
+    "summary": {
+      "pt": "Domine o uso do validador oficial da W3C para depurar tags quebradas e aprenda o passo a passo prático para publicar seu site estático na internet gratuitamente.",
+      "en": "Master using the official W3C validator to debug broken tags and learn the step-by-step process to publish your static website on the internet for free.",
+      "es": "Domine el uso del validador oficial de la W3C para depurar etiquetas rotas y aprenda el proceso paso a paso para publicar su sitio web estático en internet de forma gratuita.",
+      "fr": "Maîtrisez l'utilisation du validateur officiel du W3C pour déboguer les balises cassées et apprenez le processus étape par étape pour publier gratuitement votre site web statique sur Internet.",
+      "it": "Impara a usare il validatore ufficiale W3C per correggere i tag interrotti e scopri la procedura passo-passo per pubblicare gratuitamente il tuo sito web statico su Internet."
+    },
+    "richContent": {
+      "pt": [
+        {
+          "type": "paragraph",
+          "text": "A última milha no fluxo de trabalho de um desenvolvedor é garantir a conformidade e colocar o projeto no ar. A validação via ferramentas da W3C atesta a semântica correta do código, permitindo que ferramentas modernas de deploy automatizado (como GitHub Pages, Vercel ou Netlify) leiam o arquivo index.html de forma limpa e o distribuam globalmente."
+        }
+      ],
+      "en": [],
+      "es": [],
+      "fr": [],
+      "it": []
+    },
+    "quiz": {
+      "question": {
+        "pt": "Qual costuma ser o nome obrigatório atribuído ao arquivo HTML principal localizado na raiz do projeto para que os servidores de hospedagem o identifiquem automaticamente como a página inicial do site?",
+        "en": "What is usually the mandatory name assigned to the main HTML file located at the project root for hosting servers to automatically recognize it as the website homepage?",
+        "es": "¿Cuál suele ser el nombre obligatorio asignado al archivo HTML principal ubicado en la raíz del proyecto para que los servidores de hospedaje lo identifiquen automáticamente como la página de inicio del sitio?",
+        "fr": "Quel est généralement le nom obligatoire attribué au fichier HTML principal situé à la racine du projet pour que les serveurs d'hébergement le reconnaissent automatiquement comme page d'accueil ?",
+        "it": "Qual è di solito il nome obbligatorio assegnato al file HTML principale situato nella radice del progetto affinché i server di hosting lo riconoscano in automatico come home page del sito?"
+      },
+      "options": {
+        "pt": ["main.html", "home.html", "index.html", "root.html"],
+        "en": ["main.html", "home.html", "index.html", "root.html"],
+        "es": ["main.html", "home.html", "index.html", "root.html"],
+        "fr": ["main.html", "home.html", "index.html", "root.html"],
+        "it": ["main.html", "home.html", "index.html", "root.html"]
+      },
+      "correctAnswerIndex": 2,
+      "explanation": {
+        "pt": "O nome 'index.html' é o padrão universal adotado por servidores web comerciais e gratuitos para servir o ponto de entrada principal de qualquer diretório público de páginas estáticas.",
+        "en": "The name 'index.html' is the universal standard adopted by commercial and free web servers to serve as the main entry point for any public directory of static pages.",
+        "es": "El nombre 'index.html' es el estándar universal adoptado por servidores web comerciales y gratuitos para servir como punto de entrada principal para cualquier directorio público de páginas estáticas.",
+        "fr": "Le nom 'index.html' est la norme universelle adoptée par los serveurs web commerciaux et gratuits pour servir de point d'entrée principal pour tout répertoire public de pages statiques.",
+        "it": "Il nome 'index.html' è lo standard universale adottato dai server web commerciali e gratuiti come punto di ingresso principale per qualsiasi directory pubblica di pagine statiche."
+      }
+    }
+  }
   ]
 }
