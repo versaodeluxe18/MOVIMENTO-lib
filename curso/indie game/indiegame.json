@@ -1,0 +1,391 @@
+{
+  "id": "curso_indie_games_2026",
+  "level": "Iniciante",
+  "duration": "12 horas",
+  "iconUrl": "https://sua-cdn-de-imagens.com/icons/indie_games.png",
+  "supportedLanguages": ["pt", "en", "es"],
+  
+  "title": {
+    "pt": "Do Zero ao Play: Crie Seu Primeiro Jogo Indie",
+    "en": "From Zero to Play: Create Your First Indie Game",
+    "es": "De Cero al Play: Crea Tu Primer Juego Indie"
+  },
+  
+  "description": {
+    "pt": "Aprenda os fundamentos do desenvolvimento de jogos, desde o planejamento e prototipagem até a arte, som e publicação do seu primeiro projeto.",
+    "en": "Learn the fundamentals of game development, from planning and prototyping to art, sound, and publishing your very first project.",
+    "es": "Aprende los fundamentos del desarrollo de videojuegos, desde la planificación y el prototipado hasta el arte, sonido y publicación de tu primer proyecto."
+  },
+  
+  "lessons": [
+    {
+      "id": "indie_lesson_1",
+      "order": 1,
+      "title": {
+        "pt": "Aula 1: O Universo Indie e o Escopo Perfeito",
+        "en": "Lesson 1: The Indie Universe and the Perfect Scope",
+        "es": "Lección 1: El Universo Indie y el Alcance Perfecto"
+      },
+      "summary": {
+        "pt": "Como escolher uma ideia realista para o seu primeiro jogo e evitar o abandono do projeto.",
+        "en": "How to choose a realistic idea for your first game and avoid abandoning the project.",
+        "es": "Cómo elegir una idea realista para tu primer videojuego y evitar abandonar el proyecto."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O maior erro de um desenvolvedor iniciante é tentar criar um **MMORPG** logo no primeiro dia. Devemos focar em um escopo reduzido."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Exemplo de escopo: Mecânica simples de pulo\nif (input.is_action_pressed(\"ui_up\")) {\n    player.velocity.y = -jump_force;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Comece com um jogo que você consiga terminar em duas semanas. Menos é mais!"
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "The biggest mistake a beginner developer makes is trying to create an **MMORPG** on day one. We must focus on a small scope."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Scope example: Simple jump mechanics\nif (input.is_action_pressed(\"ui_up\")) {\n    player.velocity.y = -jump_force;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Start with a game you can finish in two weeks. Less is more!"
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "El mayor error de un desarrollador principiante es intentar crear un **MMORPG** el primer día. Debemos enfocarnos en un alcance reducido."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Ejemplo de alcance: Mecánica simple de salto\nif (input.is_action_pressed(\"ui_up\")) {\n    player.velocity.y = -jump_force;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "¡Empieza con un juego que puedas terminar en dos semanas. Menos es más!"
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é a principal recomendação para o escopo do primeiro jogo indie?",
+          "en": "What is the main recommendation for the scope of your first indie game?",
+          "es": "¿Cuál es la principal recomendación para el alcance del primer videojuego indie?"
+        },
+        "options": {
+          "pt": [
+            "Criar um RPG de mundo aberto",
+            "Manter o escopo pequeno e realista",
+            "Adicionar o máximo de mecânicas possível",
+            "Focar apenas nos gráficos em alta definição"
+          ],
+          "en": [
+            "Create an open-world RPG",
+            "Keep the scope small and realistic",
+            "Add as many mechanics as possible",
+            "Focus only on high-definition graphics"
+          ],
+          "es": [
+            "Crear un RPG de mundo abierto",
+            "Mantener el alcance pequeño y realista",
+            "Agregar tantas mecánicas como sea posible",
+            "Enfocarse solo en gráficos de alta definición"
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "Manter o escopo reduzido garante que você consiga finalizar e lançar o jogo, ganhando experiência essencial.",
+          "en": "Keeping the scope small ensures you can finish and release the game, gaining essential experience.",
+          "es": "Mantener el alcance reducido garantiza que puedas finalizar y lanzar el juego, ganando experiencia esencial."
+        }
+      }
+    },
+    {
+      "id": "indie_lesson_2",
+      "order": 2,
+      "title": {
+        "pt": "Aula 2: Game Design Document (GDD) Descomplicado",
+        "en": "Lesson 2: Game Design Document (GDD) Made Simple",
+        "es": "Lección 2: Game Design Document (GDD) Descomplicado"
+      },
+      "summary": {
+        "pt": "Documentando suas ideias, regras e mecânicas básicas antes do código.",
+        "en": "Documenting your ideas, rules, and basic mechanics before writing code.",
+        "es": "Documentando tus ideas, reglas y mecánicas básicas antes del código."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "O que significa GDD?", "en": "What does GDD stand for?", "es": "¿Qué significa GDD?" },
+        "options": {
+          "pt": ["Game Design Document", "Global Developer Data", "General Design Direct", "Gaming Digital Domain"],
+          "en": ["Game Design Document", "Global Developer Data", "General Design Direct", "Gaming Digital Domain"],
+          "es": ["Game Design Document", "Global Developer Data", "General Design Direct", "Gaming Digital Domain"]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": { "pt": "GDD significa Game Design Document.", "en": "GDD stands for Game Design Document.", "es": "GDD significa Game Design Document." }
+      }
+    },
+    {
+      "id": "indie_lesson_3",
+      "order": 3,
+      "title": {
+        "pt": "Aula 3: Escolhendo a Sua Engine",
+        "en": "Lesson 3: Choosing Your Game Engine",
+        "es": "Lección 3: Eligiendo Tu Motor de Videojuegos"
+      },
+      "summary": {
+        "pt": "Conhecendo as ferramentas do mercado: Unity, Unreal, Godot ou GameMaker.",
+        "en": "Getting to know the market tools: Unity, Unreal, Godot, or GameMaker.",
+        "es": "Conociendo las herramientas del mercado: Unity, Unreal, Godot o GameMaker."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "Qual ferramenta NÃO é uma engine?", "en": "Which tool is NOT a game engine?", "es": "¿Qué herramienta NO es un motor de videojuegos?" },
+        "options": {
+          "pt": ["Unity", "Godot", "Photoshop", "Unreal Engine"],
+          "en": ["Unity", "Godot", "Photoshop", "Unreal Engine"],
+          "es": ["Unity", "Godot", "Photoshop", "Unreal Engine"]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": { "pt": "Photoshop é para edição de imagens.", "en": "Photoshop is an image editor.", "es": "Photoshop é para edición de imágenes." }
+      }
+    },
+    {
+      "id": "indie_lesson_4",
+      "order": 4,
+      "title": {
+        "pt": "Aula 4: Primeiros Passos na Engine",
+        "en": "Lesson 4: First Steps in the Engine",
+        "es": "Lección 4: Primeros Pasos en el Motor"
+      },
+      "summary": {
+        "pt": "Entendendo a interface e a lógica de programação ou scripts visuais.",
+        "en": "Understanding the user interface and programming logic or visual scripting.",
+        "es": "Entendiendo la interfaz y la lógica de programación o scripts visuales."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "O que compõe a interface de uma engine?", "en": "What makes up an engine interface?", "es": "¿Qué compone la interfaz de un motor?" },
+        "options": {
+          "pt": ["Apenas o navegador", "Painéis de cena, arquivos e propriedades", "Planilhas de Excel", "Redes sociais integradas"],
+          "en": ["Only the browser", "Scene panels, assets, and properties", "Excel spreadsheets", "Integrated social networks"],
+          "es": ["Solo el navegador", "Paneles de escena, archivos y propiedades", "Planillas de Excel", "Redes sociales integradas"]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": { "pt": "As engines organizam-se por cenas e propriedades.", "en": "Engines are organized by scenes and properties.", "es": "Los motores se organizan por escenas y propiedades." }
+      }
+    },
+    {
+      "id": "indie_lesson_5",
+      "order": 5,
+      "title": {
+        "pt": "Aula 5: Criando o Seu Protótipo",
+        "en": "Lesson 5: Creating Your Prototype",
+        "es": "Lección 5: Creando Tu Prototipo"
+      },
+      "summary": {
+        "pt": "Fazendo o personagem se mover e interagir com formas básicas.",
+        "en": "Making the character move and interact using basic primitive shapes.",
+        "es": "Haciendo que el personaje se mueva e interactúe usando formas básicas."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "Qual o foco de um protótipo inicial?", "en": "What is the focus of an initial prototype?", "es": "¿Cuál es el enfoque de un prototipo inicial?" },
+        "options": {
+          "pt": ["Testar a diversão e a mecânica", "Finalizar os gráficos", "Compor a trilha sonora", "Vender o jogo"],
+          "en": ["Testing fun and mechanics", "Finishing the graphics", "Composing the soundtrack", "Selling the game"],
+          "es": ["Probar la diversión y la mecánica", "Finalizar los gráficos", "Componer la banda sonora", "Vender el juego"]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": { "pt": "O protótipo valida se o gameplay é divertido.", "en": "The prototype validates if the gameplay is fun.", "es": "El prototipo valida si el juego es divertido." }
+      }
+    },
+    {
+      "id": "indie_lesson_6",
+      "order": 6,
+      "title": {
+        "pt": "Aula 6: Regras do Jogo e Condições de Vitória/Derrota",
+        "en": "Lesson 6: Game Rules and Win/Loss Conditions",
+        "es": "Lección 6: Reglas del Juego y Condiciones de Victoria/Derrota"
+      },
+      "summary": {
+        "pt": "Como programar a pontuação, vidas e telas de Game Over.",
+        "en": "How to program scoring, lives, and Game Over screens.",
+        "es": "Cómo programar la puntuación, vidas y pantallas de Game Over."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "O que gera uma tela de Game Over clássica?", "en": "What triggers a classic Game Over screen?", "es": "¿Qué activa una pantalla de Game Over clásica?" },
+        "options": {
+          "pt": ["Ganhar moedas", "A quantidade de vidas chegar a 0", "Pausar o jogo", "Subir de nível"],
+          "en": ["Gaining coins", "The life count reaching 0", "Pausing the game", "Leveling up"],
+          "es": ["Ganar monedas", "Que la cantidad de vidas llegue a 0", "Pausar el juego", "Subir de nivel"]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": { "pt": "Zerar as vidas aciona a derrota.", "en": "Zeroing lives triggers defeat.", "es": "Quedarse sin vidas activa la derrota." }
+      }
+    },
+    {
+      "id": "indie_lesson_7",
+      "order": 7,
+      "title": {
+        "pt": "Aula 7: Identidade Visual para Não Artistas",
+        "en": "Lesson 7: Visual Identity for Non-Artists",
+        "es": "Lección 7: Identidad Visual para No Artistas"
+      },
+      "summary": {
+        "pt": "Como usar pixel art, assets gratuitos ou formas geométricas a seu favor.",
+        "en": "How to use pixel art, free assets, or geometric shapes to your advantage.",
+        "es": "Cómo usar pixel art, assets gratuitos o formas geométricas a tu favor."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "Onde encontrar recursos visuais gratuitos legais?", "en": "Where can you find legal free art assets?", "es": "¿Dónde encontrar recursos visuales gratuitos legales?" },
+        "options": {
+          "pt": ["Google Imagens aleatório", "Plataformas como OpenGameArt ou Kenney.nl", "Print screen de outros jogos", "Páginas piratas"],
+          "en": ["Random Google Images", "Platforms like OpenGameArt or Kenney.nl", "Screenshots of other games", "Pirate sites"],
+          "es": ["Google Imágenes aleatorio", "Plataformas como OpenGameArt o Kenney.nl", "Capturas de otros juegos", "Páginas piratas"]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": { "pt": "Kenney e OpenGameArt oferecem assets com licenças de uso livres.", "en": "Kenney and OpenGameArt offer assets with free usage licenses.", "es": "Kenney y OpenGameArt ofrecen assets con licencias de uso libres." }
+      }
+    },
+    {
+      "id": "indie_lesson_8",
+      "order": 8,
+      "title": {
+        "pt": "Aula 8: O Poder do Som",
+        "en": "Lesson 8: The Power of Sound",
+        "es": "Lección 8: El Poder del Sonido"
+      },
+      "summary": {
+        "pt": "Onde encontrar e como aplicar músicas e efeitos sonoros que dão vida ao jogo.",
+        "en": "Where to find and how to apply music and sound effects that bring the game to life.",
+        "es": "Dónde encontrar y cómo aplicar música y efectos de sonido que dan vida al juego."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "O que significa SFX?", "en": "What does SFX stand for?", "es": "¿Qué significa SFX?" },
+        "options": {
+          "pt": ["Sound Effects", "Special Fonts X", "System File Extension", "Song For Xbox"],
+          "en": ["Sound Effects", "Special Fonts X", "System File Extension", "Song For Xbox"],
+          "es": ["Sound Effects", "Special Fonts X", "System File Extension", "Song For Xbox"]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": { "pt": "SFX é a abreviação para Sound Effects (Efeitos Sonoros).", "en": "SFX is short for Sound Effects.", "es": "SFX es la abreviatura de Sound Effects (Efectos de Sonido)." }
+      }
+    },
+    {
+      "id": "indie_lesson_9",
+      "order": 9,
+      "title": {
+        "pt": "Aula 9: Game Juicing (Polimento)",
+        "en": "Lesson 9: Game Juicing (Polishing)",
+        "es": "Lección 9: Game Juicing (Pulido)"
+      },
+      "summary": {
+        "pt": "Adicionando partículas, tremores de tela e transições para dar feedback ao jogador.",
+        "en": "Adding particles, screen shakes, and transitions to give feedback to the player.",
+        "es": "Agregando partículas, temblores de pantalla y transiciones para dar feedback al jugador."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "O que é 'Juice' em um jogo?", "en": "What is 'Juice' in a game?", "es": "¿Qué es 'Juice' en un juego?" },
+        "options": {
+          "pt": ["Bebidas dentro do jogo", "Elementos visuais e sonoros que tornam as ações recompensadoras", "O tamanho do arquivo", "O código de IA"],
+          "en": ["In-game drinks", "Visual and audio feedback that makes actions feel rewarding", "The file size", "The AI code"],
+          "es": ["Bebidas dentro del juego", "Elementos visuales y sonoros que hacen que las acciones sean gratificantes", "El tamaño del archivo", "El código de IA"]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": { "pt": "Juicing deixa o jogo mais responsivo e satisfatório de jogar.", "en": "Juicing makes the game more responsive and satisfying to play.", "es": "Juicing hace que el juego sea más responsivo y satisfactorio de jugar." }
+      }
+    },
+    {
+      "id": "indie_lesson_10",
+      "order": 10,
+      "title": {
+        "pt": "Aula 10: Testes e Correção de Bugs",
+        "en": "Lesson 10: Testing and Bug Fixing",
+        "es": "Lección 10: Pruebas y Corrección de Errores"
+      },
+      "summary": {
+        "pt": "Como pedir feedback e encontrar os erros antes de publicar.",
+        "en": "How to gather feedback and find errors before publishing.",
+        "es": "Cómo recopilar feedback y encontrar errores antes de publicar."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "Quem deve testar seu jogo?", "en": "Who should test your game?", "es": "¿Quién debería probar tu juego?" },
+        "options": {
+          "pt": ["Apenas você mesmo", "Outros jogadores e desenvolvedores (Playtesters)", "Ninguém", "Robôs automáticos apenas"],
+          "en": ["Only yourself", "Other players and developers (Playtesters)", "Nobody", "Automated bots only"],
+          "es": ["Solo tú mismo", "Otros jugadores y desarrolladores (Playtesters)", "Nadie", "Solo robots automáticos"]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": { "pt": "Playtesters externos encontram bugs que o criador costuma ignorar.", "en": "External playtesters find bugs that the creator usually overlooks.", "es": "Los playtesters externos encuentran errores que el creador suele pasar por alto." }
+      }
+    },
+    {
+      "id": "indie_lesson_11",
+      "order": 11,
+      "title": {
+        "pt": "Aula 11: Exportando e Publicando Seu Jogo",
+        "en": "Lesson 11: Exporting and Publishing Your Game",
+        "es": "Lección 11: Exportando y Publicando Tu Juego"
+      },
+      "summary": {
+        "pt": "Como gerar o arquivo final e subir o jogo gratuitamente em plataformas como o itch.io.",
+        "en": "How to generate the final build and upload your game for free on platforms like itch.io.",
+        "es": "Cómo generar el archivo final y subir tu juego gratis en plataformas como itch.io."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "Qual plataforma é famosa para publicar jogos indie de graça?", "en": "Which platform is famous for publishing indie games for free?", "es": "¿Qué plataforma es famosa para publicar juegos indie gratis?" },
+        "options": {
+          "pt": ["itch.io", "Netflix", "PlayStation Network Store", "Windows Update"],
+          "en": ["itch.io", "Netflix", "PlayStation Network Store", "Windows Update"],
+          "es": ["itch.io", "Netflix", "PlayStation Network Store", "Windows Update"]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": { "pt": "O itch.io é a plataforma mais acessível e aberta para desenvolvedores iniciantes.", "en": "itch.io is the most accessible and open platform for beginner developers.", "es": "itch.io es la plataforma más accesible y abierta para desarrolladores principiantes." }
+      }
+    },
+    {
+      "id": "indie_lesson_12",
+      "order": 12,
+      "title": {
+        "pt": "Aula 12: Próximos Passos na Carreira Indie",
+        "en": "Lesson 12: Next Steps in the Indie Career",
+        "es": "Lección 12: Próximos Pasos en la Carrera Indie"
+      },
+      "summary": {
+        "pt": "Como continuar estudando e participar de Game Jams.",
+        "en": "How to keep studying and participate in Game Jams.",
+        "es": "Cómo seguir estudiando y participar en Game Jams."
+      },
+      "richContent": { "pt": [], "en": [], "es": [] },
+      "quiz": {
+        "question": { "pt": "O que é uma Game Jam?", "en": "What is a Game Jam?", "es": "¿Qué es una Game Jam?" },
+        "options": {
+          "pt": ["Um tipo de bug", "Um evento de criar um jogo em um curto espaço de tempo baseado em um tema", "Um sanduíche de desenvolvedor", "Uma engine antiga"],
+          "en": ["A type of bug", "An event where you create a game in a short period based on a theme", "A developer sandwich", "An old game engine"],
+          "es": ["Un tipo de error", "Un evento para crear un juego en poco tiempo basado en un tema", "Un sándwich de desarrollador", "Un motor antiguo"]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": { "pt": "Game Jams são ótimas maratonas para praticar e criar portfólio rápido.", "en": "Game Jams are great marathons to practice and build a portfolio quickly.", "es": "Las Game Jams son excelentes maratones para practicar y crear un portafolio rápido." }
+      }
+    }
+  ]
+}
