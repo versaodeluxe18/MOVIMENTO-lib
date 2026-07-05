@@ -1,0 +1,863 @@
+{
+  "id": "curso_motores_psicologicos_redes",
+  "level": "Avançado",
+  "duration": "15 horas",
+  "iconUrl": "https://img.icons8.com/fluency/96/network.png",
+  "supportedLanguages": [
+    "pt",
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "title": {
+    "pt": "Os Motores Psicológicos das Redes Sociais",
+    "en": "The Psychological Drivers of Social Media",
+    "es": "Los Motores Psicológicos de las Redes Sociales",
+    "fr": "Les Moteurs Psychologiques des Réseaux Sociaux",
+    "it": "I Motori Psicologici dei Social Media"
+  },
+  "description": {
+    "pt": "Desvende as forças psicológicas e os gatilhos de comparação que movem o engajamento e o comportamento dos usuários em cada uma das principais plataformas digitais.",
+    "en": "Unlock the psychological forces and comparison triggers that drive user engagement and behavior across each major digital platform.",
+    "es": "Descubre las fuerzas psicológicas y los gatillos de comparación que mueven el compromiso y el comportamiento de los usuarios en cada una de las principales plataformas digitales.",
+    "fr": "Découvrez les forces psychologiques et les déclencheurs de comparaison qui dictent l'engagement et le comportement des utilisateurs sur chaque grande plateforme.",
+    "it": "Scopri le forze psicologiche e i trigger di confronto che guidano il coinvolgimento e il comportamento degli utenti su ciascuna delle principali piattaforme digitali."
+  },
+  "lessons": [
+    {
+      "id": "rede_instagram",
+      "order": 1,
+      "title": {
+        "pt": "Instagram: Status, Aspiração e a Vida Editada",
+        "en": "Instagram: Status, Aspiration, and the Curated Life",
+        "es": "Instagram: Estatus, Aspiración y la Vida Editada",
+        "fr": "Instagram : Statut, Aspiration et Vie Éditée",
+        "it": "Instagram: Status, Aspirazione e Vita Editata"
+      },
+      "summary": {
+        "pt": "Explore como o Instagram se alimenta do desejo de status. Entenda a dinâmica de comparação entre a vida real do usuário e a realidade perfeitamente editada dos outros.",
+        "en": "Explore how Instagram feeds on the desire for status. Understand the comparison dynamic between the user's real life and the perfectly curated reality of others.",
+        "es": "Explora cómo Instagram se alimenta del deseo de estatus. Entiende la dinámica de comparación entre la vida real del usuario y la realidad perfectamente editada de los demás.",
+        "fr": "Découvrez comment Instagram se nourrit du désir de statut. Comprenez la dynamique de comparaison entre la vraie vie de l'utilisateur et la réalité éditée des autres.",
+        "it": "Esplora come Instagram si alimenta del desiderio di status. Comprendi la dinamica di confronto tra la vita reale dell'utente e la realtà perfettamente editata degli altri."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O Instagram opera primordialmente sob o motor psicológico do **Status e da Aspiração**. A plataforma foi desenhada para ser uma vitrine estética, onde os usuários filtram os melhores momentos de suas rotinas. Isso cria um ambiente propício para o gatilho da comparação social baseada no contraste entre a **Vida Editada versus a Realidade**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ao navegar pelo feed, o usuário confronta suas dificuldades cotidianas, problemas financeiros e imperfeições com recortes imaculados de viagens, conquistas e corpos perfeitos de terceiros. Para marcas e criadores, o sucesso nesta rede depende de conseguir equilibrar essa aspiração visual com momentos calculados de vulnerabilidade, transformando a inveja passiva em desejo de consumo ou inspiração."
+          },
+          {
+            "type": "tip",
+            "text": "As marcas de maior conversão utilizam o feed para manter o posicionamento aspiracional de status e os Stories para quebrar a perfeição, gerando a conexão humana necessária para validar a venda."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Instagram operates primarily under the psychological driver of **Status and Aspiration**. The platform was designed as an aesthetic showcase where users filter the best moments of their routines. This creates an environment ripe for social comparison triggers based on the contrast between **Curated Life versus Reality**."
+          },
+          {
+            "type": "paragraph",
+            "text": "While browsing the feed, users confront their daily difficulties, financial issues, and imperfections with flawless snippets of travels, achievements, and perfect bodies from others. For brands and creators, success on this network depends on balancing this visual aspiration with calculated moments of vulnerability, turning passive envy into consumer desire or inspiration."
+          },
+          {
+            "type": "tip",
+            "text": "High-converting brands use the feed to maintain aspirational status positioning and Stories to break that perfection, generating the human connection needed to validate the sale."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Instagram opera principalmente bajo el motor psicológico del **Estatus y la Aspiración**. La plataforma fue diseñada como una vitrina estética donde los usuarios filtran los mejores momentos de sus rutinas. Esto crea un ambiente propicio para el gatillo de la comparación social basado en el contraste entre la **Vida Editada frente a la Realidad**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Al navegar por el feed, el usuario confronta sus dificultades cotidianas con fragmentos impecables de viajes y logros de terceros. Para marcas y creadores, el éxito aquí depende de equilibrar esa aspiración visual con momentos calculados de vulnerabilidad, transformando la envidia pasiva en deseo de consumo."
+          },
+          {
+            "type": "tip",
+            "text": "Las marcas de mayor conversión utilizan el feed para mantener el posicionamiento aspiracional de estatus y las Stories para romper la perfección, generando la conexión humana necesaria."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Instagram fonctionne principalement sous le moteur psychologique du **Statut et de l'Aspiration**. La plateforme a été conçue comme une vitrine esthétique où les utilisateurs filtrent les meilleurs moments de leur routine. Cela crée un environnement propice au déclencheur de la comparaison sociale basé sur le contraste entre la **Vie Éditée et la Réalité**."
+          },
+          {
+            "type": "paragraph",
+            "text": "En naviguant sur le fil, l'utilisateur confronte ses difficultés quotidiennes aux extraits impeccables de voyages et de réussites des autres. Pour les marques, le succès dépend de l'équilibre entre cette aspiration visuelle et des moments de vulnérabilité, transformant l'envie passive en désir de consommation."
+          },
+          {
+            "type": "tip",
+            "text": "Les marques à forte conversion utilisent le fil pour maintenir un positionnement de statut aspirationnel et les Stories pour briser la perfection, générant ainsi la connexion humaine nécessaire."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Instagram opera principalmente sotto il motore psicologico dello **Status e dell'Aspirazione**. La piattaforma è stata progettata come una vetrina estetica in cui gli utenti filtrano i momenti migliori della loro routine. Ciò crea un ambiente favorevole al trigger del confronto sociale basato sul contrasto tra **Vita Editata e Realtà**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Navigando nel feed, l'utente confronta le proprie difficoltà quotidiane con frammenti impeccabili di viaggi e successi altrui. Per i brand, il successo dipende dal bilanciare questa aspirazione visiva con calcolati momenti di vulnerabilità, trasformando l'invidia passiva in desiderio di consumo."
+          },
+          {
+            "type": "tip",
+            "text": "I brand ad alta conversione utilizzano il feed per mantenere il posizionamento aspirazionale di status e le Stories per interrompere la perfezione, generando la connessione umana necessaria."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é o principal contraste que gera o gatilho da comparação social no Instagram?",
+          "en": "What is the primary contrast that triggers social comparison on Instagram?",
+          "es": "¿Cuál es el principal contraste que genera el gatillo de la comparación social en Instagram?",
+          "fr": "Quel est le principal contraste qui déclenche la comparaison sociale sur Instagram ?",
+          "it": "Qual è il contrasto principale che genera il trigger del confronto sociale su Instagram?"
+        },
+        "options": {
+          "pt": [
+            "Conhecimento técnico vs. Opinião sem fundamento.",
+            "Vida editada (recortes perfeitos) vs. Realidade cotidiana do usuário.",
+            "Valores pessoais vs. Regras do grupo cultural.",
+            "Nível de intimidade vs. Distanciamento público."
+          ],
+          "en": [
+            "Technical knowledge vs. Unfounded opinion.",
+            "Curated life (perfect snippets) vs. User's daily reality.",
+            "Personal values vs. Cultural group rules.",
+            "Level of intimacy vs. Public detachment."
+          ],
+          "es": [
+            "Conocimiento técnico frente a opinión sin fundamento.",
+            "Vida editada (fragmentos perfectos) frente a la realidad cotidiana del usuario.",
+            "Valores personales frente a reglas del grupo cultural.",
+            "Nivel de intimidad frente a distanciamiento público."
+          ],
+          "fr": [
+            "Connaissances techniques vs Opinion infondée.",
+            "Vie éditée (extraits parfaits) vs Réalité quotidienne de l'utilisateur.",
+            "Valeurs personnelles vs Règles du groupe culturel.",
+            "Niveau d'intimité vs Détachement public."
+          ],
+          "it": [
+            "Conoscenza tecnica vs Opinione infondata.",
+            "Vita editata (frammenti perfetti) vs Realtà quotidiana dell'utente.",
+            "Valori personali vs Regole del gruppo culturale.",
+            "Livello di intimità vs Distacco pubblico."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O Instagram estimula a comparação ao expor o usuário a recortes altamente selecionados e esteticamente perfeitos da vida alheia, contrastando com a realidade não filtrada de quem assiste.",
+          "en": "Instagram stimulates comparison by exposing the user to highly selected, aesthetically perfect snippets of other people's lives, contrasting with the unfiltered reality of the viewer.",
+          "es": "Instagram estimula la comparación al exponer al usuario a fragmentos altamente seleccionados y estéticamente perfectos de la vida ajena, contrastando con la realidad no filtrada de quien mira.",
+          "fr": "Instagram stimule la comparaison en exposant l'utilisateur à des extraits hautement sélectionnés et esthétiquement parfaits de la vie des autres, contrastant avec la réalité non filtrée du spectateur.",
+          "it": "Instagram stimula il confronto esponendo l'utente a frammenti altamente selezionati ed esteticamente perfetti della vita altrui, contrastando con la realtà non filtrata di chi guarda."
+        }
+      }
+    },
+    {
+      "id": "rede_tiktok",
+      "order": 2,
+      "title": {
+        "pt": "TikTok: Identificação, Carisma e a Batalha do Talento",
+        "en": "TikTok: Identification, Charisma, and the Talent Battle",
+        "es": "TikTok: Identificación, Carisma y la Batalla del Talento",
+        "fr": "TikTok : Identification, Charisme et Bataille du Talent",
+        "it": "TikTok: Identificazione, Carisma e la Battaglia del Talento"
+      },
+      "summary": {
+        "pt": "Entenda como o algoritmo do TikTok prioriza o carisma humano e como a comparação se dá através da graça e do talento natural entre criador e espectador.",
+        "en": "Understand how TikTok's algorithm prioritizes human charisma and how comparison happens through grace and natural talent between creator and viewer.",
+        "es": "Entiende cómo el algoritmo de TikTok prioriza el carisma humano y cómo la comparación se da a través de la gracia y el talento natural entre creador y espectador.",
+        "fr": "Comprenez comment l'algorithme de TikTok priorise le charisme humain et comment la comparaison s'opère à travers l'humour et le talent naturel entre créateur et spectateur.",
+        "it": "Comprendi come l'algoritmo di TikTok dia priorità al carisma umano e come il confronto avvenga attraverso l'ironia e il talento naturale tra creator e spettatore."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Diferente do Instagram, o TikTok se apoia na **Identificação e no Carisma**. O motor psicológico aqui não busca a perfeição estática, mas a dinâmica do magnetismo pessoal, do ritmo e da autenticidade. O ecossistema promove uma comparação constante de talentos: **Minha graça/talento versus O do outro**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Os usuários consomem conteúdos baseados em tendências, dancinhas, dublagens ou esquetes de comédia, e imediatamente medem sua própria capacidade de serem engraçados, relevantes ou talentosos contra quem está na tela. O algoritmo recompensa o comportamento cru e espontâneo, fazendo com que a barreira de entrada para a criação seja menor, mas a disputa pela atenção seja ultraveloz."
+          },
+          {
+            "type": "tip",
+            "text": "Para viralizar e engajar nesta plataforma, foque nos primeiros 2 segundos do vídeo com uma quebra de expectativa ou expressão corporal forte. O carisma entrega mais retenção do que produções cinematográficas caras."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Unlike Instagram, TikTok relies on **Identification and Charisma**. The psychological driver here does not seek static perfection, but rather the dynamics of personal magnetism, rhythm, and authenticity. The ecosystem promotes a constant comparison of skills: **My grace/talent versus That of others**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Users consume content based on trends, audio dubs, or comedy skits, and immediately measure their own capacity to be funny, relevant, or talented against the person on screen. The algorithm rewards raw, spontaneous behavior."
+          },
+          {
+            "type": "tip",
+            "text": "To go viral and engage on this platform, focus on the first 2 seconds of the video with a pattern disrupt or strong body language. Charisma delivers more retention than expensive cinematic productions."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "A diferencia de Instagram, TikTok se apoya en la **Identificación y el Carisma**. El motor psicológico aquí no busca la perfección estática, sino el magnetismo personal. El ecosistema promueve una comparación constante de talentos: **Mi gracia/talento frente al del otro**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Los usuarios consumen tendencias o comedias, y miden inmediatamente su propia capacidad de ser divertidos frente a quien está en la pantalla. El algoritmo premia el comportamiento crudo y espontáneo."
+          },
+          {
+            "type": "tip",
+            "text": "Para viralizar en esta plataforma, enfócate en los primeros 2 segundos del video con un corte de expectativa. El carisma entrega más retención que las producciones caras."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Contrairement à Instagram, TikTok s'appuie sur l'**Identification et le Charisme**. Le moteur psychologique ne cherche pas la perfection statique, mais le magnétisme personnel et l'authenticité. L'écosystème favorise une comparaison constante : **Mon humour/talent vs Celui de l'autre**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Les utilisateurs consomment des tendances ou des sketchs, évaluant immédiatement leur propre capacité à être drôles ou pertinents face à la personne à l'écran. L'algorithme récompense la spontanéité."
+          },
+          {
+            "type": "tip",
+            "text": "Pour devenir viral sur cette plateforme, misez sur les 2 premières secondes de la vidéo avec une rupture de motif. Le charisme génère plus de rétention que les productions coûteuses."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "A differenza di Instagram, TikTok si basa su **Identificazione e Carisma**. Il motore psicologico qui non cerca la perfezione statica, ma il magnetismo personale e l'autenticità. L'ecosistema promuove un confronto costante di abilità: **La mia ironia/talento vs Quelli dell'altro**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gli utenti consumano trend o sketch comici, misurando immediatamente la propria capacità di essere divertenti o rilevanti rispetto a chi è sullo schermo. L'algoritmo premia la spontaneità."
+          },
+          {
+            "type": "tip",
+            "text": "Per diventare virali su questa piattaforma, concentrati nei primi 2 secondi del video su un'interruzione di pattern. Il carisma offre maggiore fidelizzazione rispetto a costose produzioni."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "De que forma a comparação social se manifesta predominantemente no ecossistema do TikTok?",
+          "en": "How does social comparison predominantly manifest within the TikTok ecosystem?",
+          "es": "¿De qué forma se manifiesta predominantemente la comparación social en el ecosistema de TikTok?",
+          "fr": "Comment la comparaison sociale se manifeste-t-elle principalement au sein de l'écosystème TikTok ?",
+          "it": "In quale forma si manifesta prevalentemente il confronto sociale nell'ecosistema di TikTok?"
+        },
+        "options": {
+          "pt": [
+            "Pelo contraste entre títulos acadêmicos e especializações.",
+            "Pela avaliação do nível de luxo e bens materiais exibidos.",
+            "Através da comparação direta de carisma, criatividade e talento natural (minha graça vs. a do outro).",
+            "Pela medição estritamente política e ideológica nos comentários."
+          ],
+          "en": [
+            "Through the contrast between academic titles and specializations.",
+            "By evaluating the level of luxury and material assets displayed.",
+            "Through direct comparison of charisma, creativity, and natural talent (my grace vs. others').",
+            "By strictly political and ideological measurement in the comments."
+          ],
+          "es": [
+            "Por el contraste entre títulos académicos y especializaciones.",
+            "Por la evaluación del nivel de lujo y bienes materiales exhibidos.",
+            "A través de la comparación directa de carisma, creatividad y talento natural (mi gracia frente a la del otro).",
+            "Por la medición estrictamente política e ideológica en los comentarios."
+          ],
+          "fr": [
+            "Par le contraste entre les titres académiques et les spécialisations.",
+            "Par l'évaluation du niveau de luxe et des biens matériels affichés.",
+            "À travers la comparaison directe du charisme, de la créativité et du talent naturel (mon humour vs celui de l'autre).",
+            "Par une mesure strictement politique et idéologique dans les commentaires."
+          ],
+          "it": [
+            "Attraverso il contrasto tra titoli accademici e specializzazioni.",
+            "Valutando il livello di lusso e beni materiali esposti.",
+            "Attraverso il confronto diretto di carisma, creatività e talento naturale (la mia ironia vs quella dell'altro).",
+            "Attraverso metriche strettamente politiche e ideologiche nei commenti."
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "O TikTok desloca a comparação do campo da posse/status (Instagram) para o campo da performance, humor e engenhosidade criativa individual.",
+          "en": "TikTok shifts comparison from the realm of possession/status (Instagram) to the realm of performance, humor, and individual creative ingenuity.",
+          "es": "TikTok desplaza la comparación del campo de la posesión/estatus (Instagram) al campo del rendimiento, el humor y la ingeniosidad creativa individual.",
+          "fr": "TikTok déplace la comparaison du domaine de la possession/statut (Instagram) vers celui de la performance, de l'humour et de l'ingéniosité créative individuelle.",
+          "it": "TikTok sposta il confronto dal campo del possesso/status (Instagram) a quello della performance, dell'ironia e dell'ingegnosità creativa individuale."
+        }
+      }
+    },
+    {
+      "id": "rede_youtube",
+      "order": 3,
+      "title": {
+        "pt": "YouTube: Autoridade, Utilidade e o Embate do Conhecimento",
+        "en": "YouTube: Authority, Utility, and the Knowledge Clash",
+        "es": "YouTube: Autoridad, Utilidad y el Choque del Conocimiento",
+        "fr": "YouTube : Autorité, Utilité et Conflit de Connaissances",
+        "it": "YouTube: Autorità, Utilità e lo Scontro della Conoscenza"
+      },
+      "summary": {
+        "pt": "Analise o YouTube como ferramenta de busca e repositório de autoridade. Entenda o gatilho que contrapõe o conhecimento do usuário com a expertise profunda do criador.",
+        "en": "Analyze YouTube as a search engine and authority repository. Understand the trigger that counters user knowledge with the creator's deep expertise.",
+        "es": "Analiza YouTube como herramienta de búsqueda y repositorio de autoridad. Entiende el gatillo que contrapone el conocimiento del usuario con la experiencia profunda del creador.",
+        "fr": "Analysez YouTube en tant que moteur de recherche et réservoir d'autorité. Comprenez le déclencheur qui oppose les connaissances de l'utilisateur à l'expertise profonde du créateur.",
+        "it": "Analizza YouTube come motore di ricerca e archivio di autorità. Comprendi il trigger che contrappone la conoscenza dell'utente alla profonda competenza del creator."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O YouTube é governado pelos motores de **Autoridade e Utilidade**. Sendo o segundo maior buscador do mundo, as pessoas recorrem a ele para resolver problemas estruturados, aprender novas habilidades ou consumir análises profundas. O eixo de comparação psicológica estabelecido nesta rede baseia-se em: **Meu conhecimento versus Expertise do outro**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ao assistir a um vídeo longo, documentário ou tutorial detalhado, o usuário reconhece e valida a superioridade intelectual ou técnica do criador de conteúdo naquele assunto específico. Essa assimetria positiva constrói uma autoridade duradoura, transformando visualizações em assinaturas de canais, compras de cursos acadêmicos e mentorias de alto valor."
+          },
+          {
+            "type": "tip",
+            "text": "A retenção no YouTube depende de uma introdução direta que valide a promessa da Thumbnail nos primeiros 30 segundos, seguida por uma entrega metodológica sem enrolação corporativa."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "YouTube is governed by the engines of **Authority and Utility**. As the world's second-largest search engine, people turn to it to solve structured problems, learn new skills, or consume deep analyses. The psychological comparison axis established here is based on: **My knowledge versus The other's expertise**."
+          },
+          {
+            "type": "paragraph",
+            "text": "When watching long-form videos, documentaries, or detailed tutorials, users recognize and validate the creator's intellectual or technical superiority in that specific subject. This building of authority turns views into subscriptions and high-ticket sales."
+          },
+          {
+            "type": "tip",
+            "text": "Retention on YouTube depends on a direct introduction that validates the thumbnail's promise within the first 30 seconds, followed by methodical delivery without fluff."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "YouTube está gobernado por los motores de **Autoridad y Utilidad**. Al ser el segundo buscador más grande del mundo, las personas recurren a él para resolver problemas estructurados. El eje de comparación se basa en: **Mi conocimiento frente a la experiencia del otro**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Al ver un video largo o tutorial detallado, el usuario reconoce la superioridad técnica del creador. Esta asimetría positiva construye una autoridad duradera."
+          },
+          {
+            "type": "tip",
+            "text": "La retención en YouTube depende de una introducción directa que valide la promesa de la miniatura en los primeros 30 segundos, seguida por una entrega metodológica."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "YouTube est régi par les moteurs d'**Autorité et d'Utilité**. En tant que deuxième plus grand moteur de recherche au monde, les utilisateurs s'y réfèrent pour résoudre des problèmes. L'axe de comparaison repose sur : **Mes connaissances vs L'expertise de l'autre**."
+          },
+          {
+            "type": "paragraph",
+            "text": "En regardant une vidéo longue ou un tutoriel détaillé, l'utilisateur valide la supériorité technique du créateur. Cette asymétrie construit une autorité durable."
+          },
+          {
+            "type": "tip",
+            "text": "La rétention sur YouTube dépend d'une introduction directe qui valide la promesse de la miniature dans les 30 premières secondes, suivie d'une démonstration méthodique."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "YouTube è governato dai motori di **Autorità e Utilità**. Essendo il secondo motore di ricerca al mondo, le persone vi ricorrono per risolvere problemi strutturati. L'asse di confronto si basa su: **La mia conoscenza vs La competenza dell'altro**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Guardando un video lungo o un tutorial dettagliato, l'utente riconosce la superiorità tecnica del creator. Questa asimmetria costruisce un'autorità duratura."
+          },
+          {
+            "type": "tip",
+            "text": "La fidelizzazione su YouTube dipende da un'introduzione diretta che validi la promessa della miniatura nei primi 30 secondi, seguita da una spiegazione metodica."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Como se estabelece a relação de autoridade no motor psicológico do YouTube?",
+          "en": "How is the authority relationship established within YouTube's psychological engine?",
+          "es": "¿Cómo se establece la relación de autoridad en el motor psicológico de YouTube?",
+          "fr": "Comment la relation d'autorité s'établit-elle dans le moteur psychologique de YouTube ?",
+          "it": "Come si stabilisce il rapporto di autorità nel motore psicologico di YouTube?"
+        },
+        "options": {
+          "pt": [
+            "Através do compartilhamento rápido de piadas curtas.",
+            "Pelo contraste onde o usuário reconhece e valida a expertise técnica ou profunda do criador sobre um tema (meu conhecimento vs. expertise do outro).",
+            "Pela imposição algorítmica de conteúdos sem valor prático.",
+            "Através do isolamento do criador em canais de chat fechados."
+          ],
+          "en": [
+            "Through the quick sharing of short jokes.",
+            "By the contrast where the user recognizes and validates the creator's technical or deep expertise on a topic (my knowledge vs. others' expertise).",
+            "By the algorithmic imposition of content without practical value.",
+            "Through the isolation of the creator in closed chat channels."
+          ],
+          "es": [
+            "A través del intercambio rápido de chistes cortos.",
+            "Por el contraste donde el usuario reconoce y valida la experiencia técnica o profunda del creador sobre un tema (mi conocimiento frente a la experiencia del otro).",
+            "Por la imposición algorítmica de contenidos sin valor práctico.",
+            "A través del aislamiento del creador en canales de chat cerrados."
+          ],
+          "fr": [
+            "Par le partage rapide de blagues courtes.",
+            "Par le contraste où l'utilisateur reconnaît et valide l'expertise technique ou approfondie du créateur sur un sujet (mes connaissances vs expertise de l'autre).",
+            "Par l'imposition algorithmique de contenus sans valeur pratique.",
+            "À travers l'isolement du créateur dans des canaux de discussion fermés."
+          ],
+          "it": [
+            "Attraverso la condivisione rapida di brevi barzellette.",
+            "Dal contrasto in cui l'utente riconosce e convalida la competenza tecnica o approfondita del creator su un argomento (la mia conoscenza vs la competenza dell'altro).",
+            "Dall'imposizione algoritmica di contenuti senza valore pratico.",
+            "Attraverso l'isolamento del creator in canali di chat chiusi."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O usuário do YouTube aceita o papel de aprendiz diante de um criador que demonstra domínio estruturado, o que solidifica o gatilho da utilidade e da autoridade.",
+          "en": "The YouTube user accepts the learner role before a creator who demonstrates structured mastery, solidifying the utility and authority trigger.",
+          "es": "El usuario de YouTube acepta el papel de aprendiz ante un creador que demuestra dominio estructurado, consolidando el gatillo de la utilidad y la autoridad.",
+          "fr": "L'utilisateur de YouTube accepte le rôle d'apprenant face à un créateur qui démontre une maîtrise structurée, solidifiant le déclencheur d'utilité et d'autorité.",
+          "it": "L'utente di YouTube accetta il ruolo di studente davanti a un creator che dimostra una padronanza strutturata, solidificando il trigger di utilità e autorità."
+        }
+      }
+    },
+    {
+      "id": "rede_facebook",
+      "order": 4,
+      "title": {
+        "pt": "Facebook: Pertencimento, Validação e a Arena dos Valores",
+        "en": "Facebook: Belonging, Validation, and the Arena of Values",
+        "es": "Facebook: Pertenencia, Validación y la Arena de los Valores",
+        "fr": "Facebook : Appartenance, Validation et l'Arène des Valeurs",
+        "it": "Facebook: Appartenenza, Validazione e l'Arena dei Valori"
+      },
+      "summary": {
+        "pt": "Compreenda a necessidade tribal de pertencimento no Facebook. Saiba como a comparação funciona medindo os valores pessoais contra a régua moral do grupo.",
+        "en": "Understand the tribal need for belonging on Facebook. Learn how comparison works by measuring personal values against the group's moral yardstick.",
+        "es": "Comprende la necesidad tribal de pertenencia en Facebook. Conoce cómo la comparación funciona midiendo los valores personales contra la regla moral del grupo.",
+        "fr": "Comprenez le besoin tribal d'appartenance sur Facebook. Découvrez comment la comparaison fonctionne en mesurant les valeurs personnelles par rapport aux normes du groupe.",
+        "it": "Comprendi il bisogno tribale di appartenenza su Facebook. Scopri come funziona il confronto misurando i valori personali rispetto alla linea morale del gruppo."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O Facebook opera fortemente sob o motor psicológico do **Pertencimento e da Validação Social**. A dinâmica principal da plataforma baseia-se em comunidades, grupos de interesses locais e dinâmicas familiares/sociais históricas. O atrito de comparação centraliza-se em: **Meus valores versus Valores do grupo**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nesta rede, o engajamento é impulsionado por concordância ideológica ou indignação moral. O usuário publica e comenta buscando a aprovação da sua bolha social, validando sua identidade através do alinhamento ético ou político com o grupo. Marcas que prosperam aqui focam na criação de comunidades ativas e posicionamentos institucionais claros que defendem causas ou rotinas coletivas."
+          },
+          {
+            "type": "tip",
+            "text": "Utilize os Grupos do Facebook como câmaras de feedback e acolhimento de clientes. Fomentar o debate interno controlado aumenta o sentimento de lealdade e retenção da marca."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Facebook operates heavily under the psychological driver of **Belonging and Social Validation**. The platform's primary dynamic is based on communities, interest groups, and historical family/social connections. The comparison friction centers on: **My values versus Group values**."
+          },
+          {
+            "type": "paragraph",
+            "text": "On this network, engagement is driven by ideological agreement or moral outrage. Users post and comment seeking approval from their social bubble. Brands that thrive here focus on building active communities and clear institutional positioning."
+          },
+          {
+            "type": "tip",
+            "text": "Use Facebook Groups as feedback loops and customer support networks. Fostering controlled internal debates increases loyalty and brand retention."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Facebook opera fuertemente bajo el motor psicológico de la **Pertenencia y la Validación Social**. La fricción de comparación se centra en: **Mis valores frente a los Valores del grupo**."
+          },
+          {
+            "type": "paragraph",
+            "text": "En esta red, el compromiso es impulsado por el acuerdo ideológico o la indignación moral. Las marcas que prosperan aquí se enfocan en la creación de comunidades activas."
+          },
+          {
+            "type": "tip",
+            "text": "Utiliza los Grupos de Facebook como espacios de retroalimentación para clientes. Fomentar el debate interno controlado aumenta el sentimiento de lealtad."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Facebook fonctionne fortement sous le moteur psychologique de l'**Appartenance et de la Validation Sociale**. La friction de comparaison se concentre sur : **Mes valeurs vs Valeurs du groupe**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Sur ce réseau, l'engagement est dicté par l'accord idéologique ou l'indignation morale. Les marques qui y prospèrent se concentrent sur la création de communautés actives."
+          },
+          {
+            "type": "tip",
+            "text": "Utilisez les groupes Facebook comme espaces de feedback pour vos clients. Stimuler le débat interne contrôlé augmente le sentiment de fidélité."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Facebook opera fortemente sotto il motore psicologico dell'**Appartenenza e della Validazione Sociale**. L'attrito del confronto si concentra su: **I miei valori vs Valori del gruppo**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Su questo social, l'interazione è guidata dall'accordo ideologico o dall'indignazione morale. I brand che prosperano qui si concentrano sulla creazione di community attive."
+          },
+          {
+            "type": "tip",
+            "text": "Utilizza i Gruppi Facebook come camere di feedback e accoglienza per i clienti. Promuovere il dibattito interno controllato aumenta il sentimento di fedeltà."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual comportamento do usuário é alimentado pelo motor psicológico de pertencimento do Facebook?",
+          "en": "Which user behavior is fueled by Facebook's psychological engine of belonging?",
+          "es": "¿Qué comportamiento del usuario alimenta el motor psicológico de pertenencia de Facebook?",
+          "fr": "Quel comportement de l'utilisateur est nourri par le moteur psychologique d'appartenance de Facebook ?",
+          "it": "Quale comportamento dell'utente è alimentato dal motore psicologico di appartenenza di Facebook?"
+        },
+        "options": {
+          "pt": [
+            "A busca por filtros visuais estéticos avançados.",
+            "A validação de sua identidade e moralidade comparando seus valores com as regras e aceitação do grupo (meus valores vs. valores do grupo).",
+            "O download de ferramentas de programação técnica.",
+            "A projeção solitária de projetos para os próximos dez anos."
+          ],
+          "en": [
+            "The search for advanced aesthetic visual filters.",
+            "The validation of identity and morality by comparing personal values with group rules and acceptance (my values vs. group values).",
+            "The downloading of technical programming tools.",
+            "The solitary projection of projects for the next ten years."
+          ],
+          "es": [
+            "La búsqueda de filtros visuales estéticos avanzados.",
+            "La validación de su identidad y moralidad comparando sus valores con las reglas y la aceptación del grupo (mis valores frente a los del grupo).",
+            "La descarga de herramientas de programación técnica.",
+            "La proyección solitaria de proyectos para los próximos diez años."
+          ],
+          "fr": [
+            "La recherche de filtres visuels esthétiques avancés.",
+            "La validation de son identité et de sa moralité en comparant ses valeurs à l'acceptation du groupe (mes valeurs vs valeurs du groupe).",
+            "Le téléchargement d'outils de programmation technique.",
+            "La projection solitaire de projets pour les dix prochaines années."
+          ],
+          "it": [
+            "La ricerca di filtri visivi estetici avanzati.",
+            "La validazione della propria identità e moralità confrontando i propri valori con le regole e l'accettazione del gruppo (i miei valori vs valori del gruppo).",
+            "Il download di strumenti di programmazione tecnica.",
+            "La proiezione solitaria di progetti per i prossimi dieci anni."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O Facebook valida a necessidade humana de fazer parte de uma tribo, onde expressar opiniões e valores alinhados gera recompensa social imediata.",
+          "en": "Facebook validates the human need to be part of a tribe, where expressing aligned opinions and values yields immediate social reward.",
+          "es": "Facebook valida la necesidad humana de formar parte de una tribu, donde expresar opiniones y valores alineados genera recompensa social inmediata.",
+          "fr": "Facebook valide le besoin humain de faire partie d'une tribu, où exprimer des opinions et des valeurs alignées génère une récompense sociale immédiate.",
+          "it": "Facebook convalida il bisogno umano di far parte di una tribù, in cui esprimere opinioni e valori allineati genera una ricompensa sociale immediata."
+        }
+      }
+    },
+    {
+      "id": "rede_pinterest",
+      "order": 5,
+      "title": {
+        "pt": "Pinterest: Projeção, Curadoria e o Futuro Ideal",
+        "en": "Pinterest: Projection, Curation, and the Ideal Future",
+        "es": "Pinterest: Proyección, Curaduría y el Futuro Ideal",
+        "fr": "Pinterest : Projection, Curation et Futur Idéal",
+        "it": "Pinterest: Proiezione, Curatela e il Futuro Ideale"
+      },
+      "summary": {
+        "pt": "Descubra como o Pinterest funciona sem o foco na validação de terceiros. Veja o motor de projeção pessoal que contrasta o presente com o futuro idealizado.",
+        "en": "Discover how Pinterest works without focusing on third-party validation. See the personal projection engine that contrasts the present with an idealized future.",
+        "es": "Descubre cómo funciona Pinterest sin enfocarse en la validación de terceros. Mira el motor de proyección personal que contrasta el presente con el futuro idealizado.",
+        "fr": "Découvrez comment Pinterest fonctionne sans se focaliser sur la validation des autres. Observez le moteur de projection personnelle qui oppose le présent au futur idéal.",
+        "it": "Scopri come funziona Pinterest senza focalizzarsi sulla validazione altrui. Vedi il motore di proiezione personale che contrasta il presente con il futuro idealizzato."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O Pinterest é uma exceção no universo social pois opera focado na **Projeção e na Curadoria Individual**. É uma plataforma visual onde o usuário não está preocupado em interagir com conhecidos, mas em planejar sua própria vida. A tensão de comparação aqui é interna e temporal: **Meu presente versus Meu futuro ideal**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ao criar pastas de inspiração para decoração de casas, casamentos, estilos de roupas ou rotinas de estudos, o usuário projeta desejos futuros. Ele compara sua realidade material atual com o ideal estético que deseja alcançar. Para marcas de e-commerce, design e moda, este motor é valioso porque o usuário já está em estágio avançado de intenção de compra, salvando referências para execução futura."
+          },
+          {
+            "type": "tip",
+            "text": "Crie Pins focados em soluções de aspiração futura com links diretos para seu catálogo. No Pinterest, imagens verticais de alta qualidade artística convertem mais do que banners promocionais agressivos."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Pinterest is an exception in the social universe because it operates focused on **Individual Curation and Projection**. It is a visual platform where the user is planning their own life. The comparison tension here is internal and temporal: **My present versus My ideal future**."
+          },
+          {
+            "type": "paragraph",
+            "text": "By creating inspiration boards for home decor or fashion, users project future desires. They compare their current material reality with the aesthetic ideal they wish to achieve. For e-commerce brands, this engine is valuable because users are already in an advanced buying-intent stage."
+          },
+          {
+            "type": "tip",
+            "text": "Create Pins focused on future aspirational solutions with direct catalog links. High-quality vertical images convert better than aggressive promotional banners."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Pinterest es una excepción porque opera enfocado en la **Proyección y la Curaduría Individual**. La tensión de comparación aquí es interna y temporal: **Mi presente frente a Mi futuro ideal**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Al crear tableros de inspiración, el usuario proyecta deseos futuros. Para marcas de comercio electrónico, este motor es valioso porque el usuario ya está en una etapa avanzada de intención de compra."
+          },
+          {
+            "type": "tip",
+            "text": "Crea Pins enfocados en soluciones de aspiración futura con enlaces directos a tu catálogo. Las imágenes verticales de alta calidad artística convierten más."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Pinterest est une exception car il fonctionne centré sur la **Projection et la Curation Individuelle**. La tension de comparaison ici est interne et temporelle : **Mon présent vs Mon futur idéal**."
+          },
+          {
+            "type": "paragraph",
+            "text": "En créant des tableaux d'inspiration, l'utilisateur projette ses désirs futurs. Pour les marques e-commerce, ce moteur est précieux car l'utilisateur est déjà dans une phase avancée d'intention d'achat."
+          },
+          {
+            "type": "tip",
+            "text": "Créez des Épingles axées sur des solutions d'aspiration future avec des liens directs vers votre catalogue. Les visuels verticaux de haute qualité convertissent mieux."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Pinterest è un'eccezione poiché opera focalizzandosi sulla **Proiezione e sulla Curatela Individuale**. La tensione del confronto qui è interna e temporale: **Il mio presente vs Il mio futuro ideale**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Creando bacheche di ispirazione, l'utente proietta desideri futuri. Per i brand di e-commerce, questo motore è prezioso perché l'utente si trova già in una fase avanzata di intenzione d'acquisto."
+          },
+          {
+            "type": "tip",
+            "text": "Crea Pin focalizzati su soluzioni di aspirazione futura con link diretti al tuo catalogo. Le immagini verticali di alta qualità artistica convertono di più."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Como funciona o eixo de comparação psicológica no ecossistema do Pinterest?",
+          "en": "How does the psychological comparison axis function within the Pinterest ecosystem?",
+          "es": "¿Cómo funciona el eje de comparación psicológica en el ecosistema de Pinterest?",
+          "fr": "Comment fonctionne l'axe de comparaison psychologique dans l'écosystème de Pinterest ?",
+          "it": "Come funziona l'asse di confronto psicologico nell'ecosistema di Pinterest?"
+        },
+        "options": {
+          "pt": [
+            "Pelo embate direto entre opiniões políticas adversas.",
+            "De maneira interna e temporal, contrapondo a realidade presente do usuário com o seu futuro ideal projetado (meu presente vs. meu futuro ideal).",
+            "Através da busca por aceitação imediata em grupos fechados de chat.",
+            "Medindo a velocidade com que vídeos engraçados são consumidos."
+          ],
+          "en": [
+            "By the direct clash between adverse political opinions.",
+            "Internally and temporally, contrasting the user's present reality with their projected ideal future (my present vs. my ideal future).",
+            "Through the search for immediate acceptance in closed chat groups.",
+            "By measuring the speed at which funny videos are consumed."
+          ],
+          "es": [
+            "Por el choque directo entre opiniones políticas adversas.",
+            "De manera interna y temporal, contraponiendo la realidad presente del usuario con su futuro ideal proyectado (mi presente frente a mi futuro ideal).",
+            "A través de la búsqueda de aceptación inmediata en grupos cerrados de chat.",
+            "Midiendo la velocidad con la que se consumen videos divertidos."
+          ],
+          "fr": [
+            "Par le conflit direct entre opinions politiques opposées.",
+            "De manière interne et temporelle, opposant la réalité présente de l'utilisateur à son futur idéal projeté (mon présent vs mon futur idéal).",
+            "À travers la recherche d'acceptation immédiate dans des groupes de discussion fermés.",
+            "En mesurant la vitesse à laquelle les vidéos drôles sont consommées."
+          ],
+          "it": [
+            "Dal scontro diretto tra opinioni politiche opposte.",
+            "In modo interno e temporale, contrapponendo la realtà presente dell'utente al suo futuro ideale progettato (il mio presente vs il mio futuro ideale).",
+            "Attraverso la ricerca di accettazione immediata in gruppi di chat chiusi.",
+            "Misurando la velocità con cui vengono consumati video divertenti."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "Diferente de outras redes focadas no social e na opinião de terceiros, o Pinterest opera como um mural de aspirações e planejamento focado na própria evolução do indivíduo.",
+          "en": "Unlike other networks focused on social aspects and third-party opinions, Pinterest operates as an aspirations and planning board focused on the individual's own evolution.",
+          "es": "A diferencia de otras redes enfocadas en lo social y en la opinión de terceros, Pinterest opera como un muro de aspiraciones y planificación enfocado en la propia evolución del individuo.",
+          "fr": "Contrairement aux autres réseaux axés sur le social et l'avis des tiers, Pinterest fonctionne comme un tableau d'aspirations et de planification centré sur la propre évolution de l'individu.",
+          "it": "A differenza di altri social incentrati sull'aspetto relazionale e sull'opinione altrui, Pinterest opera come una bacheca di aspirazioni e pianificazione focalizzata sulla crescita dell'individuo."
+        }
+      }
+    },
+    {
+      "id": "rede_discord",
+      "order": 6,
+      "title": {
+        "pt": "Discord: Intimidade, Acesso e a Hierarquia do Grupo",
+        "en": "Discord: Intimacy, Access, and Group Hierarchy",
+        "es": "Discord: Intimidad, Acceso y la Jerarquía del Grupo",
+        "fr": "Discord : Intimité, Accès et Hiérarchie du Groupe",
+        "it": "Discord: Intimità, Accesso e la Gerarchia del Gruppo"
+      },
+      "summary": {
+        "pt": "Analise o ecossistema fechado do Discord. Entenda o motor de intimidade e como os usuários medem seu peso através do nível de influência e cargos no servidor.",
+        "en": "Analyze Discord's closed ecosystem. Understand the intimacy engine and how users measure their weight through influence levels and server roles.",
+        "es": "Analiza el ecosistema cerrado de Discord. Entiende el motor de intimidad y cómo los usuarios miden su peso a través del nivel de influencia y cargos en el servidor.",
+        "fr": "Analysez l'écosystème fermé de Discord. Comprenez le moteur d'intimité et comment les utilisateurs évaluent leur poids via leur niveau d'influence et leurs rôles sur le serveur.",
+        "it": "Analizza l'ecosistema chiuso di Discord. Comprendi il motore di intimità e come gli utenti misurano il proprio peso attraverso il livello di influenza e i ruoli nel server."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O Discord se afasta do conceito de feed público para dominar o motor da **Intimidade e do Acesso**. Organizado por servidores segmentados, chats de voz e canais fechados, a plataforma emula a sensação de estar em uma sala privada com portas fechadas. A comparação social aqui muda de escala e foca em: **Meu nível de influência no grupo**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nesta ferramenta, o valor psicológico está atrelado a privilégios e reconhecimento interno. Os usuários disputam status por meio de cargos na comunidade (roles), cores exclusivas de codificação no nome, acesso a salas vip e proximidade direta com o criador ou comunidade principal. É uma dinâmica de micro-influência altamente poderosa para criar fã-clubes obstinados e monetização por assinaturas recorrentes."
+          },
+          {
+            "type": "tip",
+            "text": "Utilize sistemas de gamificação para distribuir cargos automáticos baseados no nível de mensagens enviadas pelos usuários. Isso estimula a retenção orgânica diária dentro do servidor."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Discord moves away from the public feed concept to dominate the engine of **Intimacy and Access**. Organized by segmented servers, voice chats, and closed channels, the platform emulates being in a private room. Social comparison here shifts scale to focus on: **My level of influence within the group**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Within this tool, psychological value is linked to privileges and internal recognition. Users compete for status through server roles, exclusive name colors, and VIP room access. This micro-influence dynamic is powerful for building tight-knit fanbases."
+          },
+          {
+            "type": "tip",
+            "text": "Utilize gamification systems to distribute automatic roles based on message volume sent by users. This stimulates daily organic retention inside the server."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Discord se aleja del concepto de feed público para dominar el motor de la **Intimidad y el Acceso**. La comparación social aquí cambia de escala y se enfoca en: **Mi nivel de influencia en el grupo**."
+          },
+          {
+            "type": "paragraph",
+            "text": "En esta herramienta, el valor psicológico está vinculado a privilegios y reconocimiento interno. Los usuarios disputan estatus por medio de cargos en la comunidad (roles) y acceso a salas vip."
+          },
+          {
+            "type": "tip",
+            "text": "Utiliza sistemas de gamificación para distribuir cargos automáticos basados en el nivel de mensajes. Esto estimula la retención orgánica."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Discord s'éloigne du concept de fil public pour maîtriser le moteur de l'**Intimité et de l'Accès**. La comparaison sociale change d'échelle pour se concentrer sur : **Mon niveau d'influence dans le groupe**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Sur cet outil, la valeur psychologique est liée aux privilèges et à la reconnaissance interne. Les utilisateurs se disputent un statut via des rôles dans la communauté et des accès VIP."
+          },
+          {
+            "type": "tip",
+            "text": "Utilisez des systèmes de gamification pour distribuer des rôles automatiques selon l'activité. Cela stimule la rétention organique."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Discord si allontana dal concetto di feed pubblico per dominare il motore dell'**Intimità e dell'Accesso**. Il confronto sociale qui cambia scala e si concentra su: **Il mio livello di influenza nel gruppo**."
+          },
+          {
+            "type": "paragraph",
+            "text": "In questo strumento, il valore psicologico è legato a privilegi e riconoscimento interno. Gli utenti si contendono lo status tramite ruoli nella community e accessi a stanze vip."
+          },
+          {
+            "type": "tip",
+            "text": "Utilizza sistemi di gamification per distribuire ruoli automatici in base al livello di attività. Questo stimola la fidelizzazione organica."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "De que forma os usuários buscam e comparam status dentro do ambiente privado do Discord?",
+          "en": "How do users seek and compare status within Discord's private environment?",
+          "es": "¿De qué forma los usuarios buscan y comparan estatus dentro del ambiente privado de Discord?",
+          "fr": "Comment les utilisateurs recherchent-ils et comparent-ils leur statut au sein de l'environnement privé de Discord ?",
+          "it": "In che modo gli utenti cercano e confrontano lo status all'interno dell'ambiente privato di Discord?"
+        },
+        "options": {
+          "pt": [
+            "Exibindo fotos com filtros estéticos em um feed global.",
+            "Postando vídeos curtos que tentam alcançar milhões de desconhecidos.",
+            "Através do nível de influência no grupo, medido por cargos (roles), acessos exclusivos e proximidade com o núcleo do servidor (meu nível de influência no grupo).",
+            "Anexando diplomas curriculares na biografia pública."
+          ],
+          "en": [
+            "By displaying photos with aesthetic filters on a global feed.",
+            "By posting short videos trying to reach millions of strangers.",
+            "Through their level of influence in the group, measured by roles, exclusive access, and proximity to the server's core (my level of influence within the group).",
+            "By attaching curricular diplomas to their public biography."
+          ],
+          "es": [
+            "Mostrando fotos con filtros estéticos en un feed global.",
+            "Publicando videos cortos que intentan llegar a millones de desconocidos.",
+            "A través del nivel de influencia en el grupo, medido por cargos (roles), accesos exclusivos y cercanía con el núcleo del servidor (mi nivel de influencia en el grupo).",
+            "Adjuntando diplomas curriculares en la biografía pública."
+          ],
+          "fr": [
+            "En affichant des photos avec des filtres esthétiques sur un fil d'actualité mondial.",
+            "En publiant des vidéos courtes essayant de toucher des millions d'inconnus.",
+            "À travers leur niveau d'influence dans le groupe, mesuré par des rôles, des accès exclusifs et la proximité avec le cœur du serveur (mon niveau d'influence dans le groupe).",
+            "En joignant des diplômes universitaires à leur biographie publique."
+          ],
+          "it": [
+            "Mostrando foto con filtri estetici in un feed globale.",
+            "Pubblicando video brevi che cercano di raggiungere milioni di sconosciuti.",
+            "Attraverso il livello di influenza nel gruppo, misurato da ruoli (roles), accessi esclusivi e vicinanza al nucleo del server (il mio livello di influenza nel gruppo).",
+            "Allegando diplomi curriculari nella biografia pubblica."
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "O Discord opera em micro-comunidades fechadas onde o status é tribal, dependendo dos privilégios e da importância atribuída ao usuário dentro daquele servidor específico.",
+          "en": "Discord operates in closed micro-communities where status is tribal, depending on the privileges and importance assigned to the user within that specific server.",
+          "es": "Discord opera en microcomunidades cerradas donde el estatus es tribal, dependiendo de los privilegios y la importancia asignada al usuario dentro de ese servidor específico.",
+          "fr": "Discord fonctionne en micro-communautés fermées où le statut est tribal, dépendant des privilèges et de l'importance attribuée à l'utilisateur au sein de ce serveur spécifique.",
+          "it": "Discord opera in micro-community chiuse in cui lo status è tribale, dipendendo dai privilegi e dall'importanza assegnata all'utente all'interno di quel server specifico."
+        }
+      }
+    }
+  ]
+}
