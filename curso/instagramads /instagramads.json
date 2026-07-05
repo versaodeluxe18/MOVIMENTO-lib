@@ -1,0 +1,585 @@
+{
+  "id": "curso_instagram_marketing",
+  "level": "Iniciante ao Avançado",
+  "duration": "20 horas",
+  "iconUrl": "https://img.icons8.com/color/96/instagram-new.png",
+  "supportedLanguages": [
+    "pt",
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "title": {
+    "pt": "Monetização Estratégica e Crescimento no Instagram",
+    "en": "Strategic Monetization and Growth on Instagram",
+    "es": "Monetización Estratégica y Crecimiento en Instagram",
+    "fr": "Monétisation Stratégique et Croissance sur Instagram",
+    "it": "Monetizzazione Strategica e Crescita su Instagram"
+  },
+  "description": {
+    "pt": "Aprenda a transformar o Instagram em um canal de vendas. Descubra como combater a comparação social, dominar formas modernas de monetização e aplicar estratégias práticas divididas por nichos reais.",
+    "en": "Learn to turn Instagram into a sales channel. Discover how to counter social comparison, master modern monetization forms, and apply practical strategies split by real niches.",
+    "es": "Aprende a transformar Instagram en un canal de ventas. Descubre cómo combatir la comparación social, dominar formas modernas de monetización y aplicar estrategias prácticas divididas por nichos reales.",
+    "fr": "Apprenez à transformer Instagram en un canal de vente. Découvrez comment contrer la comparaison sociale, maîtriser les formes modernes de monétisation et appliquer des stratégies pratiques divisées par niches réelles.",
+    "it": "Impara a trasformare Instagram in un canale di vendita. Scopri come contrastare il confronto sociale, padroneggiare le moderne forme di monetizzazione e applicare strategie pratiche divise per nicchie reali."
+  },
+  "lessons": [
+    {
+      "id": "instagram_fundamentals_1",
+      "order": 1,
+      "title": {
+        "pt": "Psicologia do Instagram: Comparação Social e Valor de Marca",
+        "en": "Instagram Psychology: Social Comparison and Brand Value",
+        "es": "Psicología de Instagram: Comparación Social y Valor de Marca",
+        "fr": "Psychologie d'Instagram : Comparaison Sociale et Valeur de Marque",
+        "it": "Psicologia di Instagram: Confronto Sociale e Valore del Brand"
+      },
+      "summary": {
+        "pt": "Entenda a psicologia por trás do feed. Saiba como o gatilho da comparação social afeta os usuários e aprenda a reverter esse comportamento criando uma marca que gera conexão, autoridade e desejo de compra.",
+        "en": "Understand the psychology behind the feed. Know how the social comparison trigger affects users and learn to reverse this behavior by creating a brand that builds connection, authority, and buying desire.",
+        "es": "Entiende la psicología detrás del feed. Conoce cómo el gatillo de la comparación social afecta a los usuarios y aprende a revertir este comportamiento creando una marca que genere conexión, autoridad y deseo de compra.",
+        "fr": "Comprenez la psychologie derrière le fil d'actualité. Sachez comment le déclencheur de la comparaison sociale affecte les utilisateurs et apprenez à inverser ce comportement en créant une marque qui génère de la connexion, de l'autorité et du désir d'achat.",
+        "it": "Comprendi la psicologia dietro al feed. Scopri come il trigger del confronto sociale influisce sugli utenti e impara a invertire questo comportamento creando un brand che generi connessione, autorità e desiderio d'acquisto."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O Instagram é movido por aspiração, o que frequentemente engaja o gatilho psicológico da **comparação social**. Usuários tendem a comparar suas vidas reais com os melhores momentos editados de outros perfis. Marcas inteligentes não alimentam uma perfeição inalcançável; em vez disso, transformam essa aspiração em **conexão real e vulnerabilidade estratégica**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Para converter comparação em vendas, sua marca precisa parar de apenas exibir o produto final e focar na transformação. O posicionamento deve mover o usuário de um estado de 'inveja passiva' para um estado de 'ação inspirada', onde o seu produto ou serviço é a ponte para a realidade desejada por ele."
+          },
+          {
+            "type": "tip",
+            "text": "Use os Stories para mostrar os bastidores e os erros da sua marca. A quebra da perfeição gera identificação imediata, reduz a barreira de comparação negativa e aumenta drasticamente a confiança do cliente antes da compra."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Instagram is driven by aspiration, which frequently triggers the psychological effect of **social comparison**. Users tend to compare their real lives with the curated highlights of other profiles. Smart brands don't fuel unattainable perfection; instead, they turn that aspiration into **real connection and strategic vulnerability**."
+          },
+          {
+            "type": "paragraph",
+            "text": "To convert comparison into sales, your brand needs to stop just showing the final product and focus on transformation. Your positioning must move the user from a state of 'passive envy' to 'inspired action', where your product or service is the bridge to their desired reality."
+          },
+          {
+            "type": "tip",
+            "text": "Use Stories to show your brand's behind-the-scenes and mistakes. Breaking perfection generates immediate identification, reduces negative comparison, and drastically increases customer trust before a purchase."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Instagram se mueve por la aspiración, lo que frecuentemente activa el gatillo psicológico de la **comparación social**. Los usuarios tienden a comparar sus vidas reales con los mejores momentos editados de otros perfiles. Las marcas inteligentes no alimentan una perfección inalcanzable; en su lugar, transforman esa aspiración en **conexión real y vulnerabilidad estratégica**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Para convertir la comparación en ventas, tu marca debe dejar de mostrar solo el producto final y enfocarse en la transformación. El posicionamento debe mover al usuario de un estado de 'envidia pasiva' a un estado de 'acción inspirada', donde tu producto o servicio sea el puente hacia la realidad que desea."
+          },
+          {
+            "type": "tip",
+            "text": "Usa las Stories para mostrar los entretelones y errores de tu marca. Romper la perfección genera identificación inmediata, reduce la barrera de comparación negativa y aumenta drásticamente la confianza del cliente antes de comprar."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Instagram est guidé par l'aspiration, ce qui déclenche fréquemment le mécanisme psychologique de la **comparaison sociale**. Les utilisateurs ont tendance à comparer leur vraie vie avec les moments édités d'autres profils. Les marques intelligentes ne nourrissent pas une perfection inatteignable ; au lieu de cela, elles transforment cette aspiration en **connexion réelle et vulnérabilité stratégique**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Pour convertir la comparaison en ventes, votre marque doit cesser de simplement montrer le produit final pour se concentrer sur la transformation. Le positionnement doit faire passer l'utilisateur d'un état d'« envie passive » à un état d'« action inspirée », où votre produit ou service est le pont vers la réalité souhaitée."
+          },
+          {
+            "type": "tip",
+            "text": "Utilisez les Stories pour montrer les coulisses et les erreurs de votre marque. Briser la perfection génère une identification immédiate, réduit la comparaison négative et augmente considérablement la confiance du client avant l'achat."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Instagram è guidato dall'aspirazione, il che attiva frequentemente il trigger psicologico del **confronto sociale**. Gli utenti tendono a confrontare le loro vite reali con i momenti migliori modificati di altri profili. I brand intelligenti non alimentano una perfezione irraggiungibile; invece, trasformano quell'aspirazione in **connessione reale e vulnerabilità strategica**."
+          },
+          {
+            "type": "paragraph",
+            "text": "Per convertire il confronto in vendite, il tuo brand deve smettere di mostrare solo il prodotto finale e concentrarsi sulla trasformazione. Il posizionamento deve spostare l'utente da uno stato di 'invidia passiva' a uno di 'azione ispirata', in cui il tuo prodotto o servizio è il ponte verso la realtà desiderata."
+          },
+          {
+            "type": "tip",
+            "text": "Usa le Stories per mostrare il dietro le quinte e gli errori del tuo brand. Interrompere la perfezione genera un'identificazione immediata, riduce il confronto negativo e aumenta drasticamente la fiducia del cliente prima dell'acquisto."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Como uma marca pode reverter o gatilho da comparação social negativa para gerar vendas?",
+          "en": "How can a brand reverse the negative social comparison trigger to drive sales?",
+          "es": "¿Cómo puede una marca revertir el gatillo de la comparación social negativa para generar ventas?",
+          "fr": "Comment une marque peut-elle inverser le déclencheur de la comparaison sociale négative pour générer des ventes ?",
+          "it": "In che modo un brand può invertire il trigger del confronto sociale negativo per generare vendite?"
+        },
+        "options": {
+          "pt": [
+            "Exibindo apenas fotos perfeitas e ostentando conquistas financeiras.",
+            "Ignorando os problemas da audiência e focando em dancinhas virais.",
+            "Focando na jornada de transformação e gerando conexão humana por meio dos bastidores.",
+            "Publicando anúncios em massa sem interagir com os seguidores."
+          ],
+          "en": [
+            "By displaying only perfect photos and flaunting financial achievements.",
+            "By ignoring the audience's problems and focusing on viral dances.",
+            "By focusing on the transformation journey and building human connection through behind-the-scenes content.",
+            "By publishing mass ads without interacting with followers."
+          ],
+          "es": [
+            "Mostrando solo fotos perfectas y ostentando logros financieros.",
+            "Ignorando los problemas de la audiencia y enfocándose en bailes virales.",
+            "Enfocándose en la jornada de transformación y generando conexión humana a través de los entretelones.",
+            "Publicando anuncios masivos sin interactuar con los seguidores."
+          ],
+          "fr": [
+            "En affichant uniquement des photos parfaites et en affichant des réussites financières.",
+            "En ignorant les problèmes de l'audience et en se concentrant sur les danses virales.",
+            "En se concentrant sur le parcours de transformation et en générant une connexion humaine via les coulisses.",
+            "En publiant des publicités de masse sans interagir avec les abonnés."
+          ],
+          "it": [
+            "Mostrando solo foto perfette e ostentando traguardi finanziari.",
+            "Ignorando i problemi del pubblico e concentrandosi su balletti virali.",
+            "Concentrandosi sul percorso di trasformazione e generando una connessione umana attraverso il dietro le quinte.",
+            "Pubblicando annunci di massa senza interagire con i follower."
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "Focar na transformação real tira o cliente do papel de espectador invejoso e o coloca como protagonista da própria evolução, enxergando valor real no produto oferecido.",
+          "en": "Focusing on real transformation takes the customer out of the role of an envious spectator and positions them as the protagonist of their own evolution, seeing real value in the product offered.",
+          "es": "Enfocarse en la transformación real saca al cliente del papel de espectador envidioso y lo coloca como protagonista de su propia evolución, viendo valor real en el producto ofrecido.",
+          "fr": "Se concentrer sur la transformation réelle sort le client du rôle de spectateur envieux pour le placer comme protagoniste de sa propre évolution, percevant une valeur réelle dans le produit proposé.",
+          "it": "Concentrarsi sulla trasformazione reale toglie il cliente dal ruolo di spettatore invidioso e lo pone come protagonista della propria evoluzione, vedendo un valore reale nel prodotto offerto."
+        }
+      }
+    },
+    {
+      "id": "instagram_niche_games_2",
+      "order": 2,
+      "title": {
+        "pt": "Nicho de Games: Da Comunidade à Monetização de Lives e Equipamentos",
+        "en": "Gaming Niche: From Community to Monetization of Lives and Gear",
+        "es": "Nicho de Games: De la Comunidad a la Monetización de Lives y Equipos",
+        "fr": "Niche Gaming : De la Communauté à la Monétisation des Lives et Matériels",
+        "it": "Nicchia Games: Dalla Community alla Monetizzazione di Live e Hardware"
+      },
+      "summary": {
+        "pt": "Aprenda as estratégias corretas para o nicho de jogos. Veja como prender a atenção com Reels de gameplay, criar comunidades leais no Instagram e fechar patrocínios com marcas de hardware e periféricos.",
+        "en": "Learn the correct strategies for the gaming niche. See how to hold attention with gameplay Reels, create loyal communities on Instagram, and close sponsorships with hardware and peripheral brands.",
+        "es": "Aprende las estrategias correctas para el nicho de videojuegos. Mira cómo captar la atención con Reels de gameplay, crear comunidades leales en Instagram y cerrar patrocinios con marcas de hardware y periféricos.",
+        "fr": "Apprenez les bonnes stratégies pour la niche du jeu vidéo. Découvrez comment capter l'attention avec des Reels de gameplay, créer des communautés fidèles sur Instagram et signer des partenariats avec des marques de matériel.",
+        "it": "Impara le strategie corrette per la nicchia dei videogiochi. Scopri come catturare l'attenzione con Reel di gameplay, creare community fedeli su Instagram e chiudere sponsorizzazioni con brand di hardware e periferiche."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O público gamer consome conteúdo visual altamente dinâmico. No Instagram, o crescimento rápido desse nicho acontece através de **Reels focados em momentos épicos (clips), edições rápidas com humor (memes do ecossistema) e análises sinceras de equipamentos**. O foco inicial deve ser a retenção e o engajamento com a comunidade."
+          },
+          {
+            "type": "paragraph",
+            "text": "A monetização moderna para gamers no Instagram vai além do AdSense tradicional. Ela envolve o uso estratégico de links de afiliados de lojas de tecnologia (como Amazon ou Magalu), venda de infoprodutos (guias de otimização de PC ou e-books de táticas) e atração de marcas de nicho dispostas a pagar por posts patrocinados que acessem sua base de fãs segmentada."
+          },
+          {
+            "type": "tip",
+            "text": "Ao fazer lives ou postar setups de jogos, use figurinhas de votação e caixas de perguntas nos Stories perguntando a opinião técnica da sua audiência. O público gamer adora debater sobre desempenho e preferências de jogos, disparando as métricas do algoritmo."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "The gaming audience consumes highly dynamic visual content. On Instagram, rapid growth in this niche happens through **Reels focused on epic moments (clips), fast-paced humor edits (ecosystem memes), and honest gear reviews**. The initial focus must be on retention and community engagement."
+          },
+          {
+            "type": "paragraph",
+            "text": "Modern monetization for gamers on Instagram goes beyond traditional AdSense. It involves strategic use of tech affiliate links (like Amazon), selling info-products (PC optimization guides or tactical e-books), and attracting niche brands willing to pay for sponsored posts to access your targeted fan base."
+          },
+          {
+            "type": "tip",
+            "text": "When streaming or posting gaming setups, use poll stickers and question boxes in Stories to ask your audience's technical opinion. Gamers love to debate performance and game preferences, boosting algorithm metrics."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "El público gamer consume contenido visual altamente dinámico. En Instagram, el crecimiento rápido de este nicho ocurre a través de **Reels enfocados en momentos épicos (clips), ediciones rápidas con humor (memes del ecosistema) y análisis sinceros de equipos**. El enfoque inicial debe ser la retención y el compromiso con la comunidad."
+          },
+          {
+            "type": "paragraph",
+            "text": "La monetización moderna para gamers en Instagram va más allá del AdSense tradicional. Involucra el uso de enlaces de afiliados de tecnología (como Amazon), venta de infoproductos (guías de optimización de PC o e-books de tácticas) y atracción de marcas dispuestas a pagar por publicaciones patrocinadas."
+          },
+          {
+            "type": "tip",
+            "text": "Al hacer transmisiones o publicar setups de juegos, usa stickers de votación en Stories para preguntar la opinión técnica de tu audiencia. Al público gamer le encanta debatir sobre rendimiento, disparando las métricas del algoritmo."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Le public gamer consomme un contenu visuel hautement dynamique. Sur Instagram, la croissance rapide de cette niche passe par des **Reels axés sur des moments épiques (clips), des montages humoristiques rapides (mèmes) et des analyses honnêtes de matériel**. L'objectif initial doit être la rétention et l'engagement communautaire."
+          },
+          {
+            "type": "paragraph",
+            "text": "La monétisation moderne pour les gamers sur Instagram va au-delà des revenus publicitaires traditionnels. Elle implique l'utilisation stratégique de liens d'affiliation tech (comme Amazon), la vente d'infoproduits (guides d'optimisation PC) et l'attraction de marques de niche pour des posts sponsorisés."
+          },
+          {
+            "type": "tip",
+            "text": "Lorsque vous lancez des lives ou postez vos setups de jeu, utilisez des stickers de sondage dans les Stories pour demander l'avis technique de votre public. Les gamers adorent débattre de performances, boostant l'algorithme."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Il pubblico dei gamer consuma contenuti visivi altamente dinamici. Su Instagram, la crescita rapida in questa nicchia avviene attraverso **Reel focalizzati su momenti epici (clip), montaggi veloci e ironici (meme) e recensioni oneste di hardware**. Il focus iniziale deve essere la fidelizzazione e l'interazione con la community."
+          },
+          {
+            "type": "paragraph",
+            "text": "La monetizzazione moderna per i gamer su Instagram va oltre l'AdSense tradizionale. Coinvolge l'uso strategico di link di affiliazione tech (come Amazon), la vendita di infoprodotti (guide all'ottimizzazione del PC) e l'attrazione di brand di nicchia disposti a pagare per post sponsorizzati."
+          },
+          {
+            "type": "tip",
+            "text": "Quando fai live o pubblichi setup da gioco, usa gli sticker dei sondaggi nelle Stories per chiedere un parere tecnico al tuo pubblico. I gamer amano discutere di prestazioni, facendo decollare le metriche dell'algoritmo."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é o principal canal de monetização inicial e recorrente para um perfil focado em games que ainda não possui contratos diretos com grandes marcas?",
+          "en": "What is the primary initial and recurring monetization channel for a gaming profile that doesn't have direct contracts with major brands yet?",
+          "es": "¿Cuál es el principal canal de monetización inicial y recurrente para un perfil enfocado en videojuegos que aún no tiene contratos directos con grandes marcas?",
+          "fr": "Quel est le principal canal de monétisation initial et récurrent pour un profil gaming qui n'a pas encore de contrats directs avec de grandes marques ?",
+          "it": "Qual è il principale canale di monetizzazione iniziale e ricorrente per un profilo gaming che non ha ancora contratti diretti con grandi brand?"
+        },
+        "options": {
+          "pt": [
+            "Cobrar mensalidade para as pessoas verem os posts do feed.",
+            "Marketing de afiliados com links de e-commerce vendendo mouses, teclados e peças de hardware.",
+            "Esperar o Instagram pagar salários fixos por visualização de Reels automaticamente.",
+            "Vender espaços publicitários físicos fora da internet."
+          ],
+          "en": [
+            "Charging a monthly fee for people to see feed posts.",
+            "Affiliate marketing with e-commerce links selling mice, keyboards, and hardware parts.",
+            "Waiting for Instagram to automatically pay fixed salaries per Reels view.",
+            "Selling physical advertising spaces outside the internet."
+          ],
+          "es": [
+            "Cobrar una mensualidad para que las personas vean las publicaciones del feed.",
+            "Marketing de afiliados con enlaces de comercio electrónico vendiendo mouses, teclados y piezas de hardware.",
+            "Esperar a que Instagram pague salarios fijos por visualización de Reels automáticamente.",
+            "Vender espacios publicitarios físicos fuera de internet."
+          ],
+          "fr": [
+            "Faire payer un abonnement mensuel pour que les gens voient les posts du fil d'actualité.",
+            "Le marketing d'affiliation avec des liens e-commerce vendant des souris, claviers et composants matériels.",
+            "Attendre qu'Instagram verse automatiquement des salaires fixes par vue sur les Reels.",
+            "Vendre des espaces publicitaires physiques en dehors d'Internet."
+          ],
+          "it": [
+            "Far pagare un abbonamento mensile per mostrare i post del feed.",
+            "L'affiliazione di marketing con link e-commerce che vendono mouse, tastiere e componenti hardware.",
+            "Aspettare che Instagram paghi automaticamente stipendi fissi per visualizzazione dei Reel.",
+            "Vendere spazi pubblicitari fisici fuori da Internet."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O marketing de afiliados permite que o criador de conteúdo gamer monetize imediatamente a indicação dos equipamentos que ele já utiliza no dia a dia, gerando renda com comissões de e-commerce.",
+          "en": "Affiliate marketing allows gaming creators to immediately monetize equipment recommendations they already use daily, earning income through e-commerce commissions.",
+          "es": "El marketing de afiliados permite al creador de contenido gamer monetizar inmediatamente la recomendación de los equipos que ya utiliza en el día a día, generando ingresos con comisiones de comercio electrónico.",
+          "fr": "Le marketing d'affiliation permet au créateur de contenu gaming de monétiser immédiatement la recommandation du matériel qu'il utilise déjà au quotidien, générant des revenus via des commissions e-commerce.",
+          "it": "L'affiliazione di marketing consente al creator di videogiochi di monetizzare immediatamente consigliando l'hardware che già utilizza quotidianamente, generando entrate con commissioni e-commerce."
+        }
+      }
+    },
+    {
+      "id": "instagram_niche_sales_3",
+      "order": 3,
+      "title": {
+        "pt": "Nicho de Vendas: Estruturação de E-commerce e Conversão Direta no Direct",
+        "en": "Sales Niche: E-commerce Structuring and Direct Conversion via DM",
+        "es": "Nicho de Ventas: Estructuración de E-commerce y Conversión Directa en el Direct",
+        "fr": "Niche Vente : Structuration d'E-commerce et Conversion Directe en DM",
+        "it": "Nicchia Vendite: Strutturazione di E-commerce e Conversione Diretta nei DM"
+      },
+      "summary": {
+        "pt": "Transforme seguidores em compradores. Aprenda a estruturar um perfil comercial magnético, criar catálogos de produtos atraentes e usar automações e scripts de fechamento no Direct para vender diariamente.",
+        "en": "Turn followers into buyers. Learn to structure a magnetic business profile, create attractive product catalogs, and use automated systems and closing scripts in DMs to sell daily.",
+        "es": "Transforma seguidores en compradores. Aprende a estructurar un perfil comercial magnético, crear catálogos de productos atractivos y usar automatizaciones y guiones de cierre en el Direct para vender a diario.",
+        "fr": "Transformez vos abonnés en acheteurs. Apprenez à structurer un profil professionnel magnétique, à créer des catalogues de produits attrayants et à utiliser des automatisations et scripts de vente en DM pour vendre quotidiennement.",
+        "it": "Trasforma i follower in acquirenti. Impara a strutturare un profilo aziendale magnetico, creare cataloghi di prodotti attraenti e utilizzare automazioni e script di chiusura nei DM per vendere ogni giorno."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Vender no Instagram exige uma infraestrutura clara e focada em conversão. O erro da maioria das lojas é transformar o feed em um panfleto digital chato. Perfis comerciais de sucesso mesclam **fotos em alta definição do produto em uso real, depoimentos em vídeo de clientes satisfeitos (prova social) e quebra de objeções nos carrosséis**."
+          },
+          {
+            "type": "paragraph",
+            "text": "O verdadeiro fechamento de vendas acontece na caixa de mensagens (**Direct**). Utilizar ferramentas de automação permitidas pela Meta (como ManyChat) ajuda a responder comentários instantaneamente enviando o link de compra, garantindo que o impulso do cliente não seja desperdiçado por demora no atendimento humano."
+          },
+          {
+            "type": "tip",
+            "text": "Configure sua Bio com uma Proposta Única de Valor clara e use um agregador de links organizado. Nunca escreva 'Preço no Direct' nas postagens; isso afasta compradores e reduz o engajamento natural do seu post."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Selling on Instagram requires a clear, conversion-focused infrastructure. The mistake of most stores is turning their feed into a boring digital flyer. Successful business profiles mix **high-definition photos of the product in real use, video testimonials from satisfied customers (social proof), and objection-handling in carousels**."
+          },
+          {
+            "type": "paragraph",
+            "text": "The real sales closing happens inside the inbox (**DMs**). Utilizing Meta-approved automation tools (like ManyChat) helps respond to comments instantly by sending the purchase link, ensuring the customer's buying impulse isn't wasted by a delay in human response."
+          },
+          {
+            "type": "tip",
+            "text": "Set your Bio with a clear Unique Value Proposition and use an organized link aggregator. Never write 'Price in DM' on posts; this drives buyers away and reduces the natural engagement of your post."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Vender en Instagram exige una infraestructura clara y enfocada en la conversión. El error de la mayoría de las tiendas es transformar su feed en un folleto digital aburrido. Los perfiles comerciales exitosos mezclan **fotos en alta definición del producto en uso real, testimonios en video de clientes satisfechos (prueba social) y manejo de objeciones en carruseles**."
+          },
+          {
+            "type": "paragraph",
+            "text": "El verdadero cierre de ventas ocurre en la bandeja de entrada (**Direct**). Utilizar herramientas de automatización permitidas por Meta (como ManyChat) ayuda a responder comentarios instantáneamente enviando el enlace de compra."
+          },
+          {
+            "type": "tip",
+            "text": "Configura tu Bio con una Propuesta Única de Valor clara. Nunca escribas 'Precio por Direct' en las publicaciones; esto aleja a los compradores y reduce el compromiso natural."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Vendre sur Instagram nécessite une infrastructure claire et axée sur la conversion. L'erreur de la plupart des boutiques est de transformer leur fil en un catalogue publicitaire ennuyeux. Les profils commerciaux réussis combinent **des photos HD du produit en situation réelle, des témoignages vidéo de clients satisfaits (preuve sociale) et le traitement des objections dans les carrousels**."
+          },
+          {
+            "type": "paragraph",
+            "text": "La véritable conclusion de la vente se fait dans la messagerie (**DM**). L'utilisation d'outils d'automatisation approuvés par Meta (comme ManyChat) aide à répondre instantanément aux commentaires en envoyant le lien d'achat."
+          },
+          {
+            "type": "tip",
+            "text": "Configurez votre Bio avec une Proposition de Valeur Unique claire. N'écrivez jamais 'Prix en DM' sur vos publications ; cela fait fuir les acheteurs et réduit l'engagement naturel."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Vendere su Instagram richiede un'infrastruttura chiara e focalizzata sulla conversione. L'errore della maggior parte dei negozi è trasformare il feed in un noioso volantino digitale. I profili aziendali di successo uniscono **foto ad alta definizione del prodotto in uso reale, video testimonianze di clienti soddisfatti (riprova sociale) e superamento delle obiezioni nei caroselli**."
+          },
+          {
+            "type": "paragraph",
+            "text": "La vera chiusura della vendita avviene nella casella dei messaggi (**Direct**). L'utilizzo di strumenti di automazione approvati da Meta (come ManyChat) aiuta a rispondere istantaneamente ai commenti inviando il link d'acquisto."
+          },
+          {
+            "type": "tip",
+            "text": "Configura la tua Bio con una Proposta Unica di Valore chiara. Non scrivere mai 'Prezzo in Direct' nei post; questo allontana gli acquirenti e riduce l'interazione naturale."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual estratégia otimiza o fluxo de conversão de vendas em um perfil de e-commerce no Instagram sem sobrecarregar o suporte humano?",
+          "en": "Which strategy optimizes the sales conversion flow on an Instagram e-commerce profile without overloading human support?",
+          "es": "¿Qué estrategia optimiza el flujo de conversión de ventas en un perfil de comercio electrónico en Instagram sin sobrecargar el soporte humano?",
+          "fr": "Quelle stratégie optimise le flux de conversion des ventes sur un profil e-commerce Instagram sans surcharger le support humain ?",
+          "it": "Quale strategia ottimizza il flusso di conversione delle vendite su un profilo e-commerce Instagram senza sovraccaricare il supporto umano?"
+        },
+        "options": {
+          "pt": [
+            "Pedir para o cliente ligar para um telefone fixo comercial.",
+            "Deixar o perfil privado para gerar curiosidade forçada.",
+            "Usar automações integradas na API da Meta para enviar links de compra automáticos quando o usuário interage em comentários ou Direct.",
+            "Desativar os comentários e focar apenas em posts nos canais de transmissão."
+          ],
+          "en": [
+            "Asking the customer to call a commercial landline phone.",
+            "Leaving the profile private to build forced curiosity.",
+            "Using integrated Meta API automations to send automatic purchase links when users interact in comments or DMs.",
+            "Disabling comments and focusing only on broadcast channel posts."
+          ],
+          "es": [
+            "Pedir al cliente que llame a un teléfono fijo comercial.",
+            "Dejar el perfil privado para generar curiosidade forzada.",
+            "Usar automatizaciones integradas en la API de Meta para enviar enlaces de compra automáticos cuando el usuario interactúa en comentarios o Direct.",
+            "Desactivar los comentarios y enfocarse solo en publicaciones en canales de transmisión."
+          ],
+          "fr": [
+            "Demander au client d'appeler un numéro de téléphone fixe commercial.",
+            "Laisser le profil privé pour générer une curiosité forcée.",
+            "Utiliser des automatisations intégrées à l'API Meta pour envoyer des liens d'achat automatiques lorsque l'utilisateur interagit dans les commentaires ou DM.",
+            "Désactiver les commentaires et se concentrer uniquement sur les canaux de diffusion."
+          ],
+          "it": [
+            "Chiedere al cliente di chiamare un numero di telefono fisso aziendale.",
+            "Lasciare il profilo privato per generare curiosità forzata.",
+            "Utilizzare automazioni integrate nell'API di Meta per inviare link d'acquisto automatici quando l'utente interagisce nei commenti o nei Direct.",
+            "Disattivare i commenti e concentrarsi solo sui post nei canali di trasmissione."
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "As automações oficiais respondem em segundos, capturando a atenção do cliente no momento de maior interesse dele pela compra e acelerando o processo comercial.",
+          "en": "Official automations respond in seconds, capturing the customer's attention at their peak point of buying interest and accelerating the sales process.",
+          "es": "Las automatizaciones oficiales responden en segundos, capturando la atención del cliente en el momento de mayor interés por la compra y acelerando el proceso comercial.",
+          "fr": "Les automatisations officielles répondent en quelques secondes, capturant l'attention du client au moment où son intérêt d'achat est au plus haut et accélérant le processus commercial.",
+          "it": "Le automazioni ufficiali rispondono in pochi secondi, catturando l'attenzione del cliente nel momento di massimo interesse per l'acquisto e accelerando il processo commerciale."
+        }
+      }
+    },
+    {
+      "id": "instagram_niche_influence_4",
+      "order": 4,
+      "title": {
+        "pt": "Nicho de Influência: Mídia Kit, Prospecção Ativa e Parcerias com Marcas",
+        "en": "Influence Niche: Media Kit, Active Prospecting, and Brand Partnerships",
+        "es": "Nicho de Influencia: Media Kit, Prospección Activa y Alianzas con Marcas",
+        "fr": "Niche Influence : Kit Média, Prospection Active et Partenariats de Marque",
+        "it": "Nicchia Influenza: Media Kit, Prospezione Attiva e Partnership con i Brand"
+      },
+      "summary": {
+        "pt": "Aprenda a se posicionar como influenciador profissional. Monte um Mídia Kit atraente com métricas auditadas, aprenda a fazer prospecção ativa de marcas e saiba estruturar publiposts que geram resultados reais.",
+        "en": "Learn to position yourself as a professional influencer. Build an attractive Media Kit with audited metrics, learn to do active brand prospecting, and know how to structure sponsored posts that deliver real results.",
+        "es": "Aprende a posicionarte como influencer profesional. Arma un Media Kit atractivo con métricas auditadas, aprende a hacer prospección activa de marcas y sabe cómo estructurar publiposts que generen resultados reales.",
+        "fr": "Apprenez à vous positionner comme un influenceur professionnel. Créez un Kit Média attrayant avec des mesures auditées, apprenez à faire de la prospection de marques active et sachez structurer des posts sponsorisés performants.",
+        "it": "Impara a posizionarti come influencer professionista. Crea un Media Kit attraente con metriche verificate, impara a fare prospezione attiva con i brand e scopri come strutturare post sponsorizzati che generano risultati reali."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O nicho de influenciadores digitais mudou. Marcas não buscam mais apenas por números massivos de vaidade (seguidores), mas sim por **alta taxa de engajamento, autoridade real em um tema específico e dados demográficos claros de audiência**. O influenciador de sucesso hoje age como uma empresa de mídia."
+          },
+          {
+            "type": "paragraph",
+            "text": "Para monetizar profissionalmente, você deve montar um **Mídia Kit profissional** contendo alcance dos Stories, retenção dos Reels, nicho de atuação e cases anteriores de sucesso. Em vez de esperar convites passivamente, a prospecção ativa via e-mail corporativo ou Direct de gerentes de marketing acelera o fechamento de contratos de publicidade."
+          },
+          {
+            "type": "tip",
+            "text": "Sempre siga as regras legais de transparência usando a marcação nativa de 'Parceria Paga' do Instagram. Isso transmite profissionalismo tanto para a plataforma quanto para o consumidor, evitando penalidades de alcance."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "The digital influencer niche has changed. Brands no longer look just for massive vanity metrics (followers), but rather for **high engagement rates, real authority in a specific topic, and clear audience demographics**. Successful influencers today act as media companies."
+          },
+          {
+            "type": "paragraph",
+            "text": "To monetize professionally, you must build a **professional Media Kit** containing Stories reach, Reels retention, your niche focus, and past success cases. Instead of passively waiting for invites, active prospecting via corporate email or DMs to marketing managers speeds up ad contract closings."
+          },
+          {
+            "type": "tip",
+            "text": "Always follow legal transparency guidelines by using Instagram's native 'Paid Partnership' label. This shows professionalism to both the platform and the consumer, preventing reach penalties."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "El nicho de influencers digitales ha cambiado. Las marcas ya no buscan solo números masivos de vanidad (seguidores), sino **alta tasa de engagement, autoridad real en un tema específico y datos demográficos claros de la audiencia**. El influencer exitoso hoy actúa como una empresa de medios."
+          },
+          {
+            "type": "paragraph",
+            "text": "Para monetizar profesionalmente, debes armar un **Media Kit profesional** que contenga el alcance de las Stories, retención de Reels, nicho de actuación y casos previos de éxito. En lugar de esperar pasivamente, la prospección activa acelera el cierre de contratos."
+          },
+          {
+            "type": "tip",
+            "text": "Sigue siempre las reglas de transparencia usando la etiqueta nativa de 'Colaboración Pagada' de Instagram. Esto transmite profesionalismo y evita penalizaciones de alcance."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "La niche des influenceurs numériques a changé. Les marques ne recherchent plus seulement des chiffres de vanité massifs (abonnés), mais plutôt **un taux d'engagement élevé, une autorité réelle sur un sujet précis et des données démographiques claires**. L'influenceur qui réussit aujourd'hui agit comme une entreprise de médias."
+          },
+          {
+            "type": "paragraph",
+            "text": "Pour monétiser professionnellement, vous devez concevoir un **Kit Média professionnel** contenant la portée des Stories, la rétention des Reels, votre domaine d'activité et vos succès passés. Au lieu d'attendre passivement, la prospection active accélère la signature de contrats."
+          },
+          {
+            "type": "tip",
+            "text": "Respectez toujours les règles de transparence en utilisant la mention native 'Partenariat rémunéré' d'Instagram. Cela montre votre professionnalisme et évite les pénalités de portée."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "La nicchia degli influencer digitali è cambiata. I brand non cercano più solo numeri di vanità enormi (follower), ma piuttosto un **alto tasso di interazione, un'autorità reale su un tema specifico e dati demografici chiari sul pubblico**. L'influencer di successo oggi agisce come un'azienda di media."
+          },
+          {
+            "type": "paragraph",
+            "text": "Per monetizzare in modo professionale, devi creare un **Media Kit professionale** contenente la copertura delle Stories, la fidelizzazione dei Reel, la nicchia di riferimento e i casi di successo precedenti. Invece di aspettare passivamente, la prospezione attiva accelera la chiusura dei contratti pubblicitari."
+          },
+          {
+            "type": "tip",
+            "text": "Segui sempre le regole di trasparenza utilizzando l'etichetta nativa 'Partnership pubblicitaria' di Instagram. Questo trasmette professionalità ed evita penalizzazioni della copertura."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual documento essencial um influenciador digital deve apresentar às empresas para fechar contratos publicitários profissionais?",
+          "en": "Which essential document must a digital influencer present to companies to close professional advertising contracts?",
+          "es": "¿Qué documento esencial debe presentar un influencer digital a las empresas para cerrar contratos publicitarios profesionales?",
+          "fr": "Quel document essentiel un influenceur numérique doit-il présenter aux entreprises pour signer des contrats publicitaires professionnels ?",
+          "it": "Quale documento essenziale deve presentare un influencer digitale alle aziende per chiudere contratti pubblicitari professionali?"
+        },
+        "options": {
+          "pt": [
+            "Um extrato de conta bancária pessoal.",
+            "Um Mídia Kit profissional com estatísticas atualizadas de alcance, engajamento e público-alvo.",
+            "Uma lista impressa com nome de todos os seguidores.",
+            "Um contrato de exclusividade com o próprio Instagram assinado fisicamente."
+          ],
+          "en": [
+            "A personal bank account statement.",
+            "A professional Media Kit with updated statistics on reach, engagement, and target audience.",
+            "A printed list with the names of all followers.",
+            "A physically signed exclusivity contract with Instagram itself."
+          ],
+          "es": [
+            "Un extracto de cuenta bancaria personal.",
+            "Un Media Kit profesional con estadísticas actualizadas de alcance, engagement y público objetivo.",
+            "Una lista impresa con el nombre de todos los seguidores.",
+            "Un contrato de exclusividad con el propio Instagram firmado físicamente."
+          ],
+          "fr": [
+            "Un relevé de compte bancaire personnel.",
+            "Un Kit Média professionnel contenant des statistiques à jour sur la portée, l'engagement et le public cible.",
+            "Une liste imprimée contenant le nom de tous les abonnés.",
+            "Un contrat d'exclusivité avec Instagram lui-même signé physiquement."
+          ],
+          "it": [
+            "Un estratto del conto bancario personale.",
+            "Un Media Kit professionale con statistiche aggiornate su copertura, interazione e pubblico target.",
+            "Un elenco stampato con i nomi di tutti i follower.",
+            "Un contratto di esclusività con Instagram stesso firmato fisicamente."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "O Mídia Kit funciona como o portfólio comercial do influenciador, provando com dados analíticos reais da plataforma o potencial de retorno que a marca terá ao investir no canal dele.",
+          "en": "The Media Kit works as the influencer's business portfolio, proving with real platform analytical data the potential return return the brand will get by investing in their channel.",
+          "es": "El Media Kit funciona como el portafolio comercial del influencer, demostrando con datos analíticos reales de la plataforma el potencial de retorno que tendrá la marca al invertir en su canal.",
+          "fr": "Le Kit Média fonctionne comme le portfolio commercial de l'influenceur, prouvant avec des données analytiques réelles de la plateforme le retour sur investissement potentiel pour la marque.",
+          "it": "Il Media Kit funge da portfolio commerciale dell'influencer, dimostrando con dati analitici reali della piattaforma il potenziale ritorno che il brand otterrà investendo sul suo canale."
+        }
+      }
+    }
+  ]
+}
