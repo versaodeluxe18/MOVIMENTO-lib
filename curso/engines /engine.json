@@ -1,0 +1,1037 @@
+{
+  "id": "curso_game_engines_master_2026",
+  "level": "Avançado",
+  "duration": "40 horas",
+  "iconUrl": "https://sua-cdn-de-imagens.com/icons/game-engines-master.png",
+  "supportedLanguages": [
+    "pt",
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "title": {
+    "pt": "A Enciclopédia das Game Engines: Da Indústria ao Código Autoral",
+    "en": "The Game Engines Encyclopedia: From Industry to Custom Code",
+    "es": "La Enciclopedia de los Motores de Juegos: De la Industria al Código Propio",
+    "fr": "L'Encyclopédie des Moteurs de Jeu: De l'Industrie au Code Sur Mesure",
+    "it": "L'Enciclopedia dei Motori di Gioco: Dall'Industria al Codice Personalizzato"
+  },
+  "description": {
+    "pt": "O guia definitivo sobre motores de jogos. Explore a história, arquitetura, grandes títulos, pontos fortes, críticas de engines comerciais, indies e como criar sua própria engine.",
+    "en": "The definitive guide to game engines. Explore history, architecture, top titles, strengths, and criticisms of commercial, indie, and custom-built engines.",
+    "es": "La guía definitiva de motores de juegos. Explore la historia, arquitectura, grandes títulos, puntos fuertes y críticas de motores comerciales, indies e como criar su propio motor.",
+    "fr": "Le guide définitif des moteurs de jeu. Explorez l'histoire, l'architecture, les grands titres, les points forts et les critiques des moteurs commerciaux, indies et sur mesure.",
+    "it": "La guida definitiva ai motori di gioco. Esplora la storia, l'architettura, i grandi titoli, i punti di forza e le critiche dei motori commerciali, indie e personalizzati."
+  },
+  "lessons": [
+    {
+      "id": "engine_unreal",
+      "order": 1,
+      "title": {
+        "pt": "Aula 1: Unreal Engine - O Gigante Gráfico AAA",
+        "en": "Lesson 1: Unreal Engine - The AAA Graphical Giant",
+        "es": "Lección 1: Unreal Engine - El Gigante Gráfico AAA",
+        "fr": "Leçon 1: Unreal Engine - Le Géant Graphique AAA",
+        "it": "Lezione 1: Unreal Engine - Il Gigante Grafico AAA"
+      },
+      "summary": {
+        "pt": "A evolução da Epic Games, fotorrealismo com Nanite/Lumen e críticas ao peso e curva de aprendizado.",
+        "en": "Epic Games' evolution, photorealism with Nanite/Lumen, and criticisms regarding size and learning curve.",
+        "es": "La evolución de Epic Games, fotorrealismo con Nanite/Lumen y críticas al peso y curva de aprendizaje.",
+        "fr": "L'évolution d'Epic Games, photoréalisme avec Nanite/Lumen et critiques sur le poids et la courbe d'apprentissage.",
+        "it": "L'evoluzione di Epic Games, fotorealismo con Nanite/Lumen e critiche su peso e curva di apprendimento."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Criada por Tim Sweeney na Epic Games em 1998 com o jogo *Unreal*, redefiniu os gráficos 3D. Impulsiona sucessos como *Fortnite* e *Gears of War*. **Crítica:** É pesada para projetos pequenos e possui uma curva complexa."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "#include \"GameFramework/Actor.h\"\nvoid AMyActor::BeginPlay() {\n    Super::BeginPlay();\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Ideal para fotorrealismo e grandes equipes AAA."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Created by Tim Sweeney at Epic Games in 1998 with *Unreal*, redefining 3D graphics. Powers hits like *Fortnite* and *Gears of War*. **Criticism:** Heavy for small projects with a complex curve."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "#include \"GameFramework/Actor.h\"\nvoid AMyActor::BeginPlay() {\n    Super::BeginPlay();\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Ideal for photorealism and large AAA teams."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Creada por Tim Sweeney en Epic Games en 1998 con *Unreal*, redefiniendo gráficos 3D. Impulsa éxitos como *Fortnite*. **Crítica:** Pesada para proyectos pequeños y curva compleja."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "#include \"GameFramework/Actor.h\"\nvoid AMyActor::BeginPlay() {\n    Super::BeginPlay();\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Ideal para fotorrealismo y grandes equipos AAA."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Créé par Tim Sweeney chez Epic Games en 1998 avec *Unreal*, redéfinissant les graphismes 3D. Propulse *Fortnite*. **Critique:** Lourd pour les petits projets, courbe complexe."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "#include \"GameFramework/Actor.h\"\nvoid AMyActor::BeginPlay() {\n    Super::BeginPlay();\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Idéal pour le photoréalisme et les grandes équipes AAA."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Creato da Tim Sweeney in Epic Games nel 1998 con *Unreal*, ridefinendo la grafica 3D. Alimenta *Fortnite*. **Critica:** Pesante per piccoli progetti e curva complessa."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "#include \"GameFramework/Actor.h\"\nvoid AMyActor::BeginPlay() {\n    Super::BeginPlay();\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Ideale per fotorealismo e grandi team AAA."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Quem criou a Unreal Engine?",
+          "en": "Who created Unreal Engine?",
+          "es": "¿Quién creó Unreal Engine?",
+          "fr": "Qui a créé Unreal Engine?",
+          "it": "Chi ha creato Unreal Engine?"
+        },
+        "options": {
+          "pt": [
+            "Tim Sweeney",
+            "John Carmack",
+            "Juan Linietsky",
+            "Hideo Kojima"
+          ],
+          "en": [
+            "Tim Sweeney",
+            "John Carmack",
+            "Juan Linietsky",
+            "Hideo Kojima"
+          ],
+          "es": [
+            "Tim Sweeney",
+            "John Carmack",
+            "Juan Linietsky",
+            "Hideo Kojima"
+          ],
+          "fr": [
+            "Tim Sweeney",
+            "John Carmack",
+            "Juan Linietsky",
+            "Hideo Kojima"
+          ],
+          "it": [
+            "Tim Sweeney",
+            "John Carmack",
+            "Juan Linietsky",
+            "Hideo Kojima"
+          ]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": {
+          "pt": "Tim Sweeney fundou a Epic e desenvolveu a engine.",
+          "en": "Tim Sweeney founded Epic and developed the engine.",
+          "es": "Tim Sweeney fundó Epic y desarrolló el motor.",
+          "fr": "Tim Sweeney a fondé Epic et développé le moteur.",
+          "it": "Tim Sweeney ha fondato Epic e sviluppato il motore."
+        }
+      }
+    },
+    {
+      "id": "engine_unity",
+      "order": 2,
+      "title": {
+        "pt": "Aula 2: Unity - Multiplataforma e a Polêmica das Taxas",
+        "en": "Lesson 2: Unity - Multiplatform and the Fee Controversy",
+        "es": "Lección 2: Unity - Multiplataforma y la Polémica de Tarifas",
+        "fr": "Leçon 2: Unity - Multiplateforme et la Controverse des Frais",
+        "it": "Lezione 2: Unity - Multipiattaforma e la Polemica delle Tariffe"
+      },
+      "summary": {
+        "pt": "O domínio no mercado mobile/indie, versatilidade e as decisões corporativas instáveis.",
+        "en": "Dominance in mobile/indie markets, versatility, and unstable corporate choices.",
+        "es": "Dominio en el mercado móvil/indie, versatilidad y decisiones corporativas inestables.",
+        "fr": "Dominance sur le marché mobile/indie, polyvalence et choix d'entreprise instables.",
+        "it": "Dominio nel mercato mobile/indie, versatilità e scelte aziendali instabili."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Lançada em 2005, democratizou o desenvolvimento de jogos. Base de *Hollow Knight* e *Genshin Impact*. **Crítica:** Fortemente criticada por instabilidade nas taxas de licença (Runtime Fee) e fragmentação de pipelines (URP/HDRP)."
+          },
+          {
+            "type": "code_block",
+            "language": "csharp",
+            "code": "using UnityEngine;\npublic class Move : MonoBehaviour {\n    void Update() { transform.Translate(0, 0, 1); }\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Excelente para Mobile e jogos 2D/3D híbridos rápidos."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Launched in 2005, it democratized game dev. Base for *Hollow Knight* and *Genshin Impact*. **Criticism:** Strongly criticized for license fee instability (Runtime Fee) and pipeline fragmentation."
+          },
+          {
+            "type": "code_block",
+            "language": "csharp",
+            "code": "using UnityEngine;\npublic class Move : MonoBehaviour {\n    void Update() { transform.Translate(0, 0, 1); }\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Excellent for Mobile and fast hybrid 2D/3D games."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Lanzado en 2005, democratizó el desarrollo. Base de *Hollow Knight*. **Crítica:** Fuertemente criticado por inestabilidad de tarifas (Runtime Fee) y fragmentación."
+          },
+          {
+            "type": "code_block",
+            "language": "csharp",
+            "code": "using UnityEngine;\npublic class Move : MonoBehaviour {\n    void Update() { transform.Translate(0, 0, 1); }\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Excelente para Móvil y juegos híbridos rápidos 2D/3D."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Lancé en 2005, il a démocratisé le dev. Base de *Hollow Knight*. **Critique:** Fortement critiqué pour l'instabilité des frais (Runtime Fee) et la fragmentation."
+          },
+          {
+            "type": "code_block",
+            "language": "csharp",
+            "code": "using UnityEngine;\npublic class Move : MonoBehaviour {\n    void Update() { transform.Translate(0, 0, 1); }\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Excellent pour le mobile et les jeux hybrides 2D/3D rapides."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Lanciato nel 2005, ha democratizzato lo sviluppo. Base di *Hollow Knight*. **Critica:** Fortemente criticato per instabilità delle tariffe (Runtime Fee) e frammentazione."
+          },
+          {
+            "type": "code_block",
+            "language": "csharp",
+            "code": "using UnityEngine;\npublic class Move : MonoBehaviour {\n    void Update() { transform.Translate(0, 0, 1); }\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Eccellente per Mobile e giochi ibridi 2D/3D veloci."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual jogo famoso foi feito na Unity?",
+          "en": "Which famous game was made in Unity?",
+          "es": "¿Qué juego famoso fue hecho en Unity?",
+          "fr": "Quel jeu célèbre a été fait dans Unity?",
+          "it": "Quale celebre gioco è stato fatto in Unity?"
+        },
+        "options": {
+          "pt": [
+            "Hollow Knight",
+            "Fortnite",
+            "Minecraft",
+            "Doom"
+          ],
+          "en": [
+            "Hollow Knight",
+            "Fortnite",
+            "Minecraft",
+            "Doom"
+          ],
+          "es": [
+            "Hollow Knight",
+            "Fortnite",
+            "Minecraft",
+            "Doom"
+          ],
+          "fr": [
+            "Hollow Knight",
+            "Fortnite",
+            "Minecraft",
+            "Doom"
+          ],
+          "it": [
+            "Hollow Knight",
+            "Fortnite",
+            "Minecraft",
+            "Doom"
+          ]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": {
+          "pt": "Hollow Knight é um dos maiores marcos indies da Unity.",
+          "en": "Hollow Knight is one of Unity's biggest indie milestones.",
+          "es": "Hollow Knight es uno de los mayores hitos indie de Unity.",
+          "fr": "Hollow Knight est l'un des plus grands jalons indie de Unity.",
+          "it": "Hollow Knight è una delle più grandi pietre miliari indie di Unity."
+        }
+      }
+    },
+    {
+      "id": "engine_godot",
+      "order": 3,
+      "title": {
+        "pt": "Aula 3: Godot - O Refúgio Open-Source",
+        "en": "Lesson 3: Godot - The Open-Source Refuge",
+        "es": "Lección 3: Godot - El Refugio Open-Source",
+        "fr": "Leçon 3: Godot - Le Refuge Open-Source",
+        "it": "Lezione 3: Godot - Il Rifugio Open-Source"
+      },
+      "summary": {
+        "pt": "A ascensão do software livre sob a licença MIT, o sistema de nós e limites no 3D.",
+        "en": "The rise of free software under the MIT license, node systems, and 3D limitations.",
+        "es": "El auge del software libre bajo la licencia MIT, sistema de nodos y límites en 3D.",
+        "fr": "L'essor du logiciel libre sous licence MIT, système de nœuds et limites en 3D.",
+        "it": "L'ascesa del software libero sotto licenza MIT, sistema di nodi e limiti nel 3D."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Tornou-se código aberto em 2014. Cresceu massivamente após as polêmicas da Unity. Usada em *Brotato* e *Cassette Beasts*. **Crítica:** Renderização 3D de alta performance ainda está em desenvolvimento se comparada com Unreal."
+          },
+          {
+            "type": "code_block",
+            "language": "gdscript",
+            "code": "extends Node2D\nfunc _ready():\n    print(\"Liberdade de código livre!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Totalmente gratuita, sem royalties ou contratos proprietários."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Became open-source in 2014. Massive growth after Unity's controversies. Used in *Brotato*. **Criticism:** High-performance 3D rendering is still catching up compared to Unreal."
+          },
+          {
+            "type": "code_block",
+            "language": "gdscript",
+            "code": "extends Node2D\nfunc _ready():\n    print(\"Liberdade de código livre!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Completely free, no royalties or proprietary contracts."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Código abierto en 2014. Gran crecimiento tras polémicas de Unity. Usado en *Brotato*. **Crítica:** Su renderizado 3D de alto rendimiento aún busca alcanzar a Unreal."
+          },
+          {
+            "type": "code_block",
+            "language": "gdscript",
+            "code": "extends Node2D\nfunc _ready():\n    print(\"Liberdade de código livre!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Totalmente gratis, sin regalías ni contratos propietarios."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Open-source en 2014. Forte croissance après les polémiques d'Unity. Utilisé dans *Brotato*. **Critique:** Le rendu 3D haute performance est encore en deçà d'Unreal."
+          },
+          {
+            "type": "code_block",
+            "language": "gdscript",
+            "code": "extends Node2D\nfunc _ready():\n    print(\"Liberdade de código livre!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Entièrement gratuit, sans redevances ni contrats propriétaires."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Open-source nel 2014. Forte crescita dopo le polemiche di Unity. Usato in *Brotato*. **Critica:** Il rendering 3D ad alte prestazioni è ancora indietro rispetto a Unreal."
+          },
+          {
+            "type": "code_block",
+            "language": "gdscript",
+            "code": "extends Node2D\nfunc _ready():\n    print(\"Liberdade de código livre!\")"
+          },
+          {
+            "type": "tip",
+            "text": "Completamente gratuito, senza royalty o contratti proprietari."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Sob qual licença a Godot é distribuída?",
+          "en": "Under which license is Godot distributed?",
+          "es": "¿Bajo qué licencia se distribuye Godot?",
+          "fr": "Sous quelle licence Godot est-il distribué ?",
+          "it": "Sotto quale licenza è distribuito Godot?"
+        },
+        "options": {
+          "pt": [
+            "MIT",
+            "GPLv3",
+            "Apache 2.0",
+            "Proprietária"
+          ],
+          "en": [
+            "MIT",
+            "GPLv3",
+            "Apache 2.0",
+            "Proprietary"
+          ],
+          "es": [
+            "MIT",
+            "GPLv3",
+            "Apache 2.0",
+            "Propietaria"
+          ],
+          "fr": [
+            "MIT",
+            "GPLv3",
+            "Apache 2.0",
+            "Propriétaire"
+          ],
+          "it": [
+            "MIT",
+            "GPLv3",
+            "Apache 2.0",
+            "Proprietaria"
+          ]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": {
+          "pt": "A licença MIT permite modificação total livre e comercial.",
+          "en": "The MIT license allows complete free and commercial modification.",
+          "es": "La licencia MIT permite la modificación total libre y comercial.",
+          "fr": "La licence MIT permet une modification totale libre et commerciale.",
+          "it": "La licenza MIT consente la modifica totale gratuita e commerciale."
+        }
+      }
+    },
+    {
+      "id": "engine_rpgmaker",
+      "order": 4,
+      "title": {
+        "pt": "Aula 4: RPG Maker - Foco em Nicho e Conforto em Grid",
+        "en": "Lesson 4: RPG Maker - Niche Focus and Grid Comfort",
+        "es": "Lección 4: RPG Maker - Enfoque de Nicho y Confort en Cuadrícula",
+        "fr": "Leçon 4: RPG Maker - Focus sur une Niche et Confort de Grille",
+        "it": "Lezione 4: RPG Maker - Focus di Nicchia e Comfort della Griglia"
+      },
+      "summary": {
+        "pt": "A história da ASCII/Enterbrain, o ecossistema de JRPGs clássicos e as amarras de sua própria estrutura.",
+        "en": "The ASCII/Enterbrain history, the classic JRPG ecosystem, and the constraints of its own structure.",
+        "es": "La historia de ASCII/Enterbrain, el ecosistema de JRPGs clásicos y las limitaciones de su propia estructura.",
+        "fr": "L'histoire d'ASCII/Enterbrain, l'écosystème des JRPG classiques e les contraintes de sa propre structure.",
+        "it": "La storia di ASCII/Enterbrain, l'ecosistema dei JRPG classici e i vincoli della sua stessa struttura."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Nascida nos anos 90 pela ASCII Corporation, o RPG Maker permitiu que qualquer pessoa fizesse um JRPG sem programar. Gerou clássicos icônicos como *To the Moon*, *Ib* e *Omori*. **Crítica:** Extremamente rígida; sair do padrão de movimentação em grid ou combate por turnos exige reescrever a engine por meio de scripts (Ruby/JS)."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Exemplo de Plugin JavaScript para RPG Maker MV/MZ\n(function() {\n    console.log(\"RPG Maker MZ carregado!\");\n})();"
+          },
+          {
+            "type": "tip",
+            "text": "Excelente se seu objetivo for focar puramente em narrativa 2D clássica."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Born in the 90s by ASCII Corporation, RPG Maker allowed anyone to make a JRPG without coding. It birthed classics like *To the Moon*, *Ib*, and *Omori*. **Criticism:** Extremely rigid; leaving grid movement or turn-based combat requires complete rewriting via scripts (Ruby/JS)."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Exemplo de Plugin JavaScript para RPG Maker MV/MZ\n(function() {\n    console.log(\"RPG Maker MZ carregado!\");\n})();"
+          },
+          {
+            "type": "tip",
+            "text": "Excellent if your goal is to focus purely on classic 2D narrative."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Nacida en los 90 por ASCII, permitió crear JRPGs sem saber programar. Creó clássicos como *To the Moon* y *Omori*. **Crítica:** Extremadamente rígida; salir de la cuadrícula o turnos requiere reescribir mediante scripts."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Exemplo de Plugin JavaScript para RPG Maker MV/MZ\n(function() {\n    console.log(\"RPG Maker MZ carregado!\");\n})();"
+          },
+          {
+            "type": "tip",
+            "text": "Excelente si su objetivo es enfocarse puramente en narrativa 2D clásica."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Né dans les années 90 par ASCII, il a permis de créer des JRPG sans coder. Il a donné naissance à *To the Moon* et *Omori*. **Critique:** Extrêmement rigide ; sortir de la grille ou du tour par tour nécessite une réécriture par scripts."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Exemplo de Plugin JavaScript para RPG Maker MV/MZ\n(function() {\n    console.log(\"RPG Maker MZ carregado!\");\n})();"
+          },
+          {
+            "type": "tip",
+            "text": "Excellent si votre objectif est de vous concentrer purement sur le récit 2D classique."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Nato negli anni '90 da ASCII, ha permesso di creare JRPG senza codificare. Ha dato vita a *To the Moon* e *Omori*. **Critica:** Estremamente rigido; uscire dalla griglia o dai turni richiede la riscrittura tramite script."
+          },
+          {
+            "type": "code_block",
+            "language": "javascript",
+            "code": "// Exemplo de Plugin JavaScript para RPG Maker MV/MZ\n(function() {\n    console.log(\"RPG Maker MZ carregado!\");\n})();"
+          },
+          {
+            "type": "tip",
+            "text": "Eccellente se il tuo obiettivo è concentrarti puramente sulla narrativa 2D classica."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual jogo aclamado pela crítica foi feito no RPG Maker?",
+          "en": "Which critically acclaimed game was made in RPG Maker?",
+          "es": "¿Qué juego aclamado por la crítica fue hecho en RPG Maker?",
+          "fr": "Quel jeu acclamé par la critique a été fait dans RPG Maker?",
+          "it": "Quale gioco acclamato dalla critica è stato fatto in RPG Maker?"
+        },
+        "options": {
+          "pt": [
+            "Omori",
+            "Celeste",
+            "Undertale",
+            "Dead Cells"
+          ],
+          "en": [
+            "Omori",
+            "Celeste",
+            "Undertale",
+            "Dead Cells"
+          ],
+          "es": [
+            "Omori",
+            "Celeste",
+            "Undertale",
+            "Dead Cells"
+          ],
+          "fr": [
+            "Omori",
+            "Celeste",
+            "Undertale",
+            "Dead Cells"
+          ],
+          "it": [
+            "Omori",
+            "Celeste",
+            "Undertale",
+            "Dead Cells"
+          ]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": {
+          "pt": "Omori começou seu desenvolvimento usando a base do RPG Maker.",
+          "en": "Omori started its development using the RPG Maker framework.",
+          "es": "Omori comenzó su desarrollo utilizando la base de RPG Maker.",
+          "fr": "Omori a commencé seu développement en utilisant la base de RPG Maker.",
+          "it": "Omori ha iniziato il suo sviluppo utilizzando la base di RPG Maker."
+        }
+      }
+    },
+    {
+      "id": "engine_gamemaker",
+      "order": 5,
+      "title": {
+        "pt": "Aula 5: GameMaker - O Rei das Joias 2D",
+        "en": "Lesson 5: GameMaker - The King of 2D Gems",
+        "es": "Lección 5: GameMaker - El Rey de las Joyas 2D",
+        "fr": "Leçon 5: GameMaker - Le Roi des Joyaux 2D",
+        "it": "Lezione 5: GameMaker - Il Re dei Gioielli 2D"
+      },
+      "summary": {
+        "pt": "O poder do GML (GameMaker Language), o fluxo ágil e as limitações no plano 3D.",
+        "en": "The power of GML (GameMaker Language), agile workflow, and 3D plane limitations.",
+        "es": "El poder de GML, flujo de trabajo ágil y limitaciones en el plano 3D.",
+        "fr": "La puissance du GML, flux de travail agile et limites sur le plan 3D.",
+        "it": "La potenza di GML, flusso di lavoro agile e limiti sul piano 3D."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Criada por Mark Overmars, tornou-se a ferramenta definitiva para pixel art e 2D refinado. Deu vida a *Undertale*, *Hotline Miami* e *Katana Zero*. **Crítica:** Embora possua suporte para 3D, a arquitetura interna é contra-intuitiva para essa dimensão e exige matemática complexa direta."
+          },
+          {
+            "type": "code_block",
+            "language": "gml",
+            "code": "// Código GML para movimentação básica\nif (keyboard_check(vk_right)) {\n    x += 4;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Sua linguagem proprietária GML é rápida, flexível e ideal para iteração ágil em 2D."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Created by Mark Overmars, it became the ultimate tool for pixel art and refined 2D. Birthed *Undertale*, *Hotline Miami*, and *Katana Zero*. **Criticism:** While it supports 3D, the internal architecture is counter-intuitive and requires low-level math."
+          },
+          {
+            "type": "code_block",
+            "language": "gml",
+            "code": "// Código GML para movimentação básica\nif (keyboard_check(vk_right)) {\n    x += 4;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Its proprietary language GML is fast, flexible, and ideal for rapid 2D iteration."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Creado por Mark Overmars, herramienta definitiva para pixel art. Base de *Undertale*. **Crítica:** Su soporte 3D es contraintuitivo y requiere matemática compleja."
+          },
+          {
+            "type": "code_block",
+            "language": "gml",
+            "code": "// Código GML para movimentação básica\nif (keyboard_check(vk_right)) {\n    x += 4;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Su lenguaje propio GML es rápido, flexible e ideal para iteración ágil en 2D."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Créé par Mark Overmars, outil ultime pour le pixel art. Base d'*Undertale*. **Critique:** Son support 3D est contre-intuitif et nécessite des maths complexes."
+          },
+          {
+            "type": "code_block",
+            "language": "gml",
+            "code": "// Código GML para movimentação básica\nif (keyboard_check(vk_right)) {\n    x += 4;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Son langage propriétaire GML est rapide, flexible et idéal pour une itération 2D rapide."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Creato da Mark Overmars, strumento definitivo per pixel art. Base di *Undertale*. **Critica:** Il suo supporto 3D è controintuitivo e richiede matematica complessa."
+          },
+          {
+            "type": "code_block",
+            "language": "gml",
+            "code": "// Código GML para movimentação básica\nif (keyboard_check(vk_right)) {\n    x += 4;\n}"
+          },
+          {
+            "type": "tip",
+            "text": "Il suo linguaggio proprietario GML è rapido, flessibile e ideale per un'iterazione 2D rapida."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual desses jogos usa GameMaker?",
+          "en": "Which of these games uses GameMaker?",
+          "es": "¿Cuál de estos juegos usa GameMaker?",
+          "fr": "Lequel de ces jeux utilise GameMaker ?",
+          "it": "Quale di questi giochi usa GameMaker?"
+        },
+        "options": {
+          "pt": [
+            "Undertale",
+            "Genshin Impact",
+            "Doom Eternal",
+            "Brotato"
+          ],
+          "en": [
+            "Undertale",
+            "Genshin Impact",
+            "Doom Eternal",
+            "Brotato"
+          ],
+          "es": [
+            "Undertale",
+            "Genshin Impact",
+            "Doom Eternal",
+            "Brotato"
+          ],
+          "fr": [
+            "Undertale",
+            "Genshin Impact",
+            "Doom Eternal",
+            "Brotato"
+          ],
+          "it": [
+            "Undertale",
+            "Genshin Impact",
+            "Doom Eternal",
+            "Brotato"
+          ]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": {
+          "pt": "Toby Fox desenvolveu Undertale inteiramente na GameMaker.",
+          "en": "Toby Fox developed Undertale entirely in GameMaker.",
+          "es": "Toby Fox desarrolló Undertale por completo en GameMaker.",
+          "fr": "Toby Fox a développé Undertale entièrement dans GameMaker.",
+          "it": "Toby Fox ha sviluppato Undertale interamente in GameMaker."
+        }
+      }
+    },
+    {
+      "id": "engine_source",
+      "order": 6,
+      "title": {
+        "pt": "Aula 6: Source Engine - Física Brutal e Cultura de Mods",
+        "en": "Lesson 6: Source Engine - Brutal Physics and Modding Culture",
+        "es": "Lección 6: Source Engine - Física Brutal y Cultura de Mods",
+        "fr": "Leçon 6: Source Engine - Physique Brutale et Culture de Mods",
+        "it": "Lezione 6: Source Engine - Fisica Brutale e Cultura delle Mod"
+      },
+      "summary": {
+        "pt": "A linhagem Quake/GoldSrc da Valve, a revolução da física em Half-Life 2 e as ferramentas ultrapassadas.",
+        "en": "Valve's Quake/GoldSrc lineage, the physics revolution in Half-Life 2, and outdated tooling.",
+        "es": "El linaje Quake/GoldSrc de Valve, la revolución física en Half-Life 2 y herramientas obsoletas.",
+        "fr": "La lignée Quake/GoldSrc de Valve, la révolution physique de Half-Life 2 et des outils obsolètes.",
+        "it": "La stirpe Quake/GoldSrc di Valve, la rivoluzione fisica in Half-Life 2 e strumenti obsoleti."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Nascida a partir da modificação do código de Quake (GoldSrc) pela Valve, a Source estreou em 2004 trazendo manipulação avançada de simulação de física em tempo real. Impulsionou *Half-Life 2*, *Counter-Strike*, *Portal* e *Left 4 Dead*. **Crítica:** Suas ferramentas originais de edição (como o Hammer Editor antigo) ficaram obsoletas, cheias de bugs e com gargalos de compilação imensos de iluminação (VVIS/VRAD)."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Estrutura conceitual de Entidade física no ecossistema Source\nLINK_ENTITY_TO_CLASS( prop_physics, CPhysicsProp );"
+          },
+          {
+            "type": "tip",
+            "text": "A Source gerou um ecossistema lendário onde os maiores jogos começaram como modificações gratuitas (mods)."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Born from Valve's modification of Quake code (GoldSrc), Source debuted in 2004 bringing advanced real-time physics simulation. Powered *Half-Life 2*, *Counter-Strike*, and *Portal*. **Criticism:** Its original editing tools (like the old Hammer Editor) became outdated, buggy, with huge lighting compile bottlenecks."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Estrutura conceitual de Entidade física no ecossistema Source\nLINK_ENTITY_TO_CLASS( prop_physics, CPhysicsProp );"
+          },
+          {
+            "type": "tip",
+            "text": "Source generated a legendary ecosystem where major games started as free modifications (mods)."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Nacida del código Quake de Valve, Source debutó en 2004 trayendo física avanzada. Impulsó *Portal*. **Crítica:** Sus herramientas originales de edición quedaron obsoletas y con fallas."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Estrutura conceitual de Entidade física no ecossistema Source\nLINK_ENTITY_TO_CLASS( prop_physics, CPhysicsProp );"
+          },
+          {
+            "type": "tip",
+            "text": "Source generó un ecosistema legendario donde grandes juegos comenzaron como modificaciones gratuitas."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Né du code Quake de Valve, Source a débuté en 2004 en apportant une physique avancée. Propulsé *Portal*. **Critique:** Ses outils d'édition originaux sont obsolètes et bogués."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Estrutura conceitual de Entidade física no ecossistema Source\nLINK_ENTITY_TO_CLASS( prop_physics, CPhysicsProp );"
+          },
+          {
+            "type": "tip",
+            "text": "Source a généré un écosystème légendaire où les grands jeux ont commencé comme des modifications gratuites."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Nato dal codice Quake di Valve, Source ha debuttato nel 2004 portando una fisica avanzata. Alimentato *Portal*. **Critica:** I suoi strumenti di editing originali sono obsoleti e pieni di bug."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Estrutura conceitual de Entidade física no ecossistema Source\nLINK_ENTITY_TO_CLASS( prop_physics, CPhysicsProp );"
+          },
+          {
+            "type": "tip",
+            "text": "Source ha generato un ecosistema leggendario in cui i giochi principali sono iniziati come mod gratuite."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual tecnologia foi o grande marco de marketing da Source em Half-Life 2?",
+          "en": "Which technology was Source's major marketing milestone in Half-Life 2?",
+          "es": "¿Qué tecnología foi el gran hito de marketing de Source en Half-Life 2?",
+          "fr": "Quelle technologie a été le grand jalon marketing de Source dans Half-Life 2 ?",
+          "it": "Quale tecnologia è stata la grande pietra miliare del marketing di Source in Half-Life 2?"
+        },
+        "options": {
+          "pt": [
+            "Simulação Física Avançada (Havok)",
+            "Ray Tracing em tempo real",
+            "Geração procedural de mapas",
+            "Suporte nativo a VR"
+          ],
+          "en": [
+            "Advanced Physics Simulation (Havok)",
+            "Real-time Ray Tracing",
+            "Procedural map generation",
+            "Native VR support"
+          ],
+          "es": [
+            "Simulación Física Avanzada (Havok)",
+            "Ray Tracing en tiempo real",
+            "Generación procedimental",
+            "Soporte nativo VR"
+          ],
+          "fr": [
+            "Simulation physique avancée (Havok)",
+            "Ray Tracing en temps réel",
+            "Génération procédurale",
+            "Support VR natif"
+          ],
+          "it": [
+            "Simulazione fisica avanzata (Havok)",
+            "Ray Tracing in tempo reale",
+            "Generazione procedurale",
+            "Supporto VR nativo"
+          ]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": {
+          "pt": "A integração física com quebra de objetos e a Gravity Gun revolucionou o mercado em 2004.",
+          "en": "The physical integration with breaking objects and the Gravity Gun revolutionized the market in 2004.",
+          "es": "La integración física con ruptura de objetos y la Gravity Gun revolucionó el mercado en 2004.",
+          "fr": "L'intégration physique avec rupture d'objets et le Gravity Gun a révolutionné le marché en 2004.",
+          "it": "L'integrazione fisica con la rottura degli oggetti e la Gravity Gun ha rivoluzionato il mercato nel 2004."
+        }
+      }
+    },
+    {
+      "id": "engine_autoral",
+      "order": 7,
+      "title": {
+        "pt": "Aula 7: Engine Autoral - Quando Criar seu Próprio Motor",
+        "en": "Lesson 7: Custom Engine - When to Build Your Own Motor",
+        "es": "Lección 7: Motor Propio - Cuándo Crear su Propio Motor",
+        "fr": "Leçon 7: Moteur Sur Mesure - Quand Créer Son Propre Moteur",
+        "it": "Lezione 7: Motore Personalizzato - Quando Creare il Proprio Motore"
+      },
+      "summary": {
+        "pt": "Controle absoluto vs. Reinventar a roda. Baixo nível com C++, Rust, OpenGL e Vulkan.",
+        "en": "Absolute control vs. Reinventing the wheel. Low-level with C++, Rust, OpenGL, and Vulkan.",
+        "es": "Control absoluto vs. Reinventar la rueda. Bajo nivel con C++, Rust, OpenGL y Vulkan.",
+        "fr": "Contrôle absolu vs Réinventer la roue. Bas niveau avec C++, Rust, OpenGL et Vulkan.",
+        "it": "Controllo assoluto vs Reinventare la ruota. Basso livello con C++, Rust, OpenGL e Vulkan."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Grandes estúdios desenvolvem engines autorais para necessidades específicas (ex: RE Engine da Capcom para otimização de carregamento, ou a REDengine para mundos densos). Criar seu próprio motor de baixo nível usando linguagens como C++ ou Rust sobre APIs gráficas (Vulkan, DirectX 12, OpenGL) concede controle de performance absoluto e zero taxas para terceiros. **Crítica:** Você perde meses ou anos criando sistemas básicos de renderização, gerenciamento de memória e física que engines comerciais já entregam prontos."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Inicialização conceitual gráfica de baixo nível (OpenGL)\nglGenBuffers(1, &vertexBufferID);\nglBindBuffer(GL_ARRAY_BUFFER, vertexBufferID);"
+          },
+          {
+            "type": "tip",
+            "text": "Desenvolva uma engine autoral se precisar de performance hiper-otimizada para um nicho específico ou para entender engenharia de software a fundo."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Big studios develop custom engines for specific needs (e.g., Capcom's RE Engine for extreme loading optimization). Building your engine using C++ or Rust over graphical APIs (Vulkan, DirectX 12) grants absolute performance control and zero fees. **Criticism:** You lose months or years building basic text-rendering, file systems, and window allocations that commercial engines deliver out of the box."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Inicialização conceitual gráfica de baixo nível (OpenGL)\nglGenBuffers(1, &vertexBufferID);\nglBindBuffer(GL_ARRAY_BUFFER, vertexBufferID);"
+          },
+          {
+            "type": "tip",
+            "text": "Develop a custom engine if you need hyper-optimized performance for a specific niche or to deeply understand software engineering."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Grandes estudios crean motores propios para necesidades específicas (ej: RE Engine). Da control absoluto. **Crítica:** Se perdem meses ou anos criando sistemas básicos já prontos nas outras engines."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Inicialização conceitual gráfica de baixo nível (OpenGL)\nglGenBuffers(1, &vertexBufferID);\nglBindBuffer(GL_ARRAY_BUFFER, vertexBufferID);"
+          },
+          {
+            "type": "tip",
+            "text": "Desarrolle un motor propio si necesita un rendimiento hiperoptimizado para un nicho específico."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Les grands studios créent des moteurs sur mesure pour des besoins spécifiques (ex: RE Engine). Offre un contrôle absolu. **Critique:** Vous perdez des mois ou des années à créer des systèmes de base déjà prêts ailleurs."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Inicialização conceitual gráfica de baixo nível (OpenGL)\nglGenBuffers(1, &vertexBufferID);\nglBindBuffer(GL_ARRAY_BUFFER, vertexBufferID);"
+          },
+          {
+            "type": "tip",
+            "text": "Développez un moteur personnalisé si vous avez besoin de performances hyper-optimisées pour une niche spécifique."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "I grandi studi creano motori personalizzati per esigenze specifiche (es: RE Engine). Offre un controllo assoluto. **Critica:** Si perdono mesi o anni a creare sistemi di base già pronti altrove."
+          },
+          {
+            "type": "code_block",
+            "language": "cpp",
+            "code": "// Inicialização conceitual gráfica de baixo nível (OpenGL)\nglGenBuffers(1, &vertexBufferID);\nglBindBuffer(GL_ARRAY_BUFFER, vertexBufferID);"
+          },
+          {
+            "type": "tip",
+            "text": "Sviluppa un motore personalizzato se hai bisogno di prestazioni iper-ottimizzate per una nicchia specifica."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é a principal desvantagem de optar por desenvolver uma engine autoral?",
+          "en": "What is the primary disadvantage of choosing to develop a custom engine?",
+          "es": "¿Cuál es la principal desventaja de optar por desarrollar un motor propio?",
+          "fr": "Quel est le principal inconvénient de choisir de développer un moteur sur mesure ?",
+          "it": "Qual è il principale svantaggio di scegliere di sviluppare un motore personalizzato?"
+        },
+        "options": {
+          "pt": [
+            "Tempo massivo gasto recriando fundações básicas",
+            "Obrigação de pagar royalties eternos",
+            "Incompatibilidade total com PCs modernos",
+            "Impossibilidade de programar em C++"
+          ],
+          "en": [
+            "Massive time spent recreating basic foundations",
+            "Obligation to pay eternal royalties",
+            "Total incompatibility with modern PCs",
+            "Impossibility of programming in C++"
+          ],
+          "es": [
+            "Tiempo masivo gastado recreando bases básicas",
+            "Obligación de pagar regalías eternas",
+            "Incompatibilidad total con PCs",
+            "Imposibilidad de programar en C++"
+          ],
+          "fr": [
+            "Temps massif passé à recréer des bases élémentaires",
+            "Obligation de payer des redevances éternelles",
+            "Incompatibilité totale avec les PC",
+            "Impossibilité de programmer en C++"
+          ],
+          "it": [
+            "Tempo enorme speso a ricreare basi elementari",
+            "Obbligo di pagare royalty eterne",
+            "Incompatibilità totale con i PC",
+            "Impossibilità di programmare in C++"
+          ]
+        },
+        "correctAnswerIndex": 0,
+        "explanation": {
+          "pt": "A maior barreira é o tempo de engenharia necessário antes mesmo de começar a fazer o jogo de fato.",
+          "en": "The biggest barrier is the engineering time required before even starting to make the actual game.",
+          "es": "La mayor barrera es el tiempo de ingeniería requerido antes de comenzar a hacer el juego real.",
+          "fr": "Le plus grand obstacle est le temps d'ingénierie requis avant même de commencer à créer le jeu proprement dit.",
+          "it": "L'ostacolo più grande è il tempo di ingegnerizzazione richiesto prima ancora di iniziare a creare il gioco vero e proprio."
+        }
+      }
+    }
+  ]
+}
