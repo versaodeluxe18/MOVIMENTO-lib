@@ -1,0 +1,208 @@
+{
+  "id": "curso_ia_visao",
+  "level": "Intermediário",
+  "duration": "2 horas",
+  "iconUrl": "https://img.icons8.com/color/96/artificial-intelligence.png",
+  "supportedLanguages": [
+    "pt",
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "title": {
+    "pt": "A Era da Inteligência Artificial: Ferramenta, Visão e Futuro",
+    "en": "The Age of Artificial Intelligence: Tool, Vision, and Future",
+    "es": "La Era de la Inteligencia Artificial: Herramienta, Visión y Futuro",
+    "fr": "L'Ère de l'Intelligence Artificielle : Outil, Vision et Avenir",
+    "it": "L'Era dell'Intelligenza Artificiale: Strumento, Visione e Futuro"
+  },
+  "description": {
+    "pt": "Compreenda a IA não como uma força de substituição, mas como a maior ferramenta de alavancagem criativa e técnica da nossa era, traçando um paralelo histórico com o surgimento do Google.",
+    "en": "Understand AI not as a replacement force, but as the greatest tool for creative and technical leverage of our era, drawing a historical parallel with the rise of Google.",
+    "es": "Comprenda la IA no como una fuerza de reemplazo, sino como la mayor herramienta de apalancamiento creativo y técnico de nuestra era, trazando un paralelo histórico con el surgimiento de Google.",
+    "fr": "Comprenez l'IA non pas comme une force de remplacement, mais como le plus grand outil de levier créatif et technique de notre ère, en établissant un parallèle historique avec l'essor de Google.",
+    "it": "Comprendi l'IA non come una forza di sostituzione, ma come il più grande strumento di leva creativa e tecnica della nostra era, tracciando un parallelo storico con l'ascesa di Google."
+  },
+  "lessons": [
+    {
+      "id": "ia_google_parallel_1",
+      "order": 1,
+      "title": {
+        "pt": "O Paradoxo da Substituição: Da Era Google à Era da IA",
+        "en": "The Replacement Paradox: From the Google Era to the AI Era",
+        "es": "El Paradoja de la Sustitución: De la Era Google a la Era de la IA",
+        "fr": "Le Paradoxe du Remplacement : De l'Ère Google à l'Ère de l'IA",
+        "it": "Il Paradosso della Sostituzione: Dall'Era Google all'Era dell'IA"
+      },
+      "summary": {
+        "pt": "Uma análise histórica comparando o pânico inicial do surgimento do Google com o cenário atual da Inteligência Artificial, mostrando como o uso incorreto precede o entendimento de uma tecnologia como ferramenta.",
+        "en": "A historical analysis comparing the initial panic of Google's emergence with the current AI landscape, showing how incorrect usage precedes understanding a technology as a tool.",
+        "es": "Un análisis histórico que compara el pánico inicial del surgimiento de Google con el panorama actual de la IA, mostrando cómo el uso incorrecto precede a la comprensión de una tecnología como herramienta.",
+        "fr": "Une analyse historique comparant la panique initiale de l'émergence de Google avec le paysage actuel de l'IA, montrant comment une utilisation incorrecte précède la compréhension d'une technologie comme outil.",
+        "it": "Un'analisi storica che confronta il panico iniziale dell'emergenza di Google con l'attuale panorama dell'IA, mostrando come l'uso errato preceda la comprensione di una tecnologia come strumento."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Quando o **Google** surgiu no início dos anos 2000, o mundo entrou em um pânico muito semelhante ao que vemos hoje com a Inteligência Artificial. Dizia-se amplamente que o Google iria substituir os profissionais, que ninguém mais precisaria aprender a escrever códigos ou a pesquisar de forma profunda, pois 'tudo estava no Google'. No entanto, o tempo provou que o Google não substituiu as pessoas; ele se transformou na maior **ferramenta** de produtividade do planeta."
+          },
+          {
+            "type": "paragraph",
+            "text": "Naquela época, a maioria das pessoas usava o Google de forma totalmente errada: faziam pesquisas mal formuladas, aceitavam qualquer resposta sem critério e não compreendiam a lógica por trás da busca. O exato mesmo fenômeno ocorre hoje com a IA. Muitos a utilizam de forma superficial e esperam que ela faça todo o trabalho, falhando em perceber que ela atua como um amplificador da capacidade humana."
+          },
+          {
+            "type": "tip",
+            "text": "O segredo não está em fazer a IA trabalhar por você, mas sim em aprender a utilizá-la como uma ferramenta simbiótica para validar, refinar e acelerar a sua própria visão técnica."
+          },
+          {
+            "type": "paragraph",
+            "text": "Há também um grande mito corporativo de que o vencedor desta corrida tecnológica será a grande empresa que domina o modelo de IA. Contudo, a inteligência artificial de ponta é extremamente **cara de treinar e manter**, consome margens gigantescas e o mercado caminha para uma profunda democratização por meio de modelos **open-source** poderosos que qualquer indivíduo pode instalar localmente e customizar."
+          },
+          {
+            "type": "paragraph",
+            "text": "Quem vai vencer não é quem possui a IA mais pesada, mas sim o profissional ou o criador que tiver a **visão** de utilizá-la para construir *ferramentas acessíveis e soluções reais*. Em um mundo carente de pessoas capacitadas com liderança técnica e estratégica, a IA será a alavanca escolhida por mentes geniais e indivíduos com superdotação para materializar e sustentar suas grandes visões de mercado."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "When **Google** emerged in the early 2000s, the world entered a panic very similar to what we see today with Artificial Intelligence. It was widely said that Google would replace professionals, that no one would need to learn to write code or do deep research because 'everything was on Google'. However, time proved that Google did not replace people; it transformed into the greatest productivity **tool** on the planet."
+          },
+          {
+            "type": "paragraph",
+            "text": "At that time, most people used Google completely wrong: they made poorly formulated searches, accepted any answer without criteria, and did not understand the logic behind searching. The exact same phenomenon occurs today with AI. Many use it superficially and expect it to do all the work, failing to realize that it acts as an amplifier of human capability."
+          },
+          {
+            "type": "tip",
+            "text": "The secret is not in making AI work for you, but rather in learning to use it as a symbiotic tool to validate, refine, and accelerate your own technical vision."
+          },
+          {
+            "type": "paragraph",
+            "text": "There is also a major corporate myth that the winner of this tech race will be the large company that dominates the AI model. However, cutting-edge AI is extremely **expensive to train and maintain**, consumes massive margins, and the market is moving toward deep democratization through powerful **open-source** models that any individual can install locally and customize."
+          },
+          {
+            "type": "paragraph",
+            "text": "The winner will not be the one who owns the heaviest AI, but the professional or creator who has the **vision** to use it to build *accessible tools and real solutions*. In a world starved of skilled people with technical and strategic leadership, AI will be the leverage chosen by brilliant minds and gifted individuals to materialize and sustain their great market visions."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Cuando surgió **Google** a principios de la década de 2000, el mundo entró en un pánico muy similar al que vemos hoy con la Inteligencia Artificial. Se decía ampliamente que Google reemplazaría a los profesionales, que ya nadie necesitaría aprender a escribir código o investigar profundamente porque 'todo estaba en Google'. Sin embargo, el tiempo demostró que Google no reemplazó a las personas; se transformó en la mayor **herramienta** de productividad del planeta."
+          },
+          {
+            "type": "paragraph",
+            "text": "En aquel entonces, la mayoría de la gente usaba Google de manera totalmente incorrecta: hacían búsquedas mal formuladas, aceptaban cualquier respuesta sin criterio y no entendían la lógica detrás de la búsqueda. El mismísimo fenómeno ocurre hoy con la IA. Muchos la usan superficialmente y esperan que haga todo el trabajo, sin darse cuenta de que actúa como un amplificador de la capacidad humana."
+          },
+          {
+            "type": "tip",
+            "text": "El secreto no está en hacer que la IA trabaje por ti, sino en aprender a utilizarla como una herramienta simbiótica para validar, refinar y acelerar tu propia visión técnica."
+          },
+          {
+            "type": "paragraph",
+            "text": "También existe un gran mito corporativo de que el ganador de esta carrera tecnológica será la gran empresa que domine el modelo de IA. Sin embargo, la IA de vanguardia es extremadamente **cara de entrenar y mantener**, consume márgenes gigantescos y el mercado avanza hacia una profunda democratización a través de potentes modelos **open-source** que cualquier individuo puede instalar localmente y personalizar."
+          },
+          {
+            "type": "paragraph",
+            "text": "Quien va a vencer no es quien posea la IA más pesada, sino el profesional o creador que tenga la **visión** de utilizarla para construir *herramientas accesibles y soluciones reales*. En un mundo carente de personas capacitadas con liderazgo técnico y estratégico, la IA será la palanca elegida por mentes geniales e individuos con superdotación para materializar y sostener sus grandes visiones de mercado."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Lorsque **Google** est apparu au début des années 2000, le monde a sombré dans une panique très similaire à celle que nous connaissons aujourd'hui avec l'Intelligence Artificielle. On disait partout que Google remplacerait les professionnels, que plus personne n'aurait besoin d'apprendre à écrire du code ou à faire des recherches approfondies car 'tout était sur Google'. Cependant, le temps a prouvé que Google n'a pas remplacé les gens ; il est devenu le plus grand **outil** de productivité de la planète."
+          },
+          {
+            "type": "paragraph",
+            "text": "À l'époque, la plupart des gens utilisaient Google de manière totalement erronée : ils formulaient mal leurs recherches, acceptaient n'importe quelle réponse sans discernement et ne comprenaient pas la logique de la recherche. Le même phénomène se produit aujourd'hui avec l'IA. Beaucoup l'utilisent de manière superficielle et s'attendent à ce qu'elle fasse tout le travail, sans réaliser qu'elle agit comme un amplificateur des capacités humaines."
+          },
+          {
+            "type": "tip",
+            "text": "Le secret ne réside pas dans le fait de faire travailler l'IA à votre place, mais plutôt d'apprendre à l'utiliser comme un outil symbiotique pour valider, affiner et accélérer votre propre vision technique."
+          },
+          {
+            "type": "paragraph",
+            "text": "Il existe également un grand mythe d'entreprise selon lequel le gagnant de cette course technologique sera la grande entreprise qui domine le modèle d'IA. Pourtant, l'IA de pointe est extrêmement **coûteuse à entraîner et à maintenir**, consomme des marges gigantesques, et le marché s'oriente vers une profonde démocratisation via des modèles **open-source** puissants que tout individu peut installer localement et personnaliser."
+          },
+          {
+            "type": "paragraph",
+            "text": "Le vainqueur ne sera pas celui qui possède l'IA la plus lourde, mais le professionnel ou le créateur qui aura la **vision** de l'utiliser pour construire des *outils accessibles et des solutions réelles*. Dans un monde qui manque de personnes qualifiées dotées d'un leadership technique et stratégique, l'IA sera le levier choisi par les esprits brillants et les personnes surdouées pour matérialiser et soutenir leurs grandes visions du marché."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Quando **Google** è emerso nei primi anni 2000, il mondo è entrato in un panico molto simile a quello che vediamo oggi con l'Intelligenza Artificielle. Si diceva ampiamente che Google avrebbe sostituito i professionisti, che nessuno avrebbe più avuto bisogno di imparare a scrivere codice o a fare ricerche approfondite perché 'tutto era su Google'. Tuttavia, il tempo ha dimostrato che Google non ha sostituito le persone; si è trasformato nel più grande **strumento** di produttività del pianeta."
+          },
+          {
+            "type": "paragraph",
+            "text": "A quel tempo, la maggior parte delle persone usava Google in modo completamente errato: faceva ricerche formulate male, accettava qualsiasi risposta senza criteri e non capiva la logica alla base della ricerca. Lo stesso identico fenomeno si verifica oggi con l'IA. Molti la usano superficialmente e si aspettano che faccia tutto il lavoro, non rendendosi conto che agisce come un amplificatore delle capacità umane."
+          },
+          {
+            "type": "tip",
+            "text": "Il segreto non sta nel far lavorare l'IA per te, ma nell'imparare a usarla come uno strumento simbiotico per convalidare, affinare e accelerare la tua visione tecnica."
+          },
+          {
+            "type": "paragraph",
+            "text": "C'è anche un grande mito aziendale secondo cui il vincitore di questa corsa tecnologica sarà la grande azienda che domina il modello di IA. Tuttavia, l'IA all'avanguardia è estremamente **costosa da addestrare e mantenere**, consuma margini enormi e il mercato si sta muovendo verso una profonda democratizzazione attraverso potenti modelli **open-source** che qualsiasi individuo può installare localmente e personalizzare."
+          },
+          {
+            "type": "paragraph",
+            "text": "Il vincitore non sarà chi possiede l'IA più pesante, ma il professionista o il creatore che ha la **visione** di usarla per costruire *strumenti accessibili e soluzioni reali*. In un mondo privo di persone qualificate con leadership tecnica e strategica, l'IA sarà la leva scelta da menti brillanti e individui con plusdotazione per materializzare e sostenere le loro grandi visioni di mercato."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é a semelhança histórica apontada entre o início da era Google e a era atual da Inteligência Artificial?",
+          "en": "What is the historical similarity pointed out between the beginning of the Google era and the current era of Artificial Intelligence?",
+          "es": "¿Cuál es la similitud histórica señalada entre el comienzo de la era Google y la era actual de la Inteligencia Artificial?",
+          "fr": "Quelle est la similitude historique soulignée entre le début de l'ère Google et l'ère actuelle de l'Intelligence Artificielle ?",
+          "it": "Qual è la somiglianza storica evidenziata tra l'inizio dell'era Google e l'era attuale dell'Intelligenza Artificiale?"
+        },
+        "options": {
+          "pt": [
+            "Ambas as tecnologias deram lucros astronômicos imediatos para todas as startups do setor.",
+            "O pânico inicial de que a tecnologia substituiria as pessoas e o uso incorreto/superficial por falta de entendimento de que se trata de uma ferramenta.",
+            "A necessidade de programar em código binário para conseguir extrair resultados satisfatórios.",
+            "O fechamento completo de sistemas operacionais impedindo o uso de tecnologias open-source."
+          ],
+          "en": [
+            "Both technologies gave immediate astronomical profits to all startups in the sector.",
+            "The initial panic that technology would replace people and the incorrect/superficial use due to a lack of understanding that it is a tool.",
+            "The need to program in binary code to extract satisfactory results.",
+            "The complete closure of operating systems preventing the use of open-source technologies."
+          ],
+          "es": [
+            "Ambas tecnologías dieron ganancias astronómicas inmediatas a todas las startups del sector.",
+            "El pánico inicial de que la tecnología reemplazaría a las personas y el uso incorrecto/superficial por falta de comprensión de que es una herramienta.",
+            "La necesidad de programar en código binario para extraer resultados satisfactorios.",
+            "El cierre completo de los sistemas operativos impidiendo el uso de tecnologías de código abierto."
+          ],
+          "fr": [
+            "Les deux technologies ont généré des bénéfices astronomiques immédiats pour toutes les startups du secteur.",
+            "La panique initiale à l'idée que la technologie remplacerait les gens et l'utilisation incorrecte/superficielle due au manque de compréhension qu'il s'agit d'un outil.",
+            "La nécessité de programmer en code binaire pour extraire des résultats satisfaisants.",
+            "La fermeture complète des systèmes d'exploitation empêchant l'utilisation de technologies open-source."
+          ],
+          "it": [
+            "Entrambe le tecnologie hanno generato profitti astronomici immediati per tutte le startup del settore.",
+            "Il panico iniziale sul fatto che la tecnologia avrebbe sostituito le persone e l'uso errato/superficiale dovuto alla mancanza di comprensione che si tratta di uno strumento.",
+            "La necessità di programmare in codice binario per estrarre risultati soddisfacenti.",
+            "La chiusura completa dei sistemi operativi che impedisce l'uso di tecnologie open-source."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "Tanto na era Google quanto hoje com a IA, o pânico de substituição humana e o uso superficial e equivocado ocorrem porque as pessoas inicialmente falham em enxergar a tecnologia como uma ferramenta de alavancagem.",
+          "en": "Both in the Google era and today with AI, the panic of human replacement and superficial, mistaken use occur because people initially fail to see technology as a leverage tool.",
+          "es": "Tanto en la era de Google como hoy con la IA, el pánico de la sustitución humana y el uso superficial y erróneo ocurren porque las personas inicialmente no ven la tecnología como una herramienta de apalancamiento.",
+          "fr": "Tant à l'ère Google qu'aujourd'hui avec l'IA, la panique du remplacement humain et l'utilisation superficielle et erronée se produisent parce que les gens ne parviennent pas initialement à voir la technologie comme un outil de levier.",
+          "it": "Sia nell'era di Google che oggi con l'IA, il panico della sostituzione umana e l'uso superficiale ed errato si verificano perché le persone inizialmente non riescono a vedere la tecnologia come uno strumento di leva."
+        }
+      }
+    }
+  ]
+}
