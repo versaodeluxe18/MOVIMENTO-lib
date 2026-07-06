@@ -1,0 +1,285 @@
+{
+  "id": "curso_ia_sociedade",
+  "level": "Intermediário",
+  "duration": "2 horas",
+  "iconUrl": "https://img.icons8.com/color/96/artificial-intelligence.png",
+  "supportedLanguages": [
+    "pt",
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "title": {
+    "pt": "Inteligência Artificial e o Viés Político nas Ferramentas Modernas",
+    "en": "Artificial Intelligence and Political Bias in Modern Tools",
+    "es": "Inteligencia Artificial y el Sesgo Político en las Herramientas Modernas",
+    "fr": "Intelligence Artificielle et le Biais Politique dans les Outils Modernes",
+    "it": "Intelligenza Artificiale e il Pregiudizio Politico negli Strumenti Moderni"
+  },
+  "description": {
+    "pt": "Uma análise crítica sobre como o viés político distorce o julgamento sobre a IA, confundindo a ferramenta com o uso corporativo e repetindo pânicos morais do passado.",
+    "en": "A critical analysis of how political bias distorts the judgment of AI, confusing the tool with corporate use and repeating moral panics of the past.",
+    "es": "Un análisis crítico de cómo el sesgo político distorsiona el juicio sobre la IA, confundiendo la herramienta con el uso corporativo y repitiendo pánicos morales del pasado.",
+    "fr": "Une analyse critique de la façon dont le biais politique fausse le jugement sur l'IA, confondant l'outil avec l'usage corporatif et répétant les paniques morales du passé.",
+    "it": "Un'analisi critica di come il pregiudizio politico distorca il giudizio sull'IA, confondendo lo strumento con l'uso aziendale e ripetendo i panici morali del passato."
+  },
+  "lessons": [
+    {
+      "id": "ia_vies_politico_1",
+      "order": 1,
+      "title": {
+        "pt": "A Ferramenta vs. O Agente: Desmistificando o 'Roubo' por IA",
+        "en": "The Tool vs. The Agent: Demystifying AI 'Theft'",
+        "es": "La Herramienta vs. El Agente: Desmitificando el 'Robo' por IA",
+        "fr": "L'Outil vs. L'Agent : Démystifier le 'Vol' par l'IA",
+        "it": "Lo Strumento vs. L'Agente: Demistificare il 'Furto' da parte dell'IA"
+      },
+      "summary": {
+        "pt": "Compreenda a diferença essencial entre uma ferramenta tecnológica e as práticas das empresas que a utilizam, superando narrativas ideológicas.",
+        "en": "Understand the essential difference between a technological tool and the practices of the companies that use it, overcoming ideological narratives.",
+        "es": "Comprender la diferencia esencial entre una herramienta tecnológica y las prácticas de las empresas que la utilizan, superando las narrativas ideológicas.",
+        "fr": "Comprendre la différence essentielle entre un outil technologique et les pratiques des entreprises qui l'utilisent, en surmontant les récits idéologiques.",
+        "it": "Comprendere la differenza essenziale tra uno strumento tecnologico e le pratiche delle aziende che lo utilizzano, superando le narrazioni ideologiche."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Atualmente, a discussão pública sobre a **Inteligência Artificial (IA)** está fortemente saturada por vieses políticos e ideológicos. Muitas pessoas enxergam a IA não como um avanço técnico, mas como uma entidade maliciosa projetada para \"roubar\" empregos e propriedade intelectual. No entanto, do ponto de vista estritamente técnico, a IA é apenas uma **ferramenta**. Ferramentas não possuem agência moral; elas executam comandos com base em arquiteturas matemáticas e algoritmos de otimização."
+          },
+          {
+            "type": "paragraph",
+            "text": "É fundamental separar a tecnologia de quem a opera. Empresas e indivíduos mal-intencionados podem sim usar a IA para precarizar o trabalho ou violar direitos de terceiros, mas culpar a ferramenta em si por essas ações é um erro analítico crasso. Historicamente, o mesmo argumento foi usado contra outras grandes inovações, desde a prensa de tipos móveis até os motores de busca da internet."
+          },
+          {
+            "type": "tip",
+            "text": "As ferramentas mudam, mas a dinâmica humana permanece. Empresas podem usar computadores para automatizar processos e demitir funcionários, mas a culpa reside no modelo de negócios e na gestão, não nos semicondutores e circuitos."
+          },
+          {
+            "type": "paragraph",
+            "text": "O pânico moral atual decorre do fato de que os modelos de IA são treinados a partir de dados gerados por humanos. Críticos argumentam que isso constitui \"roubo em massa\". Contudo, sob uma perspectiva técnica, quase todas as ferramentas de produtividade e software moderno foram desenvolvidas analisando, catalogando e estruturando padrões criados pelo trabalho humano acumulado ao longo de séculos."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Currently, the public discussion surrounding **Artificial Intelligence (AI)** is heavily saturated with political and ideological biases. Many view AI not as a technical advancement, but as a malicious entity designed to 'steal' jobs and intellectual property. However, from a strictly technical standpoint, AI is merely a **tool**. Tools lack moral agency; they execute commands based on mathematical architectures and optimization algorithms."
+          },
+          {
+            "type": "paragraph",
+            "text": "It is essential to separate the technology from its operator. Bad-faith companies and individuals can indeed use AI to undermine labor or violate rights, but blaming the tool itself for these actions is a major analytical error. Historically, the same argument was leveraged against other major innovations, from the printing press to internet search engines."
+          },
+          {
+            "type": "tip",
+            "text": "Tools change, but human dynamics remain. Companies can use computers to automate processes and lay off workers, but the blame lies within the business model and management, not in the semiconductors and circuits."
+          },
+          {
+            "type": "paragraph",
+            "text": "The current moral panic stems from the fact that AI models are trained on human-generated data. Critics argue this constitutes 'mass theft.' However, from a technical perspective, almost every productivity tool and modern software was developed by analyzing, cataloging, and structuring patterns created by accumulated human labor over centuries."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Actualmente, la discusión pública sobre la **Inteligencia Artificial (IA)** está fuertemente saturada por sesgos políticos e ideológicos. Muchas personas ven la IA no como un avance técnico, sino como una entidad maliciosa diseñada para 'robar' emplegos y propiedad intelectual. Sin embargo, desde un punto de vista estrictamente técnico, la IA é solo una **herramienta**. Las herramientas no tienen agencia moral; ejecutan comandos basados en arquitecturas matemáticas y algoritmos de optimización."
+          },
+          {
+            "type": "paragraph",
+            "text": "Es fundamental separar la tecnología de quien la opera. Las empresas y los individuos malintencionados pueden usar la IA para precarizar el trabajo o violar derechos de terceros, pero culpar a la herramienta en sí misma por estas acciones es un error analítico grave. Históricamente, el mismo argumento se utilizó contra otras grandes innovaciones, desde la imprenta hasta los motores de búsqueda de Internet."
+          },
+          {
+            "type": "tip",
+            "text": "Las herramientas cambian, pero la dinámica humana permanece. Las empresas pueden utilizar computadoras para automatizar procesos y despedir empleados, pero la culpa recae en el modelo de negocio y la gestión, no en los semiconductores."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Actuellement, la discussion publique sur l'**Intelligence Artificielle (IA)** est fortement saturée par des biais politiques et idéologiques. Beaucoup de gens voient l'IA non pas comme un progrès technique, mais como une entité malveillante conçue pour 'voler' des emplois et la propriété intellectuelle. Cependant, d'un point de vue strictement technique, l'IA n'est qu'un **outil**. Les outils n'ont pas d'agence morale ; ils exécutent des commandes basées sur des architectures mathématiques."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Attualmente, la discussione pubblica sull'**Intelligenza Artificiale (IA)** è fortemente satura di pregiudizi politici e ideologici. Molte persone vedono l'IA non come un progresso tecnico, ma come un'entità maliziosa progettata per 'rubare' posti di lavoro. Tuttavia, da un punto de vista strettamente tecnico, l'IA è solo uno **strumento**. Gli strumenti non hanno agenzia morale."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Por que é considerado um erro analítico afirmar que a ferramenta de IA 'rouba' propriedade intelectual por si mesma?",
+          "en": "Why is it considered an analytical error to state that the AI tool 'steals' intellectual property by itself?",
+          "es": "¿Por qué se considera un error analítico afirmar que la herramienta de IA 'roba' propiedad intelectual por sí misma?",
+          "fr": "Pourquoi est-il considéré comme une erreur analytique d'affirmer que l'outil d'IA 'vole' la propriété intellectuelle par lui-même ?",
+          "it": "Perché è considerato un errore analitico affermare che lo strumento di IA 'ruba' la proprietà intellettuale da solo?"
+        },
+        "options": {
+          "pt": [
+            "Porque a IA opera de forma totalmente independente da internet.",
+            "Porque o roubo depende da intenção e agência do operador/empresa, enquanto a IA é uma ferramenta neutra.",
+            "Porque as leis atuais já cobrem totalmente os sistemas generativos.",
+            "Porque os dados de treinamento não vêm de fontes humanas."
+          ],
+          "en": [
+            "Because AI operates completely independently of the internet.",
+            "Because theft depends on the intent and agency of the operator/company, while AI is a neutral tool.",
+            "Because current laws already fully cover generative systems.",
+            "Because training data does not come from human sources."
+          ],
+          "es": [
+            "Porque la IA funciona de forma totalmente independiente de Internet.",
+            "Porque el robo depende de la intención y agencia del operador/empresa, mientras que la IA es una herramienta neutra.",
+            "Porque las leyes actuales ya cubren completamente los sistemas generativos.",
+            "Porque los datos de entrenamiento no provienen de fuentes humanas."
+          ],
+          "fr": [
+            "Parce que l'IA fonctionne de manière totalement indépendante d'Internet.",
+            "Parce que le vol dépend de l'intention et de l'agence de l'opérateur/entreprise, tandis que l'IA est un outil neutre.",
+            "Parce que les lois actuelles couvrent déjà entièrement les systèmes génératifs.",
+            "Parce que les données d'entraînement ne proviennent pas de sources humaines."
+          ],
+          "it": [
+            "Perché l'IA funziona in modo completamente indipendente da Internet.",
+            "Perché il furto dipende dall'intenzione e dall'agenzia dell'operatore/azienda, mentre l'IA è uno strumento neutro.",
+            "Perché le leggi attuali coprono già interamente i sistemi generativi.",
+            "Perché i dati di addestramento non provengono da fonti umane."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "Como qualquer tecnologia (como o Photoshop ou o Google), a ferramenta executa instruções e processa padrões de forma automatizada. A violação ética ou legal decorre de como as organizações escolhem aplicar e governar essa tecnologia comercialmente.",
+          "en": "Like any technology (such as Photoshop or Google), the tool executes instructions and processes patterns automatically. Ethical or legal violations stem from how organizations choose to apply and govern that technology commercially.",
+          "es": "Como cualquier tecnología (como Photoshop o Google), la herramienta ejecuta instrucciones y procesa patrones de forma automatizada. La violación ética o legal se deriva de cómo las organizaciones eligen aplicar y gobernar esa tecnología comercialmente.",
+          "fr": "Comme toute technologie (comme Photoshop ou Google), l'outil exécute des instructions et traite des modèles de manière automatisée. La violation éthique ou légale découle de la manière dont les organisations choisissent d'appliquer et de gouverner cette technologie commercialement.",
+          "it": "Come qualsiasi tecnologia (come Photoshop o Google), lo strumento esegue istruzioni e processa pattern in modo automatizzato. La violazione etica o legale deriva da come le organizzazioni scelgono di applicare e governare questa tecnologia commercialmente."
+        }
+      }
+    },
+    {
+      "id": "ia_vies_politico_2",
+      "order": 2,
+      "title": {
+        "pt": "O Paralelo Histórico: Do Photoshop à Inteligência Artificial",
+        "en": "The Historical Parallel: From Photoshop to Artificial Intelligence",
+        "es": "El Paralelo Histórico: Del Photoshop a la Inteligencia Artificial",
+        "fr": "Le Parallèle Historique : De Photoshop à l'Intelligence Artificielle",
+        "it": "Il Parallelo Storico: Da Photoshop all'Intelligenza Artificiale"
+      },
+      "summary": {
+        "pt": "Analise como o Photoshop e o Google enfrentaram resistências idênticas no passado e como o posicionamento estratégico supera o medo ideológico.",
+        "en": "Analyze how Photoshop and Google faced identical resistance in the past and how strategic positioning overcomes ideological fear.",
+        "es": "Analice cómo Photoshop y Google enfrentaron resistencias idénticas en el pasado y cómo el posicionamiento estratégico supera el miedo ideológico.",
+        "fr": "Analysez comment Photoshop et Google ont fait face à des résistances identiques dans le passé et comment le positionnement stratégique surmonte la peur idéologique.",
+        "it": "Analizza come Photoshop e Google abbiano affrontato resistenze identiche in passato e come il posizionamento strategico superi la paura ideologica."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "Para compreender o presente, precisamos olhar para o passado. Quando o **Photoshop** foi lançado, o ecossistema de design tradicional reagiu com profunda desconfiança. Dizia-se que o software eliminaria o papel do designer, facilitaria a falsificação e o 'roubo' de propriedades intelectuais visuais. No entanto, o Photoshop foi desenvolvido analisando e estruturando as técnicas analógicas de edição de fotografia e ilustração criadas por humanos."
+          },
+          {
+            "type": "paragraph",
+            "text": "Hoje, percebemos que o Photoshop não substituiu o designer; ele o empoderou. O mercado passou a exigir boas práticas no uso da ferramenta, e hoje profissionais disputam e pagam caro para ter acesso a ela. O mesmo fenômeno ocorreu com o motor de busca do **Google**, que foi inicialmente acusado de destruir o jornalismo e os canais tradicionais de pesquisa."
+          },
+          {
+            "type": "code_block",
+            "language": "text",
+            "text": "Evolução Histórica das Ferramentas:\nPrensa móvel (Século XV) -> Acusada de destruir a caligrafia sagrada.\nPhotoshop (Anos 1990) -> Acusado de destruir a arte digital genuína.\nIA Generativa (Anos 2020) -> Acusada de roubo e destruição cognitiva."
+          },
+          {
+            "type": "paragraph",
+            "text": "A história está se repetindo com a IA. Deixar-se cegar por vieses políticos contra a ferramenta impede que você compreenda sua mecânica e utilidade. Enquanto as massas debatem sob uma ótica moralista e enviesada, aqueles que compreendem a tecnologia como uma evolução natural das ferramentas de produtividade estão se posicionando de forma extremamente vantajosa no novo mercado de trabalho."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "To understand the present, we must look to the past. When **Photoshop** was introduced, the traditional design ecosystem reacted with deep skepticism. Critics claimed the software would eliminate the designer's role, facilitate forgery, and enable 'theft' of visual intellectual properties. However, Photoshop was developed by analyzing and structuring analog photo editing and illustration techniques built by humans."
+          },
+          {
+            "type": "paragraph",
+            "text": "Today, we see that Photoshop didn't replace designers; it empowered them. The market demanded best practices, and today professionals fight and pay high premiums for access to it. The same phenomenon occurred with **Google Search**, which was initially accused of destroying journalism and traditional research channels."
+          },
+          {
+            "type": "code_block",
+            "language": "text",
+            "text": "Historical Evolution of Tools:\nPrinting Press (15th Century) -> Accused of destroying sacred calligraphy.\nPhotoshop (1990s) -> Accused of destroying genuine digital art.\nGenerative AI (2020s) -> Accused of theft and cognitive destruction."
+          },
+          {
+            "type": "paragraph",
+            "text": "History is repeating itself with AI. Becoming blinded by political bias against the tool prevents you from understanding its mechanics and utility. While the masses debate under a moralistic and biased lens, those who understand the technology as a natural evolution of productivity tools are positioning themselves advantageously in the new job market."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "Para entender el presente, debemos mirar al pasado. Cuando se lanzó **Photoshop**, el ecosistema del diseño tradicional reaccionó con desconfianza. Hoy vemos que Photoshop no reemplazó al diseñador; lo empoderó."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Pour comprendre le présent, regardons le passé. Quand **Photoshop** est sorti, le monde du design traditionnel a réagi avec méfiance. Aujourd'hui, Photoshop n'a pas remplacé le designer ; il l'a propulsé."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Per capire il presente, dobbiamo guardare al passato. Quando è stato rilasciato **Photoshop**, l'ecosistema del design tradizionale ha reagito con diffidenza. Oggi Photoshop non ha sostituito il designer, lo ha potenziato."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual é a principal consequência de se deixar guiar pelo viés político no surgimento de novas ferramentas como a IA?",
+          "en": "What is the primary consequence of letting yourself be guided by political bias during the rise of new tools like AI?",
+          "es": "¿Cuál es la principal consecuencia de dejarse guiar por el sesgo político ante la aparición de nuevas herramientas como la IA?",
+          "fr": "Quelle est la principale conséquence de se laisser guider par le biais politique lors de l'émergence de nouveaux outils comme l'IA ?",
+          "it": "Qual è la principale conseguenza del lasciarsi guidar dal pregiudizio politico con l'emergere di nuovi strumenti come l'IA?"
+        },
+        "options": {
+          "pt": [
+            "Garantir a proteção imediata dos direitos autorais de todos os cidadãos.",
+            "Acelerar o desenvolvimento tecnológico de empresas locais.",
+            "Ficar estagnado e perder a oportunidade de se posicionar de forma vantajosa no novo ecossistema mercadológico.",
+            "Substituir softwares antigos por alternativas analógicas mais baratas."
+          ],
+          "en": [
+            "Guaranteeing immediate copyright protection for all citizens.",
+            "Accelerating the technological development of local companies.",
+            "Becoming stagnant and losing the opportunity to position oneself advantageously in the new market ecosystem.",
+            "Replacing old software with cheaper analog alternatives."
+          ],
+          "es": [
+            "Garantizar la protección inmediata de los derechos de autor de todos los ciudadanos.",
+            "Acelerar el desarrollo tecnológico de las empresas locales.",
+            "Quedarse estancado y perder la oportunidad de posicionarse de manera ventajosa en el nuevo ecosistema de mercado.",
+            "Reemplazar el software antiguo por alternativas analógicas más baratas."
+          ],
+          "fr": [
+            "Garantir la protection immédiate des droits d'auteur de tous les citoyens.",
+            "Accélérer le développement technologique des entreprises locales.",
+            "Rester stagnant et rater l'opportunité de se positionner de manière avantageuse dans le nouvel écosystème du marché.",
+            "Remplacer les anciens logiciels por des alternatives analogiques moins chères."
+          ],
+          "it": [
+            "Garantire la protezione immediata del diritto d'autore per tutti i cittadini.",
+            "Accelerare lo sviluppo tecnologico delle aziende locali.",
+            "Rimanere stagnanti e perdere l'opportunità di posizionarsi in modo vantaggioso nel nuovo ecosistema di mercato.",
+            "Sostituire i vecchi software con alternative analogiche più economiche."
+          ]
+        },
+        "correctAnswerIndex": 2,
+        "explanation": {
+          "pt": "O viés político cria uma barreira ideológica que cega o indivíduo para a utilidade técnica da ferramenta. Enquanto o debate moralista acontece, quem ignora o viés e domina as boas práticas assume o controle estratégico do mercado.",
+          "en": "Political bias creates an ideological barrier that blinds individuals to the technical utility of the tool. While the moralistic debate occurs, those who ignore the bias and master best practices take strategic control of the market.",
+          "es": "El sesgo político crea una barrera ideológica que ciega al individuo ante la utilidad técnica de la herramienta. Mientras ocurre el debate moralista, quienes ignoran el sesgo y dominan las buenas prácticas asumen el control estratégico del mercado.",
+          "fr": "Le biais politique crée une barrière idéologique qui aveugle l'individu face à l'utilité technique de l'outil. Pendant que le débat moraliste a lieu, ceux qui ignorent le biais et maîtrisent les bonnes pratiques prennent le contrôle stratégique du marché.",
+          "it": "Il pregiudizio politico crea una barriera ideologica che acceca l'individuo rispetto all'utilità tecnica dello strumento. Mentre avviene il dibattito moralistico, chi ignora il pregiudizio e domina le buone pratiche assume il controllo strategico del mercato."
+        }
+      }
+    }
+  ]
+}
