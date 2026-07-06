@@ -1,3 +1,4 @@
+
 {
   "id": "curso_ia_visao",
   "level": "Intermediário",
@@ -21,7 +22,7 @@
     "pt": "Compreenda a IA não como uma força de substituição, mas como a maior ferramenta de alavancagem criativa e técnica da nossa era, traçando um paralelo histórico com o surgimento do Google.",
     "en": "Understand AI not as a replacement force, but as the greatest tool for creative and technical leverage of our era, drawing a historical parallel with the rise of Google.",
     "es": "Comprenda la IA no como una fuerza de reemplazo, sino como la mayor herramienta de apalancamiento creativo y técnico de nuestra era, trazando un paralelo histórico con el surgimiento de Google.",
-    "fr": "Comprenez l'IA non pas comme une force de remplacement, mais como le plus grand outil de levier créatif et technique de notre ère, en établissant un parallèle historique avec l'essor de Google.",
+    "fr": "Comprenez l'IA non pas comme une force de remplacement, mais comme le plus grand outil de levier créatif et technique de notre ère, en établissant un parallèle historique avec l'essor de Google.",
     "it": "Comprendi l'IA non come una forza di sostituzione, ma come il più grande strumento di leva creativa e tecnica della nostra era, tracciando un parallelo storico con l'ascesa di Google."
   },
   "lessons": [
@@ -40,7 +41,7 @@
         "en": "A historical analysis comparing the initial panic of Google's emergence with the current AI landscape, showing how incorrect usage precedes understanding a technology as a tool.",
         "es": "Un análisis histórico que compara el pánico inicial del surgimiento de Google con el panorama actual de la IA, mostrando cómo el uso incorrecto precede a la comprensión de una tecnología como herramienta.",
         "fr": "Une analyse historique comparant la panique initiale de l'émergence de Google avec le paysage actuel de l'IA, montrant comment une utilisation incorrecte précède la compréhension d'une technologie comme outil.",
-        "it": "Un'analisi storica che confronta il panico iniziale dell'emergenza di Google con l'attuale panorama dell'IA, mostrando come l'uso errato preceda la comprensione di una tecnologia come strumento."
+        "it": "Un'analisi storica che confronta il panico iniziale dell'emergenza di Google con l'attuale panorama dell'IA, mostrando come l'uso errato preceda la comprensione di essa come strumento."
       },
       "richContent": {
         "pt": [
@@ -90,7 +91,7 @@
         "es": [
           {
             "type": "paragraph",
-            "text": "Cuando surgió **Google** a principios de la década de 2000, el mundo entró en un pánico muy similar al que vemos hoy con la Inteligencia Artificial. Se decía ampliamente que Google reemplazaría a los profesionales, que ya nadie necesitaría aprender a escribir código o investigar profundamente porque 'todo estaba en Google'. Sin embargo, el tiempo demostró que Google no reemplazó a las personas; se transformó en la mayor **herramienta** de productividad del planeta."
+            "text": "Cuando surgió **Google** a principios de la década de 2000, el mundo entrou en un pánico muy similar al que vemos hoy con la Inteligencia Artificial. Se decía ampliamente que Google reemplazaría a los profesionales, que ya nadie necesitaría aprender a escribir código o investigar profundamente porque 'todo estaba en Google'. Sin embargo, el tiempo demostró que Google no reemplazó a las personas; se transformó en la mayor **herramienta** de productividad del planeta."
           },
           {
             "type": "paragraph",
@@ -106,7 +107,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Quien va a vencer no es quien posea la IA más pesada, sino el profesional o creador que tenga la **visión** de utilizarla para construir *herramientas accesibles y soluciones reales*. En un mundo carente de personas capacitadas con liderazgo técnico y estratégico, la IA será la palanca elegida por mentes geniales e individuos con superdotación para materializar y sostener sus grandes visiones de mercado."
+            "text": "Quien va a vencer no es quien posea la IA más pesada, sino el profesional o creador que tenga la **visión** de utilizarla para construir *herramientas accesibles y soluciones reales*. En un mundo carente de personas capacitadas con liderazgo técnico y estratégico, la IA será la palanca elegida por mentes geniais e individuos con superdotación para materializar y sostener sus grandes visiones de mercado."
           }
         ],
         "fr": [
@@ -134,11 +135,11 @@
         "it": [
           {
             "type": "paragraph",
-            "text": "Quando **Google** è emerso nei primi anni 2000, il mondo è entrato in un panico molto simile a quello che vediamo oggi con l'Intelligenza Artificielle. Si diceva ampiamente che Google avrebbe sostituito i professionisti, che nessuno avrebbe più avuto bisogno di imparare a scrivere codice o a fare ricerche approfondite perché 'tutto era su Google'. Tuttavia, il tempo ha dimostrato che Google non ha sostituito le persone; si è trasformato nel più grande **strumento** di produttività del pianeta."
+            "text": "Quando **Google** è emerso nei primi anni 2000, il mondo è entrato in un panico molto simile a quello che vediamo oggi con l'Intelligenza Artificielle. Si diceva ampiamente che Google avrebbe sostituito i professionisti, che nessuno avrebbe più avuto bisogno di imparare a scrivere codice o a fare ricerche approfondite perché 'tutto era su Google'. Tuttavia, il tempo ha dimostrato che Google não ha sostituito le persone; si è trasformato nel più grande **strumento** di produttività del pianeta."
           },
           {
             "type": "paragraph",
-            "text": "A quel tempo, la maggior parte delle persone usava Google in modo completamente errato: faceva ricerche formulate male, accettava qualsiasi risposta senza criteri e non capiva la logica alla base della ricerca. Lo stesso identico fenomeno si verifica oggi con l'IA. Molti la usano superficialmente e si aspettano che faccia tutto il lavoro, non rendendosi conto che agisce come un amplificatore delle capacità umane."
+            "text": "A quel tempo, la maggior parte delle persone usava Google in modo completamente errato: faceva ricerche formulate male, accettava qualsiasi risposta senza criteri e non capiva la logica alla base della ricerca. Lo stesso identico fenomeno si verifica oggi con l'IA. Molti la usano superficialmente e si aspettano che faccia tutto il lavoro, non rendendosi conto che agisce como un amplificatore delle capacità umane."
           },
           {
             "type": "tip",
@@ -167,7 +168,7 @@
             "Ambas as tecnologias deram lucros astronômicos imediatos para todas as startups do setor.",
             "O pânico inicial de que a tecnologia substituiria as pessoas e o uso incorreto/superficial por falta de entendimento de que se trata de uma ferramenta.",
             "A necessidade de programar em código binário para conseguir extrair resultados satisfatórios.",
-            "O fechamento completo de sistemas operacionais impedindo o uso de tecnologias open-source."
+            "O fechamento complet de sistemas operacionais impedindo o uso de tecnologias open-source."
           ],
           "en": [
             "Both technologies gave immediate astronomical profits to all startups in the sector.",
@@ -200,7 +201,191 @@
           "en": "Both in the Google era and today with AI, the panic of human replacement and superficial, mistaken use occur because people initially fail to see technology as a leverage tool.",
           "es": "Tanto en la era de Google como hoy con la IA, el pánico de la sustitución humana y el uso superficial y erróneo ocurren porque las personas inicialmente no ven la tecnología como una herramienta de apalancamiento.",
           "fr": "Tant à l'ère Google qu'aujourd'hui avec l'IA, la panique du remplacement humain et l'utilisation superficielle et erronée se produisent parce que les gens ne parviennent pas initialement à voir la technologie comme un outil de levier.",
-          "it": "Sia nell'era di Google che oggi con l'IA, il panico della sostituzione umana e l'uso superficiale ed errato si verificano perché le persone inizialmente non riescono a vedere la tecnologia come uno strumento di leva."
+          "it": "Sia nell'era di Google che oggi con l'IA, il panico della sostituzione umana e l'uso superficiale ed errato si verificano perché le persone inizialmente non riescono a vedere la tecnologia como uno strumento di leva."
+        }
+      }
+    },
+    {
+      "id": "ia_open_source_local_2",
+      "order": 2,
+      "title": {
+        "pt": "A Revolução do Open-Source: IA Executada Localmente",
+        "en": "The Open-Source Revolution: Running AI Locally",
+        "es": "La Revolución del Open-Source: IA Ejecutada Localmente",
+        "fr": "La Révolution de l'Open-Source : Exécuter l'IA Localement",
+        "it": "La Rivoluzione Open-Source: Eseguire l'IA Localmente"
+      },
+      "summary": {
+        "pt": "Aprenda sobre a transição dos modelos em nuvem para modelos open-source locais, garantindo privacidade de dados corporativos e reduzindo dependências externas.",
+        "en": "Learn about the transition from cloud-based models to local open-source models, ensuring corporate data privacy and reducing external dependencies.",
+        "es": "Aprenda sobre la transición de los modelos en la nube a modelos open-source locales, garantizando la privacidad de los datos corporativos y reduciendo las dependencias externas.",
+        "fr": "Découvrez la transition des modèles basés sur le cloud vers des modèles open-source locaux, garantissant la confidentialité des données d'entreprise et réduisant les dépendances externes.",
+        "it": "Scopri la transizione dai modelli basati su cloud a modelli open-source locali, garantendo la privacy dei dati aziendali e riducendo le dipendenze esterne."
+      },
+      "richContent": {
+        "pt": [
+          {
+            "type": "paragraph",
+            "text": "O verdadeiro divisor de águas técnico da nossa década não é o acesso a APIs de nuvem pagas, mas sim a capacidade de rodar modelos massivos de IA **localmente**. Empresas e desenvolvedores seniores estão percebendo que enviar dados confidenciais de clientes para servidores de terceiros gera sérios riscos de segurança e conformidade (como a LGPD e GDPR)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Graças ao ecossistema **open-source**, arquiteturas de modelos como o Llama, Mistral e Gemma podem ser otimizadas e executadas em hardwares convencionais por meio de técnicas de quantização (redução da precisão dos pesos matemáticos para economizar memória VRAM)."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Carregando um modelo open-source localmente com otimização\nmodel_id = \"google/gemma-2b-it\"\ntokenizer = AutoTokenizer.from_pretrained(model_id)\nmodel = AutoModelForCausalLM.from_pretrained(model_id, device_map=\"auto\")\n\nprint(\"Modelo pronto para execução 100% offline e segura.\")"
+          },
+          {
+            "type": "tip",
+            "text": "Modelos locais garantem latência zero de rede, custo de inferência fixado apenas na energia elétrica e blindagem total contra vazamento de segredos industriais."
+          },
+          {
+            "type": "paragraph",
+            "text": "O futuro pertence à descentralização. Ao dominar a infraestrutura necessária para implantar esses modelos localmente em servidores privados, o profissional eleva seu valor de mercado de um simples 'usuário de prompts' para um **engenheiro de sistemas de IA** indispensável."
+          }
+        ],
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "The true technical game-changer of our decade is not accessing paid cloud APIs, but the ability to run massive AI models **locally**. Companies and senior developers are realizing that sending confidential customer data to third-party servers poses serious security and compliance risks (such as LGPD and GDPR)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thanks to the **open-source** ecosystem, model architectures like Llama, Mistral, and Gemma can be optimized and executed on consumer hardware through quantization techniques (reducing the precision of mathematical weights to save VRAM memory)."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Loading an open-source model locally with optimization\nmodel_id = \"google/gemma-2b-it\"\ntokenizer = AutoTokenizer.from_pretrained(model_id)\nmodel = AutoModelForCausalLM.from_pretrained(model_id, device_map=\"auto\")\n\nprint(\"Model ready for 100% offline and secure execution.\")"
+          },
+          {
+            "type": "tip",
+            "text": "Local models guarantee zero network latency, inference cost fixed only to electrical power, and total shielding against industrial secret leaks."
+          },
+          {
+            "type": "paragraph",
+            "text": "The future belongs to decentralization. By mastering the infrastructure needed to deploy these models locally on private servers, professionals elevate their market value from a simple 'prompt user' to an indispensable **AI systems engineer**."
+          }
+        ],
+        "es": [
+          {
+            "type": "paragraph",
+            "text": "El verdadero hito técnico de nuestra década no es el acceso a API pagadas en la nube, sino la capacidad de ejecutar modelos masivos de IA **localmente**. Las empresas y los desarrolladores sénior se están dando cuenta de que enviar datos confidenciales de clientes a servidores de terceros genera graves riesgos de seguridad y cumplimiento (como LGPD y GDPR)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gracias al ecosistema **open-source**, las arquitecturas de modelos como Llama, Mistral y Gemma se pueden optimizar y ejecutar en hardware convencional mediante técnicas de cuantización (reducción de la precisión de los pesos matemáticos para ahorrar memoria VRAM)."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Cargando un modelo open-source localmente con optimización\nmodel_id = \"google/gemma-2b-it\"\ntokenizer = AutoTokenizer.from_pretrained(model_id)\nmodel = AutoModelForCausalLM.from_pretrained(model_id, device_map=\"auto\")\n\nprint(\"Modelo listo para ejecución 100% offline y segura.\")"
+          },
+          {
+            "type": "tip",
+            "text": "Los modelos locales garantizan una latencia de red cero, un costo de inferencia fijado solo en la energía eléctrica y un blindaje total contra la filtración de secretos industriales."
+          },
+          {
+            "type": "paragraph",
+            "text": "El futuro pertenece a la descentralización. Al dominar la infraestructura necesaria para implementar estos modelos localmente en servidores privados, el profesional eleva su valor de mercado de un simple 'usuario de prompts' a un indispensable **ingeniero de sistemas de IA**."
+          }
+        ],
+        "fr": [
+          {
+            "type": "paragraph",
+            "text": "Le véritable changement technique majeur de notre décennie n'est pas l'accès à des API cloud payantes, mais la capacité d'exécuter des modèles d'IA massifs **localement**. Les entreprises et les développeurs seniors réalisent que l'envoi de données client confidentielles vers des serveurs tiers génère de graves risques de sécurité et de conformité (tels que la RGPD)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Grâce à l'écosystème **open-source**, les architectures de modèles telles que Llama, Mistral et Gemma peuvent être optimisées et exécutées sur du matériel grand public via des techniques de quantification (réduction de la précision des poids mathématiques pour économiser de la mémoire VRAM)."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Chargement d'un modèle open-source localement avec optimisation\nmodel_id = \"google/gemma-2b-it\"\ntokenizer = AutoTokenizer.from_pretrained(model_id)\nmodel = AutoModelForCausalLM.from_pretrained(model_id, device_map=\"auto\")\n\nprint(\"Modèle prêt pour une exécution 100% hors ligne et sécurisée.\")"
+          },
+          {
+            "type": "tip",
+            "text": "Les modèles locaux garantissent une latence réseau nulle, un coût d'inférence fixé uniquement sur l'énergie électrique et un blindage total contre les fuites de secrets industriels."
+          },
+          {
+            "type": "paragraph",
+            "text": "L'avenir appartient à la décentralisation. En maîtrisant l'infrastructure nécessaire pour déployer ces modèles localement sur des serveurs privés, le professionnel élève sa valeur marchande d'un simple 'utilisateur de prompts' à un **ingénieur de systèmes d'IA** indispensable."
+          }
+        ],
+        "it": [
+          {
+            "type": "paragraph",
+            "text": "Il vero punto di svolta tecnico del nostro decennio non è l'accesso ad API cloud a pagamento, ma la capacità di eseguire enormi modelli di IA **localmente**. Le aziende e gli sviluppatori senior si stanno rendendo conto che l'invio di dati riservati dei clienti a server di terze parti comporta gravi rischi per la sicurezza e la conformità (come il GDPR)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Grazie all'ecosistema **open-source**, le architetture dei modelli come Llama, Mistral e Gemma possono essere ottimizzate ed eseguite su hardware consumer tramite tecniche di quantizzazione (riducendo la precisione dei pesi matematici per risparmiare memoria VRAM)."
+          },
+          {
+            "type": "code_block",
+            "language": "python",
+            "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Caricamento di un modello open-source localmente con ottimizzazione\nmodel_id = \"google/gemma-2b-it\"\ntokenizer = AutoTokenizer.from_pretrained(model_id)\nmodel = AutoModelForCausalLM.from_pretrained(model_id, device_map=\"auto\")\n\nprint(\"Modello pronto per l'esecuzione al 100% offline e sicura.\")"
+          },
+          {
+            "type": "tip",
+            "text": "I modelli locali garantiscono latenza di rete zero, costi di inferenza fissati solo sull'energia elettrica e schermatura totale contro la fuga di segreti industriali."
+          },
+          {
+            "type": "paragraph",
+            "text": "Il futuro appartiene alla decentralizzazione. Padroneggiando l'infrastruttura necessaria per distribuire questi modelli localmente su server privati, il professionista aumenta il proprio valore di mercato da un semplice 'utente di prompt' a un indispensabile **ingegnere di sistemi di IA**."
+          }
+        ]
+      },
+      "quiz": {
+        "question": {
+          "pt": "Qual técnica técnica de otimização permite rodar modelos de linguagem robustos open-source em hardwares convencionais locais?",
+          "en": "What technical optimization technique allows robust open-source language models to run on consumer local hardware?",
+          "es": "¿Qué técnica de optimización técnica permite ejecutar modelos de lenguaje robustos de código abierto en hardware local convencional?",
+          "fr": "Quelle technique d'optimisation technique permet d'exécuter des modèles de langage open-source robustes sur du matériel local grand public ?",
+          "it": "Quale tecnica di ottimizzazione tecnica consente di eseguire robusti modelli di linguaggio open-source su hardware locale consumer?"
+        },
+        "options": {
+          "pt": [
+            "Aumento da taxa de clock da CPU por overclocking.",
+            "A quantização, que reduz a precisão dos pesos matemáticos para economizar VRAM.",
+            "A exclusão de metade das camadas de neurônios sem qualquer critério matemático.",
+            "A conversão compulsória de todo o script para código binário puro montado à mão."
+          ],
+          "en": [
+            "Increasing CPU clock speed through overclocking.",
+            "Quantization, which reduces the precision of mathematical weights to save VRAM.",
+            "Deleting half of the neuron layers without any mathematical criteria.",
+            "Compulsory conversion of the entire script to pure hand-assembled binary code."
+          ],
+          "es": [
+            "Aumento de la velocidad de reloj de la CPU mediante overclocking.",
+            "La cuantización, que reduce la precisión de los pesos matemáticos para ahorrar VRAM.",
+            "La eliminación de la mitad de las capas de neuronas sin ningún criterio matemático.",
+            "La conversión obligatoria de todo el script a código binario puro ensamblado a mano."
+          ],
+          "fr": [
+            "Augmentation de la vitesse d'horloge du processeur via l'overclocking.",
+            "La quantification, qui réduit la précision des poids mathématiques pour économiser la VRAM.",
+            "La suppression de la moitié des couches de neurones sans aucun critère mathématique.",
+            "La conversion obligatoire de l'ensemble du script en code binaire pur assemblé à la main."
+          ],
+          "it": [
+            "Aumento della velocità di clock della CPU tramite overclocking.",
+            "La quantizzazione, che riduce la precisione dei pesi matematici per risparmiare VRAM.",
+            "L'eliminazione della metà degli strati di neuroni senza alcun criterio matematico.",
+            "La conversione obbligatoria dell'intero script in codice binario puro assemblato a mano."
+          ]
+        },
+        "correctAnswerIndex": 1,
+        "explanation": {
+          "pt": "A quantização reduz drasticamente os requisitos de hardware e memória de vídeo (VRAM), mapeando pesos de 16-bit ou 32-bit para formatos mais leves (como 4-bit ou 8-bit), sem comprometer severamente a inteligência do modelo.",
+          "en": "Quantization dramatically reduces hardware and video memory (VRAM) requirements by mapping 16-bit or 32-bit weights to lighter formats (such as 4-bit or 8-bit), without severely compromising model intelligence.",
+          "es": "La cuantización reduce drásticamente los requisitos de hardware y memoria de video (VRAM) al mapear pesos de 16 o 32 bits a formatos más livianos (como 4 u 8 bits), sin comprometer gravemente la inteligencia del modelo.",
+          "fr": "La quantification réduit considérablement les besoins en matériel et en mémoire vidéo (VRAM) en mappant des poids de 16 ou 32 bits vers des formats plus légers (tels que 4 ou 8 bits), sans compromettre gravement l'intelligence du modèle.",
+          "it": "La quantizzazione riduce drasticamente i requisiti hardware e di memoria video (VRAM) mappando pesi a 16 o 32 bit su formati più leggeri (come 4 o 8 bit), senza compromettere gravemente l'intelligenza del modello."
         }
       }
     }
