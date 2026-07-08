@@ -1,0 +1,133 @@
+{
+  "id_mentoria": "mentoria_teste_001",
+  "titulo_mentoria": {
+    "pt": "Mentoria de Teste",
+    "en": "Test Mentorship",
+    "es": "Mentoría de Prueba",
+    "fr": "Mentorat de Test",
+    "it": "Mentorship di Test"
+  },
+  "configuracoes_interface": {
+    "modo_escuro": true,
+    "tempo_digitando_ms": 1500,
+    "som_notificacao": true
+  },
+  "mentor": {
+    "nome": "Mentor Exemplo",
+    "cargo": {
+      "pt": "Consultor Técnico",
+      "en": "Technical Consultant",
+      "es": "Consultor Técnico",
+      "fr": "Consultant Technique",
+      "it": "Consulente Tecnico"
+    },
+    "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "status": "online"
+  },
+  "fluxo_conversa": {
+    "inicio": {
+      "mensagem_mentor": {
+        "pt": "Olá! Este é o diálogo inicial do mentor. Escolha uma das opções abaixo para testar o fluxo.",
+        "en": "Hello! This is the mentor's initial dialogue. Choose one of the options below to test the flow.",
+        "es": "¡Hola! Este es el diálogo inicial del mentor. Elija una de las opciones a continuación para probar el flujo.",
+        "fr": "Bonjour! Ceci est le dialogue initial du mentor. Choisissez une des options ci-dessous pour tester le flux.",
+        "it": "Ciao! Questo è il dialogo iniziale del mentore. Scegli una delle opzioni seguenti per testare il flusso."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Ir para o Diálogo Exemplo A",
+            "en": "Go to Example Dialogue A",
+            "es": "Ir al Diálogo de Ejemplo A",
+            "fr": "Aller au Dialogue d'Exemple A",
+            "it": "Vai al Dialogo di Esempio A"
+          },
+          "proximo_no": "dialogo_a"
+        },
+        {
+          "texto": {
+            "pt": "Ir para o Diálogo Exemplo B",
+            "en": "Go to Example Dialogue B",
+            "es": "Ir al Diálogo de Ejemplo B",
+            "fr": "Aller au Dialogue d'Exemple B",
+            "it": "Vai al Dialogo di Esempio B"
+          },
+          "proximo_no": "dialogo_b"
+          }
+      ]
+    },
+    "dialogo_a": {
+      "mensagem_mentor": {
+        "pt": "Você escolheu o Diálogo A. Esta é a resposta do mentor para a opção A.",
+        "en": "You chose Dialogue A. This is the mentor's reply for option A.",
+        "es": "Elegiste el Diálogo A. Esta es la respuesta del mentor para la opción A.",
+        "fr": "Vous avez choisi le Dialogue A. Ceci est la réponse du mentor pour l'option A.",
+        "it": "Hai scelto il Dialogo A. Questa è la risposta del mentore per l'opzione A."
+      },
+      "anotacao_painel": {
+        "pt": "Anotação A: Insight gerado após selecionar a rota A.",
+        "en": "Note A: Insight generated after selecting route A.",
+        "es": "Nota A: Idea generada después de seleccionar la ruta A.",
+        "fr": "Note A: Insight généré après avoir sélectionné la route A.",
+        "it": "Nota A: Insight generato dopo aver selezionato la rotta A."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Ir para o encerramento do teste",
+            "en": "Go to test closure",
+            "es": "Ir al cierre de la prueba",
+            "fr": "Aller à la clôture du test",
+            "it": "Vai alla chiusura del test"
+          },
+          "proximo_no": "fim_mentoria"
+        }
+      ]
+    },
+    "dialogo_b": {
+      "mensagem_mentor": {
+        "pt": "Você escolheu o Diálogo B. Esta é a resposta do mentor para a opção B.",
+        "en": "You chose Dialogue B. This is the mentor's reply for option B.",
+        "es": "Elegiste el Diálogo B. Esta es la respuesta del mentor para la opción B.",
+        "fr": "Vous avez choisi le Dialogue B. Ceci est la réponse du mentor pour l'option B.",
+        "it": "Hai scelto il Dialogo B. Questa è la risposta del mentore per l'opzione B."
+      },
+      "anotacao_painel": {
+        "pt": "Anotação B: Insight gerado após selecionar a rota B.",
+        "en": "Note B: Insight generated after selecting route B.",
+        "es": "Nota B: Idea generada después de seleccionar la ruta B.",
+        "fr": "Note B: Insight généré après avoir sélectionné la route B.",
+        "it": "Nota B: Insight generato dopo aver selezionato la rotta B."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Ir para o encerramento do teste",
+            "en": "Go to test closure",
+            "es": "Ir al cierre de la prueba",
+            "fr": "Aller à la clôture du test",
+            "it": "Vai alla chiusura del test"
+          },
+          "proximo_no": "fim_mentoria"
+        }
+      ]
+    },
+    "fim_mentoria": {
+      "mensagem_mentor": {
+        "pt": "O teste terminou com sucesso! Todas as chaves de idioma responderam corretamente.",
+        "en": "The test ended successfully! All language keys responded correctly.",
+        "es": "¡La prueba terminó con éxito! Todas las claves de idioma respondieron correctamente.",
+        "fr": "Le test s'est terminé avec succès! Toutes les clés de langue ont répondu correctement.",
+        "it": "Il test si è concluso con successo! Tutte le chiavi di lingua hanno risposto correttamente."
+      },
+      "anotacao_painel": {
+        "pt": "Fim do Teste: O simulador multi-idioma está pronto para integração.",
+        "en": "End of Test: The multi-language simulator is ready for integration.",
+        "es": "Fin de la prueba: El simulador multiidioma está listo para la integración.",
+        "fr": "Fin du test: Le simulateur multilingue est prêt pour l'intégration.",
+        "it": "Fine del test: Il simulatore multilingua è pronto per l'integrazione."
+      },
+      "opcoes_usuario": []
+    }
+  }
+}
