@@ -1,0 +1,133 @@
+{
+  "id_mentoria": "mentoria_game_indie_001",
+  "titulo_mentoria": {
+    "pt": "Seu Primeiro Jogo Indie: Do Zero ao Lançamento",
+    "en": "Your First Indie Game: From Zero to Launch",
+    "es": "Tu Primer Juego Indie: De Cero al Lanzamiento",
+    "fr": "Votre Premier Jeu Indie: Du Zéro au Lancement",
+    "it": "Il Tuo Primo Gioco Indie: Da Zero al Lancio"
+  },
+  "configuracoes_interface": {
+    "modo_escuro": true,
+    "tempo_digitando_ms": 1500,
+    "som_notificacao": true
+  },
+  "mentor": {
+    "nome": "W.F.Fukuta",
+    "cargo": {
+      "pt": "Produtor Indie e Game Designer",
+      "en": "Indie Producer & Game Designer",
+      "es": "Productor Indie y Game Designer",
+      "fr": "Producteur Indie & Game Designer",
+      "it": "Produttore Indie & Game Designer"
+    },
+    "avatar_url": "https://avatars.githubusercontent.com/u/257014092?v=4",
+    "status": "online"
+  },
+  "fluxo_conversa": {
+    "inicio": {
+      "mensagem_mentor": {
+        "pt": "Parabéns por dar o primeiro passo no seu jogo indie! O maior erro de quem está começando é o escopo grande demais. Por onde você quer começar nossa estratégia?",
+        "en": "Congrats on taking the first step on your indie game! The biggest mistake for beginners is oversized scope. Where do you want to start our strategy?",
+        "es": "¡Felicidades por dar el premier paso en tu juego indie! El mayor error de los principiantes es un alcance demasiado grande. ¿Por dónde quieres empezar nuestra estrategia?",
+        "fr": "Félicitations pour ce premier pas dans votre jeu indie! La plus grande erreur des débutants est un scope trop grand. Par où voulez-vous commencer notre stratégie?",
+        "it": "Congratulazioni per aver fatto il primo passo nel tuo gioco indie! Il più grande errore per i principianti è uno scope troppo grande. Da dove vuoi iniziare la nostra strategia?"
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Definir a Ideia Principal (Core Gameplay)",
+            "en": "Define the Core Gameplay",
+            "es": "Definir la Idea Principal (Core Gameplay)",
+            "fr": "Définir l'Idée Principale (Core Gameplay)",
+            "it": "Definire l'Idea Principale (Core Gameplay)"
+          },
+          "proximo_no": "fluxo_ideia"
+        },
+        {
+          "texto": {
+            "pt": "Escolher a Engine (Unity, Unreal, Godot)",
+            "en": "Choose the Game Engine (Unity, Unreal, Godot)",
+            "es": "Elegir el Motor (Unity, Unreal, Godot)",
+            "fr": "Choisir le Moteur (Unity, Unreal, Godot)",
+            "it": "Scegliere il Motore (Unity, Unreal, Godot)"
+          },
+          "proximo_no": "fluxo_engine"
+        }
+      ]
+    },
+    "fluxo_ideia": {
+      "mensagem_mentor": {
+        "pt": "Excelente escolha. Foque em uma mecânica principal que seja divertida isoladamente (o 'Core Loop'). Se o pulo ou o tiro não forem prazerosos sozinhos, o resto do jogo não salvará a experiência.",
+        "en": "Excellent choice. Focus on one core mechanic that is fun in isolation (the 'Core Loop'). If jumping or shooting isn't satisfying on its own, the rest of the game won't save the experience.",
+        "es": "Excelente elección. Enfócate en una mecánica principal que sea divertida por sí sola (el 'Core Loop'). Si saltar o disparar no es divertido por sí solo, el resto del juego no salvará la experiencia.",
+        "fr": "Excellent choix. Concentrez-vous sur une mécanique principale amusante de manière isolée (le 'Core Loop'). Si sauter ou tirer n'est pas plaisant en soi, le reste du jeu ne sauvera pas l'expérience.",
+        "it": "Eccellente scelta. Concentrati su una meccanica principale che sia divertente da sola (il 'Core Loop'). Se saltare o sparare non è soddisfacente da solo, il resto del gioco non salverà l'esperienza."
+      },
+      "anotacao_painel": {
+        "pt": "Regra de Ouro: Crie um protótipo com blocos cinzas (Greyboxing) antes de gastar tempo com arte.",
+        "en": "Golden Rule: Build a prototype with gray blocks (Greyboxing) before spending time on art.",
+        "es": "Regla de Oro: Crea un prototipo con bloques grises (Greyboxing) antes de perder tiempo con el arte.",
+        "fr": "Règle d'Or: Créez un prototype avec des blocs gris (Greyboxing) avant de passer du temps sur l'art.",
+        "it": "Regola d'Oro: Crea un prototipo con blocchi grigi (Greyboxing) prima di spendere tempo sulla grafica."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Entendido! Como validar se está divertido?",
+            "en": "Got it! How do I validate if it's fun?",
+            "es": "¡Entendido! ¿Cómo valido si ésto es divertido?",
+            "fr": "Compris! Comment valider se c'est amusant?",
+            "it": "Capito! Come valido se è divertente?"
+          },
+          "proximo_no": "fim_mentoria"
+        }
+      ]
+    },
+    "fluxo_engine": {
+      "mensagem_mentor": {
+        "pt": "Para iniciantes, Godot é leve e excelente para 2D, Unity tem o maior mercado e tutoriais, e Unreal é robusta para 3D. Escolha a que você encontrar mais soluções prontas para o seu escopo.",
+        "en": "For beginners, Godot is lightweight and great for 2D, Unity has the largest market and tutorials, and Unreal is robust for 3D. Choose the one where you find more ready-made solutions for your scope.",
+        "es": "Para principiantes, Godot es ligero y excelente para 2D, Unity tiene el mercado más grande y tutoriales, y Unreal es robusto para 3D. Elige el que tenga más soluciones listas para tu alcance.",
+        "fr": "Pour les débutants, Godot est léger et excellent pour la 2D, Unity a le plus grand marché et tutoriels, et Unreal est robuste pour la 3D. Choisissez celui où vous trouvez le plus de solutions prêtes pour votre scope.",
+        "it": "Per i principianti, Godot è leggero ed eccellente per il 2D, Unity ha il mercato più grande e tutorial, e Unreal è robusto per il 3D. Scegli quello in cui trovi più soluzioni pronte per il tuo scope."
+      },
+      "anotacao_painel": {
+        "pt": "Dica de Engine: Não mude de motor no meio do projeto. A melhor engine é aquela que você sabe usar.",
+        "en": "Engine Tip: Do not change engines mid-project. The best engine is the one you know how to use.",
+        "es": "Consejo de Motor: No cambies de motor a mitad del proyecto. El mejor motor es el que sabes usar.",
+        "fr": "Conseil Moteur: Ne changez pas de moteur en cours de projet. Le meilleur moteur est celui que vous savez utiliser.",
+        "it": "Consiglio Motore: Non cambiare motore a metà progetto. Il miglior motore è quello che sai usare."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Vou escolher e avançar para o protótipo",
+            "en": "I will choose and move forward to the prototype",
+            "es": "Elegiré y avanzaré hacia el prototipo",
+            "fr": "Je vais choisir et passer au prototype",
+            "it": "Sceglierò e andrò avanti con il prototipo"
+          },
+          "proximo_no": "fim_mentoria"
+        }
+      ]
+    },
+    "fim_mentoria": {
+      "mensagem_mentor": {
+        "pt": "Ótimo! O próximo passo é fazer um 'Playtest' com amigos e colher feedbacks sem interferir. Boa sorte no desenvolvimento, nos vemos na próxima sessão!",
+        "en": "Great! The next step is to run a 'Playtest' with friends and gather feedback without interfering. Good luck with development, see you next session!",
+        "es": "¡Genial! El siguiente paso é fazer un 'Playtest' con amigos y recopilar comentarios sin interferir. ¡Buena suerte con el desarrollo, nos vemos en la próxima sesión!",
+        "fr": "Super! La prochaine étape est de faire un 'Playtest' avec des amis et de recueillir des retours sans interférer. Bonne chance pour le développement, rendez-vous à la prochaine session!",
+        "it": "Ottimo! Il prossimo passo è fare un 'Playtest' con amici e raccogliere feedback senza interferire. Buona fortuna con lo sviluppo, ci vediamo alla prossima sessione!"
+      },
+      "anotacao_painel": {
+        "pt": "Próximos Passos: Monte um MVP (Mínimo Produto Viável) funcional e evite adicionar novas features até finalizar.",
+        "en": "Next Steps: Build a functional MVP (Minimum Viable Product) and avoid adding new features until it is finished.",
+        "es": "Próximos Pasos: Crea un MVP (Mínimo Producto Viable) funcional y evita agregar nuevas funciones hasta terminar.",
+        "fr": "Prochaines Étapes: Créez un MVP (Produit Minimum Viable) fonctionnel et évitez d'ajouter de nouvelles fonctionnalités avant de terminer.",
+        "it": "Prossimi Passi: Crea un MVP (Minimum Viable Product) funzionale ed evita di aggiungere nuove funzionalità fino al completamento."
+      },
+      "opcoes_usuario": []
+    }
+  }
+}
