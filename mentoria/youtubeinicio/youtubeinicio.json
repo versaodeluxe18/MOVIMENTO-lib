@@ -1,0 +1,133 @@
+{
+  "id_mentoria": "mentoria_youtube_001",
+  "titulo_mentoria": {
+    "pt": "Primeiros Passos no YouTube",
+    "en": "First Steps on YouTube",
+    "es": "Primeros Pasos en YouTube",
+    "fr": "Premiers Pas sur YouTube",
+    "it": "Primi Passi su YouTube"
+  },
+  "configuracoes_interface": {
+    "modo_escuro": true,
+    "tempo_digitando_ms": 1500,
+    "som_notificacao": true
+  },
+  "mentor": {
+    "nome": "W.F.Fukuta",
+    "cargo": {
+      "pt": "Estrategista Digital",
+      "en": "Digital Strategist",
+      "es": "Estratega Digital",
+      "fr": "Stratège Digital",
+      "it": "Strategista Digitale"
+    },
+    "avatar_url": "https://avatars.githubusercontent.com/u/257014092?v=4",
+    "status": "online"
+  },
+  "fluxo_conversa": {
+    "inicio": {
+      "mensagem_mentor": {
+        "pt": "Olá! Criar um canal no YouTube é uma excelente ideia, mas precisamos alinhar as expectativas sobre o começo. Você quer focar na realidade sobre a monetização ou nas estratégias de conteúdo primeiro?",
+        "en": "Hello! Starting a YouTube channel is a great idea, but we need to align expectations about the beginning. Do you want to focus on the reality of monetization or content strategies first?",
+        "es": "¡Hola! Crear un canal de YouTube es una excelente idea, pero debemos alinear las expectativas sobre el principio. ¿Quieres enfocarte en la realidad de la monetización o en las estrategias de contenido primero?",
+        "fr": "Bonjour! Créer une chaîne YouTube est une excelente idée, mais nous devons aligner les attentes sur le début. Voulez-vous d'abord vous concentrer sur la réalité de la monétisation ou sur les stratégies de contenu?",
+        "it": "Ciao! Aprire un canale YouTube è un'ottima idea, ma dobbiamo allineare le aspettative sull'inizio. Vuoi concentrarti prima sulla realtà della monetizzazione o sulle strategie di contenuto?"
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Quero entender a realidade da monetização",
+            "en": "I want to understand the reality of monetization",
+            "es": "Quiero entender la realidad de la monetización",
+            "fr": "Je veux comprendre la réalité de la monétisation",
+            "it": "Voglio capire la realtà della monetizzazione"
+          },
+          "proximo_no": "realidade_monetizacao"
+        },
+        {
+          "texto": {
+            "pt": "Quero focar na criação de vídeos",
+            "en": "I want to focus on creating videos",
+            "es": "Quiero enfocarme en la creación de videos",
+            "fr": "Je veux me concentrer sur la création de vidéos",
+            "it": "Voglio concentrarmi sulla creazione di video"
+          },
+          "proximo_no": "criacao_videos"
+        }
+      ]
+    },
+    "realidade_monetizacao": {
+      "mensagem_mentor": {
+        "pt": "Vamos aos fatos: alcançar 1.000 inscritos e 4.000 horas de exibição pode demorar anos de esforço constante. E o choque de realidade: quando a monetização finalmente começa, o valor inicial é muito baixo. Se você não viralizar um vídeo todo mês, o ganho não chega nem perto de um salário mínimo. É um jogo de longo prazo.",
+        "en": "Let's face the facts: reaching 1,000 subscribers and 4,000 watch hours can take years of constant effort. And the reality check: when monetization finally starts, the initial payout is very low. If you don't viralize a video every month, the earnings won't come close to a minimum wage. It's a long-term game.",
+        "es": "Vamos a los hechos: alcanzar 1.000 suscriptores y 4.000 horas de reproducción puede tomar años de esfuerzo constante. Y el golpe de realidad: cuando la monetización finalmente comienza, el valor inicial es muy bajo. Si no viralizas un video cada mes, las ganancias no se acercarán ni al salario mínimo. Es un juego a largo plazo.",
+        "fr": "Face aux faits: atteindre 1 000 abonnés et 4 000 heures de visionnage peut prendre des années d'efforts constants. Et la réalité: lorsque la monétisation commence enfin, le montant initial est très bas. Si vous ne devenez pas viral avec un vidéo chaque mois, les gains ne seront même pas proches d'un salaire minimum. C'est un jeu à long terme.",
+        "it": "Guardiamo i fatti: raggiungere 1.000 iscritti e 4.000 ore de visualizzazione può richiedere anni di sforzo costante. E la realtà è questa: quando la monetizzazione finalmente inizia, il guadagno iniziale è molto basso. Se non rendi virale un video ogni mese, le entrate non si avvicineranno nemmeno a uno stipendio minimo. È un gioco a lungo termine."
+      },
+      "anotacao_painel": {
+        "pt": "Expectativa vs Realidade: O AdSense inicial é baixo e exige consistência extrema para se tornar uma renda principal.",
+        "en": "Expectation vs Reality: Initial AdSense is low and requires extreme consistency to become a main income.",
+        "es": "Expectativa vs Realidad: El AdSense inicial es bajo y requiere una consistencia extrema para convertirse en un ingreso principal.",
+        "fr": "Attentes vs Réalité: L'AdSense initial est bas et nécessite une cohérence extrême pour devenir un revenu principal.",
+        "it": "Aspettativa vs Realtà: L'AdSense iniziale è basso e richiede un'estrema costanza per diventare un'entrata principale."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Compreendido. Como prosseguir mesmo assim?",
+            "en": "Understood. How to proceed anyway?",
+            "es": "Entendido. ¿Cómo proceder de todos modos?",
+            "fr": "Compris. Comment procéder quand même?",
+            "it": "Capito. Come procedere comunque?"
+          },
+          "proximo_no": "fim_mentoria"
+        }
+      ]
+    },
+    "criacao_videos": {
+      "mensagem_mentor": {
+        "pt": "Focar no conteúdo é ótimo, mas lembre-se: a jornada para bater as 4.000 horas e 1.000 inscritos exige consistência. Como o retorno financeiro inicial é menor que um salário mínimo (a menos que você viralize todo mês), o foco inicial deve ser em construir sua audiência e dominar as ferramentas.",
+        "en": "Focusing on content is great, but remember: the journey to hit 4,000 hours and 1,000 subscribers requires consistency. Since the initial financial return is lower than a minimum wage (unless you go viral every month), the initial focus should be on building your audience and mastering the tools.",
+        "es": "Enfocarse en el contenido es genial, pero recuerde: el viaje para alcanzar as 4.000 horas y 1.000 suscriptores requiere consistencia. Como el retorno financiero inicial es menor que un salario mínimo (a menos que te vuelvas viral cada mes), el enfoque inicial debe ser construir tu audiencia y dominar las herramientas.",
+        "fr": "Se concentrer sur le contenu c'est super, mais rappelez-vous: le parcours pour atteindre 4 000 heures et 1 000 abonnés exige de la cohérence. Comme le retour financier initial est inférieur à un salaire minimum (à moins de devenir viral chaque mois), l'objectif initial doit être de construire votre audience et maîtriser les outils.",
+        "it": "Concentrarsi sul contenuto è ottimo, ma ricorda: il percorso per raggiungere 4.000 ore e 1.000 iscritti richiede costanza. Dato che il ritorno economico iniziale è inferiore a uno stipendio minimo (a meno che tu non vada virale ogni mese), il focus iniziale deve essere costruire il tuo pubblico e padroneggiare gli strumenti."
+      },
+      "anotacao_painel": {
+        "pt": "Foco no Conteúdo: Construir uma base sólida antes de depender financeiramente da plataforma.",
+        "en": "Focus on Content: Build a solid foundation before relying financially on the platform.",
+        "es": "Enfoque en el Contenido: Construir una base sólida antes de depender financieramente de la plataforma.",
+        "fr": "Focus sur le Contenu: Construire une base solide avant de dépendre financièrement de la plateforme.",
+        "it": "Focus sul Contenuto: Costruire una base solida prima di dipendere finanziariamente dalla piattaforma."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Quero avançar para as conclusões",
+            "en": "I want to move to the conclusions",
+            "es": "Quiero avanzar a las conclusiones",
+            "fr": "Je veux passer aux conclusions",
+            "it": "Voglio passare alle conclusioni"
+          },
+          "proximo_no": "fim_mentoria"
+        }
+      ]
+    },
+    "fim_mentoria": {
+      "mensagem_mentor": {
+        "pt": "Parabéns por concluir esta introdução! Agora você já sabe que o YouTube é uma maratona, não uma corrida de 100 metros. Comece com os pés no chão e foco na qualidade.",
+        "en": "Congratulations on completing this introduction! Now you know that YouTube is a marathon, not a 100-meter sprint. Start with your feet on the ground and focus on quality.",
+        "es": "¡Felicitaciones por completar esta introducción! Ahora sabes que YouTube es un maratón, no una carrera de 100 metros. Comienza con los pies en la tierra y enfócate en la calidad.",
+        "fr": "Félicitations pour avoir terminé cette introduction! Vous savez maintenant que YouTube est un marathon, pas un sprint de 100 mètres. Commencez les pieds sur terre et concentrez-vous sur la qualité.",
+        "it": "Congratulazioni per aver completato questa introduzione! Ora sai che YouTube è una maratona, non uno scatto di 100 metri. Inizia con i piedi per terra e concentrati sulla qualità."
+      },
+      "anotacao_painel": {
+        "pt": "Conclusão: Alinhamento de metas concluído. Próximo passo: Planejamento do primeiro vídeo.",
+        "en": "Conclusion: Goal alignment completed. Next step: Planning the first video.",
+        "es": "Conclusión: Alineación de metas completada. Próximo paso: Planificación del primer video.",
+        "fr": "Conclusion: Alignement des objectifs terminé. Prochaine étape: Planification de la première vidéo.",
+        "it": "Conclusione: Allineamento degli obiettivi completato. Prossimo passo: Pianificazione del primo video."
+      },
+      "opcoes_usuario": []
+    }
+  }
+}
