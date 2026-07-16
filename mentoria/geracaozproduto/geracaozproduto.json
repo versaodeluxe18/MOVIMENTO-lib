@@ -1,0 +1,153 @@
+{
+  "id_mentoria": "mentoria_geracao_z_internet_001",
+  "titulo_mentoria": {
+    "pt": "A Geração Z e a Internet: Consumidores ou Criadores?",
+    "en": "Generation Z and the Internet: Consumers or Creators?",
+    "es": "Generación Z e Internet: ¿Consumidores o Creadores?",
+    "fr": "La Génération Z et Internet : Consommateurs ou Créateurs ?",
+    "it": "Generazione Z e Internet: Consumatori o Creatori?"
+  },
+  "configuracoes_interface": {
+    "modo_escuro": true,
+    "tempo_digitando_ms": 1500,
+    "som_notificacao": true
+  },
+  "mentor": {
+    "nome": "W.F.Fukuta ",
+    "cargo": {
+      "pt": "Software Engineer",
+      "en": "Software Engineer",
+      "es": "Software Engineer",
+      "fr": "Software Engineer",
+      "it": "Software Engineer"
+    },
+    "avatar_url": "https://avatars.githubusercontent.com/u/257014092?v=4",
+    "status": "online"
+  },
+  "fluxo_conversa": {
+    "inicio": {
+      "mensagem_mentor": {
+        "pt": "Olá! É um prazer ter você aqui para explorarmos juntos um tema tão crucial: a Geração Z e a sua relação com a internet. Muitos dizem que esta geração cresceu conectada, mas será que ela realmente usa a internet, ou é usada por ela? Vamos desvendar isso.",
+        "en": "Hello! It's a pleasure to have you here as we explore together such a crucial topic: Generation Z and its relationship with the internet. Many say this generation grew up connected, but does it really use the internet, or is it used by it? Let's uncover this.",
+        "es": "¡Hola! Es un placer tenerte aquí para que exploremos juntos un tema tan crucial: la Generación Z y su relación con internet. Muchos dicen que esta generación creció conectada, pero ¿realmente usa internet, o es usada por ella? Vamos a desvelarlo.",
+        "fr": "Bonjour ! C'est un plaisir de vous avoir ici pour explorer ensemble un sujet si crucial : la Génération Z et sa relation avec Internet. Beaucoup disent que cette génération a grandi connectée, mais l'utilise-t-elle vraiment, ou est-elle utilisée par elle ? Découvrons-le.",
+        "it": "Ciao! È un piacere averti qui per esplorare insieme un tema così cruciale: la Generazione Z e il suo rapporto con internet. Molti dicono che questa generazione è cresciuta connessa, ma la usa davvero internet, o ne è usata? Scopriamolo."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Quero entender melhor como a Geração Z se tornou 'produto' da internet.",
+            "en": "I want to better understand how Generation Z became a 'product' of the internet.",
+            "es": "Quiero entender mejor cómo la Generación Z se convirtió en 'producto' de internet.",
+            "fr": "Je veux mieux comprendre comment la Génération Z est devenue un 'produit' d'Internet.",
+            "it": "Voglio capire meglio come la Generazione Z sia diventata un 'prodotto' di internet."
+          },
+          "proximo_no": "produto_ou_produtor"
+        },
+        {
+          "texto": {
+            "pt": "Como podemos ajudar a Geração Z a ser mais produtora e menos consumidora?",
+            "en": "How can we help Generation Z be more productive and less consumptive?",
+            "es": "¿Cómo podemos ayudar a la Generación Z a ser más productiva y menos consumidora?",
+            "fr": "Comment pouvons-nous aider la Génération Z à être plus productrice et moins consommatrice ?",
+            "it": "Come possiamo aiutare la Generazione Z ad essere più produttiva e meno consumatrice?"
+          },
+          "proximo_no": "capacitando_a_geracao"
+        }
+      ]
+    },
+    "produto_ou_produtor": {
+      "mensagem_mentor": {
+        "pt": "Excelente ponto! A ascensão das redes sociais e plataformas de conteúdo gratuito, financiado por publicidade baseada em dados, transformou a atenção e os dados dos usuários em moedas. Assim, cada clique, visualização e interação se torna um insumo valioso, moldando algoritmos e experiências que, por sua vez, nos consomem mais tempo e dados. É um ciclo.",
+        "en": "Excellent point! The rise of social media and free content platforms, funded by data-driven advertising, turned users' attention and data into currency. Thus, every click, view, and interaction becomes valuable input, shaping algorithms and experiences that, in turn, consume more of our time and data. It's a cycle.",
+        "es": "¡Excelente punto! El auge de las redes sociales y las plataformas de contenido gratuito, financiadas por publicidad basada en datos, convirtió la atención y los datos de los usuarios en moneda. Así, cada clic, visualización e interacción se convierte en un insumo valioso, moldeando algoritmos y experiencias que, a su vez, nos consumen más tiempo y datos. Es un ciclo.",
+        "fr": "Excellent point ! L'essor des réseaux sociaux et des plateformes de contenu gratuit, financés par la publicité basée sur les données, a transformé l'attention et les données des utilisateurs en monnaie. Ainsi, chaque clic, vue et interaction devient un apport précieux, façonnant des algorithmes et des expériences qui, à leur tour, nous consomment plus de temps et de données. C'est un cycle.",
+        "it": "Ottimo punto! L'ascesa dei social media e delle piattaforme di contenuti gratuiti, finanziate dalla pubblicità basata sui dati, ha trasformato l'attenzione e i dati degli utenti in moneta. Così, ogni clic, visualizzazione e interazione diventa un input prezioso, plasmando algoritmi ed esperienze che, a loro volta, ci consumano più tempo e dati. È un ciclo."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Entendi o problema. Mas como podemos reverter essa lógica e empoderar a Geração Z?",
+            "en": "I understand the problem. But how can we reverse this logic and empower Generation Z?",
+            "es": "Entiendo el problema. Pero, ¿cómo podemos revertir esta lógica y empoderar a la Generación Z?",
+            "fr": "Je comprends le problème. Mais comment pouvons-nous inverser cette logique et autonomiser la Génération Z ?",
+            "it": "Capisco il problema. Ma come possiamo invertire questa logica e responsabilizzare la Generazione Z?"
+          },
+          "proximo_no": "capacitando_a_geracao"
+        },
+        {
+          "texto": {
+            "pt": "Quais são os principais desafios para a Geração Z neste cenário?",
+            "en": "What are the main challenges for Generation Z in this scenario?",
+            "es": "¿Cuáles son los principales desafíos para la Generación Z en este escenario?",
+            "fr": "Quels sont les principaux défis pour la Génération Z dans ce scénario ?",
+            "it": "Quali sono le principali sfide per la Generazione Z in questo scenario?"
+          },
+          "proximo_no": "desafios_gen_z"
+        }
+      ]
+    },
+    "desafios_gen_z": {
+      "mensagem_mentor": {
+        "pt": "Os desafios são multifacetados: a constante comparação social, a busca por validação instantânea, a proliferação de desinformação e a superficialidade das interações online podem impactar a saúde mental e a capacidade de foco. Além disso, a falta de privacidade e a exposição excessiva são preocupações reais.",
+        "en": "The challenges are multifaceted: constant social comparison, the pursuit of instant validation, the proliferation of misinformation, and the superficiality of online interactions can impact mental health and focus capacity. Furthermore, lack of privacy and excessive exposure are real concerns.",
+        "es": "Los desafíos son multifacéticos: la constante comparación social, la búsqueda de validación instantánea, la proliferación de desinformación y la superficialidad de las interacciones en línea pueden afectar la salud mental y la capacidad de concentración. Además, la falta de privacidad y la exposición excesiva son preocupaciones reales.",
+        "fr": "Les défis sont multiples : la comparaison sociale constante, la recherche de validation instantanée, la prolifération de la désinformation et la superficialité des interactions en ligne peuvent impacter la santé mentale et la capacité de concentration. De plus, le manque de confidentialité et l'exposition excessive sont de réelles préoccupations.",
+        "it": "Le sfide sono molteplici: il costante confronto sociale, la ricerca di convalida istantanea, la proliferazione della disinformazione e la superficialità delle interazioni online possono influenzare la salute mentale e la capacità di concentrazione. Inoltre, la mancanza di privacy e l'eccessiva esposizione sono preoccupazioni reali."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Como podemos superar esses desafios e transformar a Geração Z em criadores?",
+            "en": "How can we overcome these challenges and transform Generation Z into creators?",
+            "es": "¿Cómo podemos superar estos desafíos y transformar la Generación Z en creadores?",
+            "fr": "Comment pouvons-nous surmonter ces défis et transformer la Génération Z en créateurs ?",
+            "it": "Come possiamo superare queste sfide e trasformare la Generazione Z in creatori?"
+          },
+          "proximo_no": "capacitando_a_geracao"
+        },
+        {
+          "texto": {
+            "pt": "Ainda quero refletir sobre a dimensão de 'produto'. Poderia reforçar essa ideia?",
+            "en": "I still want to reflect on the 'product' dimension. Could you reinforce that idea?",
+            "es": "Todavía quiero reflexionar sobre la dimensión de 'producto'. ¿Podrías reforzar esa idea?",
+            "fr": "Je veux toujours réfléchir à la dimension de 'produit'. Pourriez-vous renforcer cette idée ?",
+            "it": "Voglio ancora riflettere sulla dimensione di 'prodotto'. Potresti rafforzare questa idea?"
+          },
+          "proximo_no": "produto_ou_produtor"
+        }
+      ]
+    },
+    "capacitando_a_geracao": {
+      "mensagem_mentor": {
+        "pt": "A chave está na alfabetização digital crítica! Precisamos ensinar a Geração Z a questionar o conteúdo, a entender os algoritmos, a proteger sua privacidade e, o mais importante, a usar as ferramentas digitais para criar, inovar e expressar suas próprias vozes. Incentivar projetos, programação, arte digital e empreendedorismo online são caminhos poderosos para transformar consumidores em produtores.",
+        "en": "The key lies in critical digital literacy! We need to teach Generation Z to question content, understand algorithms, protect their privacy, and most importantly, use digital tools to create, innovate, and express their own voices. Encouraging projects, coding, digital art, and online entrepreneurship are powerful ways to transform consumers into producers.",
+        "es": "¡La clave está en la alfabetização digital crítica! Necesitamos enseñar a la Generación Z a cuestionar el contenido, a entender los algoritmos, a proteger su privacidad y, lo más importante, a usar las herramientas digitales para crear, innovar y expresar sus propias voces. Fomentar proyectos, programación, arte digital y emprendimiento en línea son caminos poderosos para transformar consumidores en productores.",
+        "fr": "La clé réside dans la littératie numérique critique ! Nous devons enseigner à la Génération Z à remettre en question le contenu, à comprendre les algorithmes, à protéger sa vie privée et, surtout, à utiliser les outils numériques pour créer, innover et exprimer leurs propres voix. Encourager les projets, la programmation, l'art numérique et l'entrepreneuriat en ligne sont des moyens puissants de transformer les consommateurs en producteurs.",
+        "it": "La chiave sta nell'alfabetizzazione digitale critica! Dobbiamo insegnare alla Generazione Z a interrogarsi sui contenuti, a capire gli algoritmi, a proteggere la propria privacy e, soprattutto, a usare gli strumenti digitali per creare, innovare ed esprimere le proprie voci. Incoraggiare progetti, programmazione, arte digitale e imprenditoria online sono modi potenti per trasformare i consumatori in produttori."
+      },
+      "opcoes_usuario": [
+        {
+          "texto": {
+            "pt": "Esta mentoria abriu meus olhos! Obrigado!",
+            "en": "This mentorship opened my eyes! Thank you!",
+            "es": "¡Esta mentoría me abrió los ojos! ¡Gracias!",
+            "fr": "Ce mentorat m'a ouvert les yeux ! Merci !",
+            "it": "Questa mentorship mi ha aperto gli occhi! Grazie!"
+          },
+          "proximo_no": "fim_mentoria"
+        }
+      ]
+    },
+    "fim_mentoria": {
+      "mensagem_mentor": {
+        "pt": "É um prazer ter contribuído para sua reflexão. Lembre-se, o futuro digital está em nossas mãos e o empoderamento da Geração Z é fundamental para construirmos um ambiente online mais consciente e produtivo. Mantenha-se curioso(a) e continue explorando!",
+        "en": "It's a pleasure to have contributed to your reflection. Remember, the digital future is in our hands, and empowering Generation Z is fundamental to building a more conscious and productive online environment. Stay curious and keep exploring!",
+        "es": "Es un placer haber contribuido a tu reflexión. Recuerda, el futuro digital está en nuestras manos y el empoderamiento de la Generación Z es fundamental para construir un entorno en línea más consciente y productivo. ¡Mantente curioso(a) y sigue explorando!",
+        "fr": "C'est un plaisir d'avoir contribué à votre réflexion. N'oubliez pas, l'avenir numérique est entre nos mains et l'autonomisation de la Génération Z est fondamentale pour construire un environnement en ligne plus conscient et productif. Restez curieux(se) et continuez d'explorer !",
+        "it": "È un piacere aver contribuito alla tua riflessione. Ricorda, il futuro digitale è nelle nostre mani e l'empowerment della Generazione Z è fondamentale per costruire un ambiente online più consapevole e produttivo. Rimani curioso/a e continua ad esplorare!"
+      },
+      "opcoes_usuario": []
+    }
+  }
+}
