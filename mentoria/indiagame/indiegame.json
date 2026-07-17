@@ -64,13 +64,7 @@
         "fr": "Excellent choix. Concentrez-vous sur une mécanique principale amusante de manière isolée (le 'Core Loop'). Si sauter ou tirer n'est pas plaisant en soi, le reste du jeu ne sauvera pas l'expérience.",
         "it": "Eccellente scelta. Concentrati su una meccanica principale che sia divertente da sola (il 'Core Loop'). Se saltare o sparare non è soddisfacente da solo, il resto del gioco non salverà l'esperienza."
       },
-      "anotacao_painel": {
-        "pt": "Regra de Ouro: Crie um protótipo com blocos cinzas (Greyboxing) antes de gastar tempo com arte.",
-        "en": "Golden Rule: Build a prototype with gray blocks (Greyboxing) before spending time on art.",
-        "es": "Regla de Oro: Crea un prototipo con bloques grises (Greyboxing) antes de perder tiempo con el arte.",
-        "fr": "Règle d'Or: Créez un prototype avec des blocs gris (Greyboxing) avant de passer du temps sur l'art.",
-        "it": "Regola d'Oro: Crea un prototipo con blocchi grigi (Greyboxing) prima di spendere tempo sulla grafica."
-      },
+      
       "opcoes_usuario": [
         {
           "texto": {
@@ -92,13 +86,7 @@
         "fr": "Pour les débutants, Godot est léger et excellent pour la 2D, Unity a le plus grand marché et tutoriels, et Unreal est robuste pour la 3D. Choisissez celui où vous trouvez le plus de solutions prêtes pour votre scope.",
         "it": "Per i principianti, Godot è leggero ed eccellente per il 2D, Unity ha il mercato più grande e tutorial, e Unreal è robusto per il 3D. Scegli quello in cui trovi più soluzioni pronte per il tuo scope."
       },
-      "anotacao_painel": {
-        "pt": "Dica de Engine: Não mude de motor no meio do projeto. A melhor engine é aquela que você sabe usar.",
-        "en": "Engine Tip: Do not change engines mid-project. The best engine is the one you know how to use.",
-        "es": "Consejo de Motor: No cambies de motor a mitad del proyecto. El mejor motor es el que sabes usar.",
-        "fr": "Conseil Moteur: Ne changez pas de moteur en cours de projet. Le meilleur moteur est celui que vous savez utiliser.",
-        "it": "Consiglio Motore: Non cambiare motore a metà progetto. Il miglior motore è quello che sai usare."
-      },
+     
       "opcoes_usuario": [
         {
           "texto": {
@@ -120,13 +108,7 @@
         "fr": "Super! La prochaine étape est de faire un 'Playtest' avec des amis et de recueillir des retours sans interférer. Bonne chance pour le développement, rendez-vous à la prochaine session!",
         "it": "Ottimo! Il prossimo passo è fare un 'Playtest' con amici e raccogliere feedback senza interferire. Buona fortuna con lo sviluppo, ci vediamo alla prossima sessione!"
       },
-      "anotacao_painel": {
-        "pt": "Próximos Passos: Monte um MVP (Mínimo Produto Viável) funcional e evite adicionar novas features até finalizar.",
-        "en": "Next Steps: Build a functional MVP (Minimum Viable Product) and avoid adding new features until it is finished.",
-        "es": "Próximos Pasos: Crea un MVP (Mínimo Producto Viable) funcional y evita agregar nuevas funciones hasta terminar.",
-        "fr": "Prochaines Étapes: Créez un MVP (Produit Minimum Viable) fonctionnel et évitez d'ajouter de nouvelles fonctionnalités avant de terminer.",
-        "it": "Prossimi Passi: Crea un MVP (Minimum Viable Product) funzionale ed evita di aggiungere nuove funzionalità fino al completamento."
-      },
+    
       "opcoes_usuario": []
     }
   }
